@@ -22,7 +22,7 @@ import ch.ethz.ssh2.Connection;
 import ch.ethz.ssh2.Session;
 import ch.ethz.ssh2.StreamGobbler;
 
-class VoiceControlActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private SpeechRecognizer speechRecognizer;
 
