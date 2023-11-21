@@ -8,16 +8,26 @@ import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
 import java.util.ArrayList;
 
-public class VoiceControlActivity extends AppCompatActivity {
+class VoiceControlActivity extends AppCompatActivity {
 
     private SpeechRecognizer speechRecognizer;
+
+    private TextView statusTextView;
+    private Button startButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_voice_control);
+
+        statusTextView = findViewById(R.id.statusTextView);
+        startButton = findViewById(R.id.startButton);
 
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
         speechRecognizer.setRecognitionListener(new RecognitionListener() {
@@ -25,9 +35,8 @@ public class VoiceControlActivity extends AppCompatActivity {
             // A lot of methods and we probably don't need all of them
             // We can set textfield or other application feedback on some of these.
 
-            @Override
             public void onReadyForSpeech(Bundle bundle) {
-
+                statusTextView.setText("Listening...");
             }
 
             @Override
@@ -52,7 +61,7 @@ public class VoiceControlActivity extends AppCompatActivity {
 
             @Override
             public void onError(int i) {
-
+                statusTextView.setText("Error encountered. Please try again.");
             }
 
             @Override
@@ -76,10 +85,16 @@ public class VoiceControlActivity extends AppCompatActivity {
             // Other overridden methods of RecognitionListener...
         });
 
-        // Start listening to voice commands
-        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-        speechRecognizer.startListening(intent);
+        // When button is pressed --> Start listening to voice commands
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+                intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+                speechRecognizer.startListening(intent);
+
+            }
+        });
     }
 
     private void processCommand(String command) {
@@ -91,12 +106,18 @@ public class VoiceControlActivity extends AppCompatActivity {
     }
 
     private void turnOnLamp() {
-        // Code to turn on the lamp, from
+        // Code to turn on the lamp
+        statusTextView.setText("Turning on the lamp...");
+
+        // Add code from labs
 
     }
 
     private void turnOffLamp() {
         // Code to turn off the lamp
+        statusTextView.setText("Turning off the lamp...");
+
+        // Add code from labs
     }
 
     @Override
