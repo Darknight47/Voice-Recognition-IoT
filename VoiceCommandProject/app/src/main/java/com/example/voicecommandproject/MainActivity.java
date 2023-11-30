@@ -1,53 +1,45 @@
 package com.example.voicecommandproject;
 
+import android.Manifest;
+
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
-import android.animation.ObjectAnimator;
-import android.animation.PropertyValuesHolder;
-import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
-
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
-import android.content.Intent;
-import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.ActivityNotFoundException;
 
-import java.io.BufferedReader;
+
+import com.google.api.gax.core.FixedCredentialsProvider;
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.auth.oauth2.ServiceAccountCredentials;
+import com.google.cloud.language.v1.AnalyzeEntitiesRequest;
+import com.google.cloud.language.v1.AnalyzeEntitiesResponse;
+import com.google.cloud.language.v1.Document;
+import com.google.cloud.language.v1.Entity;
+import com.google.cloud.language.v1.LanguageServiceClient;
+import com.google.cloud.language.v1.LanguageServiceSettings;
+
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import ch.ethz.ssh2.Connection;
-import ch.ethz.ssh2.Session;
-import ch.ethz.ssh2.StreamGobbler;
-
-// Google Cloud NLP API
-import com.google.api.gax.core.FixedCredentialsProvider;
-import com.google.cloud.language.v1.Document;
-import com.google.cloud.language.v1.LanguageServiceClient;
-import com.google.cloud.language.v1.LanguageServiceSettings;
-import com.google.cloud.language.v1.AnalyzeEntitiesRequest;
-import com.google.cloud.language.v1.AnalyzeEntitiesResponse;
-import com.google.cloud.language.v1.Entity;
-
-import com.google.auth.oauth2.GoogleCredentials;
-import com.google.auth.oauth2.ServiceAccountCredentials;
-import com.google.cloud.language.v1.LanguageServiceClient;
-import com.google.cloud.language.v1.LanguageServiceSettings;
-
-
 public class MainActivity extends AppCompatActivity {
 
-    private int REQUEST_CODE_VOICE_RECOGNITION = 0;
+    private static final int REQUEST_CODE_VOICE_RECOGNITION = 1;
     private SpeechRecognizer speechRecognizer;
-
+    private LanguageServiceClient languageServiceClient;
     private TextView statusTextView;
     private Button startButton;
 
@@ -56,104 +48,97 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_voice_control);
 
+        // Initialize UI components
+        initializeUI();
+
+        // Initialize Google Cloud NLP API
+        authenticateGoogleCloud();
+
+        // Initialize SpeechRecognizer
+        initializeSpeechRecognizer();
+
+        requestMicrophonePermission();
+
+    }
+
+    private static final int PERMISSIONS_REQUEST_RECORD_AUDIO = 1;
+
+    private void requestMicrophonePermission() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.RECORD_AUDIO},
+                    PERMISSIONS_REQUEST_RECORD_AUDIO);
+        } else {
+            // Permission granted. Microphone enabled
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case PERMISSIONS_REQUEST_RECORD_AUDIO: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // Permission was granted. Able to use the microphone.
+                } else {
+                    // Permission denied. Disable the functionality that depends on this permission.
+                    Toast.makeText(this, "Permission to record audio denied", Toast.LENGTH_SHORT).show();
+                }
+                return;
+            }
+        }
+    }
+
+    private void initializeUI() {
         statusTextView = findViewById(R.id.statusTextView);
         startButton = findViewById(R.id.startVoiceRecognitionButton);
 
-        // Animations
-        ImageView speechAnimation = findViewById(R.id.speechAnimation);
+        // Start voice recognition when the button is pressed
+        startButton.setOnClickListener(v -> startVoiceRecognition());
+    }
 
-        ObjectAnimator scaleDown = ObjectAnimator.ofPropertyValuesHolder(
-                speechAnimation,
-                PropertyValuesHolder.ofFloat("scaleX", 1.2f),
-                PropertyValuesHolder.ofFloat("scaleY", 1.2f));
-        scaleDown.setDuration(310);
-        scaleDown.setRepeatCount(ObjectAnimator.INFINITE);
-        scaleDown.setRepeatMode(ObjectAnimator.REVERSE);
-        scaleDown.start();
-
-        // Google Cloud NLP API connections
-        /*
-        LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
-                .setCredentialsProvider(FixedCredentialsProvider.create(myCredentials))
-                .build();
-
-        try (LanguageServiceClient language = LanguageServiceClient.create(settings)) {
-            Document doc = Document.newBuilder().setContent(text).setType(Document.Type.PLAIN_TEXT).build();
-            AnalyzeEntitiesRequest request = AnalyzeEntitiesRequest.newBuilder()
-                    .setDocument(doc)
-                    .build();
-            AnalyzeEntitiesResponse response = language.analyzeEntities(request);
-
-            for (Entity entity : response.getEntitiesList()) {
-                System.out.printf("Entity: %s", entity.getName());
-            }
-        }
-        */
+    private void initializeSpeechRecognizer() {
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
         speechRecognizer.setRecognitionListener(new RecognitionListener() {
-
-            // A lot of methods and we probably don't need all of them
-            // We can set textfield or other application feedback on some of these.
-
-            public void onReadyForSpeech(Bundle bundle) {
+            @Override
+            public void onReadyForSpeech(Bundle params) {
                 statusTextView.setText("Listening...");
             }
 
             @Override
-            public void onBeginningOfSpeech() {
-
-            }
+            public void onBeginningOfSpeech() { }
 
             @Override
-            public void onRmsChanged(float v) {
-
-            }
+            public void onRmsChanged(float rmsdB) { }
 
             @Override
-            public void onBufferReceived(byte[] bytes) {
-
-            }
+            public void onBufferReceived(byte[] buffer) { }
 
             @Override
-            public void onEndOfSpeech() {
-
-            }
+            public void onEndOfSpeech() { }
 
             @Override
-            public void onError(int i) {
-                statusTextView.setText("Error encountered. Please try again.");
+            public void onError(int error) {
+                statusTextView.setText("Error encountered, please try again.");
             }
 
             @Override
             public void onResults(Bundle results) {
                 ArrayList<String> matches = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
-                if (matches != null) {
+                if (matches != null && !matches.isEmpty()) {
                     processCommand(matches.get(0));
                 }
             }
 
             @Override
-            public void onPartialResults(Bundle bundle) {
-
-            }
+            public void onPartialResults(Bundle partialResults) { }
 
             @Override
-            public void onEvent(int i, Bundle bundle) {
-
-            }
-
-            // Other overridden methods of RecognitionListener...
-        });
-
-        // When button is pressed --> Start listening to voice commands
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-                intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-                speechRecognizer.startListening(intent);
-
-            }
+            public void onEvent(int eventType, Bundle params) { }
         });
     }
 
@@ -165,34 +150,46 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             startActivityForResult(intent, REQUEST_CODE_VOICE_RECOGNITION);
-        } catch (ActivityNotFoundException a) {
-            Toast.makeText(getApplicationContext(), "Sorry, your device doesn't support speech input", Toast.LENGTH_SHORT).show();
+        } catch (ActivityNotFoundException e) {
+            Toast.makeText(getApplicationContext(), "Speech input not supported", Toast.LENGTH_SHORT).show();
         }
     }
 
+    private void analyzeTextWithNLP(String text) {
+        try {
+            Document doc = Document.newBuilder().setContent(text).setType(Document.Type.PLAIN_TEXT).build();
 
+            AnalyzeEntitiesRequest request = AnalyzeEntitiesRequest.newBuilder()
+                    .setDocument(doc)
+                    .build();
 
-    private void processCommand(String command) {
-        if (command.toLowerCase().contains("turn on the lamp")) {
-            turnOnLamp();
-        } else if (command.toLowerCase().contains("turn off the lamp")) {
-            turnOffLamp();
+            AnalyzeEntitiesResponse response = languageServiceClient.analyzeEntities(request);
+
+            for (Entity entity : response.getEntitiesList()) {
+                // Here, we should determine the intent based on entity analysis
+                // Idea:
+                if (entity.getName().toLowerCase().contains("lamp")) {
+                    processCommand(entity.getName());
+                }
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
-    private void turnOnLamp() {
-        // Code to turn on the lamp
-        statusTextView.setText("Turning on the lamp... ");
+    private void authenticateGoogleCloud() {
+        try {
+            InputStream serviceAccount = getResources().openRawResource(R.raw.authentication_key);
+            GoogleCredentials credentials = ServiceAccountCredentials.fromStream(serviceAccount);
+            LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
+                    .setCredentialsProvider(FixedCredentialsProvider.create(credentials))
+                    .build();
 
-        // Add code from labs
-
-    }
-
-    private void turnOffLamp() {
-        // Code to turn off the lamp
-        statusTextView.setText("Turning off the lamp... ");
-
-        // Add code from labs
+            languageServiceClient = LanguageServiceClient.create(settings);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -203,61 +200,35 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
-    public void run (String command) {
-        String hostname = "hostname";
-        String username = "username";
-        String password = "password";
-        try
-        {
-            Connection conn = new Connection(hostname); //init connection
-            conn.connect(); //start connection to the hostname
-            boolean isAuthenticated = conn.authenticateWithPassword(username,
-                    password);
-            if (isAuthenticated == false)
-                throw new IOException("Authentication failed.");
-            Session sess = conn.openSession();
-            sess.execCommand(command);
-            InputStream stdout = new StreamGobbler(sess.getStdout());
-            BufferedReader br = new BufferedReader(new InputStreamReader(stdout));
 
-            //reads text
-            while (true){
-                String line = br.readLine(); // read line
-                if (line == null)
-                    break;
-                System.out.println(line);
-            }
-            /* Show exit status, if available (otherwise "null") */
-            System.out.println("ExitCode: " + sess.getExitStatus());
-            sess.close(); // Close this session
-            conn.close();
-        }
-        catch (IOException e)
-        { e.printStackTrace(System.err);
-            System.exit(2); }
-    }
-
-
-    private void authenticateGoogleCloud() {
-        try {
-            // Load the service account key JSON file
-            InputStream serviceAccount = getResources().openRawResource(R.raw.authentication_key);
-
-            // Authenticate with the service account
-            GoogleCredentials credentials = ServiceAccountCredentials.fromStream(serviceAccount);
-
-            // Use the credentials to initialize the client
-            LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
-                    .setCredentialsProvider(FixedCredentialsProvider.create(credentials))
-                    .build();
-
-            LanguageServiceClient languageServiceClient = LanguageServiceClient.create(settings);
-
-            // Now you can use languageServiceClient to access the API
-
-        } catch (IOException e) {
-            e.printStackTrace();
+    // Additional methods for processing commands, interacting with hardware, etc.
+    // ...
+    private void processCommand(String command) {
+        if (command.toLowerCase().contains("turn on the lamp")) {
+            turnOnLamp();
+        } else if (command.toLowerCase().contains("turn off the lamp")) {
+            turnOffLamp();
+        } else {
+            statusTextView.setText("Command not recognized");
         }
     }
+
+    private void turnOnLamp() {
+        // Code to turn on the lamp
+        statusTextView.setText("Turning on the lamp...");
+
+        // Add code to actually turn on the lamp
+        // Sending commands to Raspberry Pi or other controller
+        // Maybe use the run method you have defined
+        // run("turn_on_lamp_command");
+    }
+
+    private void turnOffLamp() {
+        // Code to turn off the lamp
+        statusTextView.setText("Turning off the lamp...");
+
+        // run("turn_off_lamp_command");
+    }
+
 
 }
