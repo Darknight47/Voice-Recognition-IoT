@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
+    <color name="purple_500">#86A562</color>
+    <color name="purple_700">#5F7A40</color>
+    <color name="teal_200">#54732E</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Cool and clean looking colors for our design-->
+    <color name="beige">#F5F5DC</color>
+    <color name="off_white">#FFFAF0</color>
+    <color name="accent_color">#A0522D</color> <!-- Example dark shade for accent - might change -->
+    <color name="neutral_green">#86A562</color>
+    <color name="neutral_light_blue">#C3C8CD</color>
+
+
 </resources>

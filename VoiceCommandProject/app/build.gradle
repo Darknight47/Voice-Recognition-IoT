@@ -5,6 +5,15 @@ plugins {
 android {
     compileSdk 34
 
+    namespace 'com.example.voicecommandproject'
+
+    packagingOptions {
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/DEPENDENCIES'
+
+    }
+
+
     defaultConfig {
         applicationId "com.example.voicecommandproject"
         minSdk 21
@@ -36,5 +45,11 @@ dependencies {
     //androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     //androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Google cloud NLP API
+    implementation 'com.google.cloud:google-cloud-language:2.1.6'
+    implementation 'com.google.auth:google-auth-library-oauth2-http:1.4.0'
+    implementation 'com.google.api-client:google-api-client:1.31.5'
+    implementation 'com.google.http-client:google-http-client-gson:1.41.2'
 
 }
