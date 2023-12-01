@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize SpeechRecognizer
         initializeSpeechRecognizer();
 
+        // Test for microphone permission
         requestMicrophonePermission();
 
     }
@@ -142,6 +143,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /*
+    // v1 with pop up Google
     private void startVoiceRecognition() {
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
@@ -153,6 +156,19 @@ public class MainActivity extends AppCompatActivity {
         } catch (ActivityNotFoundException e) {
             Toast.makeText(getApplicationContext(), "Speech input not supported", Toast.LENGTH_SHORT).show();
         }
+    }
+    */
+    // v2 with pop up Google
+    private void startVoiceRecognition() {
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+
+        // No longer use the EXTRA_PROMPT, as we won't be showing the Google prompt
+        // intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak now...");
+
+        speechRecognizer.startListening(intent);
+        statusTextView.setText("Listening...");
     }
 
     private void analyzeTextWithNLP(String text) {
