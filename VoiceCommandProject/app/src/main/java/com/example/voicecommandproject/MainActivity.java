@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
+import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -74,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
             // Permission granted. Microphone enabled
         }
     }
-
+    /*
+    // onRequestPermissionsResult v1
     @Override
     public void onRequestPermissionsResult(int requestCode,
                                            @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -93,7 +96,24 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
+     */
+    // onRequestPermissionsResult v2
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == PERMISSIONS_REQUEST_RECORD_AUDIO) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permission was granted. Start voice recognition here if necessary.
+                startVoiceRecognition();
+            } else {
+                // Permission denied. Disable the functionality that depends on this permission.
+                Toast.makeText(this, "Permission to record audio was denied", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+    /*
+    // initializeUI v1
     private void initializeUI() {
         statusTextView = findViewById(R.id.statusTextView);
         startButton = findViewById(R.id.startVoiceRecognitionButton);
@@ -101,45 +121,84 @@ public class MainActivity extends AppCompatActivity {
         // Start voice recognition when the button is pressed
         startButton.setOnClickListener(v -> startVoiceRecognition());
     }
+    */
+    // initializeUI v2
+    private void initializeUI() {
+        statusTextView = findViewById(R.id.statusTextView);
+        startButton = findViewById(R.id.startVoiceRecognitionButton);
+
+        // Start voice recognition when the button is pressed
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startVoiceRecognition();
+            }
+        });
+    }
+
 
     private void initializeSpeechRecognizer() {
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
         speechRecognizer.setRecognitionListener(new RecognitionListener() {
             @Override
             public void onReadyForSpeech(Bundle params) {
+                Log.d("SpeechRecognizer", "onReadyForSpeech");
                 statusTextView.setText("Listening...");
             }
 
             @Override
-            public void onBeginningOfSpeech() { }
+            public void onBeginningOfSpeech() {
+                statusTextView.setText("Hearing...");
+            }
 
             @Override
-            public void onRmsChanged(float rmsdB) { }
+            public void onRmsChanged(float rmsdB) {
+                // Here we can add a visualizer here to show input volume changes.
+            }
 
             @Override
-            public void onBufferReceived(byte[] buffer) { }
+            public void onBufferReceived(byte[] buffer) {
+                // Don't really know about this one yet so pin here
+            }
 
             @Override
-            public void onEndOfSpeech() { }
+            public void onEndOfSpeech() {
+                statusTextView.setText("Processing your command...");
+
+            }
 
             @Override
             public void onError(int error) {
                 statusTextView.setText("Error encountered, please try again.");
+                String errorMessage = getErrorText(error);
+                statusTextView.setText("Error encountered: " + errorMessage);
             }
 
             @Override
             public void onResults(Bundle results) {
                 ArrayList<String> matches = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
                 if (matches != null && !matches.isEmpty()) {
+
+                    // This is a feedback idea of what it understands.
+                    statusTextView.setText("Recognized: " + matches.get(0));
                     processCommand(matches.get(0));
                 }
             }
 
             @Override
-            public void onPartialResults(Bundle partialResults) { }
+            public void onPartialResults(Bundle partialResults) {
+                ArrayList<String> partialMatches = partialResults.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                if (partialMatches != null && !partialMatches.isEmpty()) {
+
+                    // Display partial recognition results to give the user some immediate feedback.
+                    statusTextView.setText("Did you say: " + partialMatches.get(0) + "?");
+                }
+            }
 
             @Override
-            public void onEvent(int eventType, Bundle params) { }
+            public void onEvent(int eventType, Bundle params) {
+                // Don't know if we need this.
+            }
         });
     }
 
@@ -168,7 +227,6 @@ public class MainActivity extends AppCompatActivity {
         // intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak now...");
 
         speechRecognizer.startListening(intent);
-        statusTextView.setText("Listening...");
     }
 
     private void analyzeTextWithNLP(String text) {
@@ -246,5 +304,46 @@ public class MainActivity extends AppCompatActivity {
         // run("turn_off_lamp_command");
     }
 
+
+
+
+
+    // Error messages for3 user
+    private String getErrorText(int errorCode) {
+        String message;
+        switch (errorCode) {
+            case SpeechRecognizer.ERROR_AUDIO:
+                message = "Audio recording error.";
+                break;
+            case SpeechRecognizer.ERROR_CLIENT:
+                message = "Client side error.";
+                break;
+            case SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS:
+                message = "Insufficient permissions.";
+                break;
+            case SpeechRecognizer.ERROR_NETWORK:
+                message = "Network error.";
+                break;
+            case SpeechRecognizer.ERROR_NETWORK_TIMEOUT:
+                message = "Network timeout.";
+                break;
+            case SpeechRecognizer.ERROR_NO_MATCH:
+                message = "No match found.";
+                break;
+            case SpeechRecognizer.ERROR_RECOGNIZER_BUSY:
+                message = "Recognition service is busy.";
+                break;
+            case SpeechRecognizer.ERROR_SERVER:
+                message = "Server error.";
+                break;
+            case SpeechRecognizer.ERROR_SPEECH_TIMEOUT:
+                message = "No speech input.";
+                break;
+            default:
+                message = "Didn't understand, please try again.";
+                break;
+        }
+        return message;
+    }
 
 }
