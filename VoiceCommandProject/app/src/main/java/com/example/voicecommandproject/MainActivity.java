@@ -71,14 +71,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void processCommand(String command) {
-        if (command.toLowerCase().contains("turn on the lamp")) {
-            turnOnLamp();
-        } else if (command.toLowerCase().contains("turn off the lamp")) {
-            turnOffLamp();
-        }
-    }
-
     private void turnOnLamp() {
         // Code to turn on the lamp
         statusTextView.setText("Turning on the lamp... ");
