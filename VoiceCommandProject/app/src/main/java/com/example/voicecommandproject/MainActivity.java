@@ -45,13 +45,6 @@ import com.google.cloud.language.v1.LanguageServiceSettings;
 
 public class MainActivity extends AppCompatActivity {
 
-    // TESTING HERE
-    private int REQUEST_CODE_VOICE_RECOGNITION = 0;
-    private SpeechRecognizer speechRecognizer;
-
-    private TextView statusTextView;
-    private Button startButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
