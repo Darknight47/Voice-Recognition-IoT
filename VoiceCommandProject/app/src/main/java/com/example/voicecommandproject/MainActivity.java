@@ -50,21 +50,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_voice_control);
 
-        statusTextView = findViewById(R.id.statusTextView);
-        startButton = findViewById(R.id.startVoiceRecognitionButton);
-
-        // Animations
-        ImageView speechAnimation = findViewById(R.id.speechAnimation);
-
-        ObjectAnimator scaleDown = ObjectAnimator.ofPropertyValuesHolder(
-                speechAnimation,
-                PropertyValuesHolder.ofFloat("scaleX", 1.2f),
-                PropertyValuesHolder.ofFloat("scaleY", 1.2f));
-        scaleDown.setDuration(310);
-        scaleDown.setRepeatCount(ObjectAnimator.INFINITE);
-        scaleDown.setRepeatMode(ObjectAnimator.REVERSE);
-        scaleDown.start();
-
         // Google Cloud NLP API connections
         /*
         LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
