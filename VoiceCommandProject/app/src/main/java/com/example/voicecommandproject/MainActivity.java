@@ -71,21 +71,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void startVoiceRecognition() {
-        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak now...");
-
-        try {
-            startActivityForResult(intent, REQUEST_CODE_VOICE_RECOGNITION);
-        } catch (ActivityNotFoundException a) {
-            Toast.makeText(getApplicationContext(), "Sorry, your device doesn't support speech input", Toast.LENGTH_SHORT).show();
-        }
-    }
-
-
-
     private void processCommand(String command) {
         if (command.toLowerCase().contains("turn on the lamp")) {
             turnOnLamp();
