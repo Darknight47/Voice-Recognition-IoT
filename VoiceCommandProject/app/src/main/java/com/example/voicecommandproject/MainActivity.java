@@ -68,62 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         */
-        speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
-        speechRecognizer.setRecognitionListener(new RecognitionListener() {
-
-            // A lot of methods and we probably don't need all of them
-            // We can set textfield or other application feedback on some of these.
-
-            public void onReadyForSpeech(Bundle bundle) {
-                statusTextView.setText("Listening...");
-            }
-
-            @Override
-            public void onBeginningOfSpeech() {
-
-            }
-
-            @Override
-            public void onRmsChanged(float v) {
-
-            }
-
-            @Override
-            public void onBufferReceived(byte[] bytes) {
-
-            }
-
-            @Override
-            public void onEndOfSpeech() {
-
-            }
-
-            @Override
-            public void onError(int i) {
-                statusTextView.setText("Error encountered. Please try again.");
-            }
-
-            @Override
-            public void onResults(Bundle results) {
-                ArrayList<String> matches = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
-                if (matches != null) {
-                    processCommand(matches.get(0));
-                }
-            }
-
-            @Override
-            public void onPartialResults(Bundle bundle) {
-
-            }
-
-            @Override
-            public void onEvent(int i, Bundle bundle) {
-
-            }
-
-            // Other overridden methods of RecognitionListener...
-        });
-
+        
         // When button is pressed --> Start listening to voice commands
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
