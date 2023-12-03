@@ -71,26 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void turnOnLamp() {
-        // Code to turn on the lamp
-        statusTextView.setText("Turning on the lamp... ");
-
-        // Add code from labs
-
-    }
-
-    private void turnOffLamp() {
-        // Code to turn off the lamp
-        statusTextView.setText("Turning off the lamp... ");
-
-        // Add code from labs
-    }
-
     @Override
     protected void onDestroy() {
-        if (speechRecognizer != null) {
-            speechRecognizer.destroy();
-        }
         super.onDestroy();
     }
 
