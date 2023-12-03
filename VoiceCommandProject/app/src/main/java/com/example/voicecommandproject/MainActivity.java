@@ -68,17 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         */
-        
-        // When button is pressed --> Start listening to voice commands
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-                intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-                speechRecognizer.startListening(intent);
 
-            }
-        });
     }
 
     private void startVoiceRecognition() {
