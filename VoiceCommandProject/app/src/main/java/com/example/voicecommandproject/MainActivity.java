@@ -1,13 +1,13 @@
 package com.example.voicecommandproject;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 
-import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.content.ActivityNotFoundException;
 import android.os.Bundle;
 
-import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.content.Intent;
@@ -15,18 +15,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Locale;
 
-import ch.ethz.ssh2.Connection;
-import ch.ethz.ssh2.Session;
-import ch.ethz.ssh2.StreamGobbler;
 
 // Google Cloud NLP API
 import com.google.api.gax.core.FixedCredentialsProvider;
@@ -89,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
                     // Update our TextView Field here
                     textOutput.setText(spokenText);
                     //System.out.println("hereerer " + spokenText);
+                }
+                else
+                {
+
                 }
             }
         }
