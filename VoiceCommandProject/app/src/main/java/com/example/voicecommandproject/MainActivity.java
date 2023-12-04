@@ -103,6 +103,17 @@ public class MainActivity extends AppCompatActivity {
     {
         //Handling the result
         super.onActivityResult(requestCode, resultCode, data);
+        switch(requestCode)
+        {
+            case REQUEST_CODE:
+            {
+                if(resultCode == RESULT_OK)
+                {
+                    ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                    Log.d("The speech has been catched: ", result.get(0));
+                }
+            }
+        }
     }
 
     @Override
