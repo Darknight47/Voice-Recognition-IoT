@@ -45,11 +45,15 @@ import com.google.cloud.language.v1.LanguageServiceSettings;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int REQUEST_CODE = 100;
+    private TextView textOutput;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_voice_control);
-
+        //TextOutput gets its value from TextView in layout.
+        textOutput = (TextView) findViewById(R.id.textOutput);
         // Google Cloud NLP API connections
         /*
         LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
@@ -68,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         */
+
 
     }
 
