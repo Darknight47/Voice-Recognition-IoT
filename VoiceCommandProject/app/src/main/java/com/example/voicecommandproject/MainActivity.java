@@ -76,6 +76,24 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    ActivityResultLauncher<Intent> speechResultLauncher = registerForActivityResult(
+        new ActivityResultContracts.StartActivityForResult(),
+        result ->  {
+            if (result.getResultCode() == Activity.RESULT_OK && result.getData() != null) {
+                // Get the list of spoken words
+                ArrayList<String> matches = result.getData().getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                // Get the first match, which is the most likely thing that was said
+                if (matches != null && !matches.isEmpty()) {
+                    String spokenText = matches.get(0);
+                    // Update our TextView Field here
+                    textOutput.setText(spokenText);
+                    //System.out.println("hereerer " + spokenText);
+                }
+            }
+        }
+    );
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
