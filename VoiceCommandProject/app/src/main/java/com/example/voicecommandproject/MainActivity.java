@@ -97,6 +97,14 @@ public class MainActivity extends AppCompatActivity {
         }
     );
 
+    
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        //Handling the result
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
