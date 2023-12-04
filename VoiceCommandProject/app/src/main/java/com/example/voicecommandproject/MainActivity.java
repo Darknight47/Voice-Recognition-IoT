@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         try {
-            startActivityForResult(intent, REQUEST_CODE);
+            //startActivityForResult(intent, REQUEST_CODE); DEPRECATED
         } catch (Exception e) {
             // TODO: handle exception
             Log.d("onClickTag", "Could Not Run the Listening Activity");
