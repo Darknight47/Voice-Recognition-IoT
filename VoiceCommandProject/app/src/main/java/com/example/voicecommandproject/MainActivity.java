@@ -76,6 +76,18 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    ActivityResultLauncher<Intent> speechResultLauncher = registerForActivityResult(
+        new ActivityResultContracts.StartActivityForResult(),
+        result ->  {
+            if (result.getResultCode() == Activity.RESULT_OK)
+            {
+                // Get the list of spoken words
+                ArrayList<String> matches = result.getData().getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+
+            }
+        }
+    );
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
