@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
     ActivityResultLauncher<Intent> speechResultLauncher = registerForActivityResult(
         new ActivityResultContracts.StartActivityForResult(),
         result ->  {
-            if (result.getResultCode() == Activity.RESULT_OK)
+            if (result.getResultCode() == Activity.RESULT_OK && result.getData() != null)
             {
                 // Get the list of spoken words
                 ArrayList<String> matches = result.getData().getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     String spokenText = matches.get(0);
                     // Update your TextView or perform other actions with the spoken text
                     textOutput.setText(spokenText);
+                    Log.d("The Text IS: ", spokenText);
                 }
             }
         }
