@@ -77,11 +77,11 @@ public class MainActivity extends AppCompatActivity {
                     String spokenText = matches.get(0);
                     // Update our TextView Field here
                     textOutput.setText(spokenText);
-                    //System.out.println("hereerer " + spokenText);
+                    Log.d("SpeechRecognized", "speechResultLauncher");
                 }
                 else
                 {
-
+                    Log.d("Speech-NOT-Recognized", "speechResultLauncher");
                 }
             }
         }
