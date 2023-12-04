@@ -84,6 +84,13 @@ public class MainActivity extends AppCompatActivity {
                 // Get the list of spoken words
                 ArrayList<String> matches = result.getData().getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
 
+                // Get the first match, which is the most likely thing that was said
+                if (matches != null && !matches.isEmpty()) 
+                {
+                    String spokenText = matches.get(0);
+                    // Update your TextView or perform other actions with the spoken text
+                    textOutput.setText(spokenText);
+                }
             }
         }
     );
