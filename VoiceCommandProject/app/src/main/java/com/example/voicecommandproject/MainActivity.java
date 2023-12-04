@@ -65,6 +65,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onClick(View v)
+    {
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        try {
+            startActivityForResult(intent, REQUEST_CODE);
+        } catch (Exception e) {
+            // TODO: handle exception
+            Log.d("onClickTag", "Could Not Run the Listening Activity");
+        }
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
