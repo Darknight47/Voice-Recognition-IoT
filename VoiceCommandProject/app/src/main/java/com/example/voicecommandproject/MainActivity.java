@@ -1,8 +1,27 @@
 package com.example.voicecommandproject;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 
+import android.os.Bundle;
 
+import android.speech.RecognizerIntent;
+import android.content.Intent;
+import android.view.View;
+import android.widget.TextView;
+import android.util.Log;
+import android.app.Activity;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+import ch.ethz.ssh2.Connection;
+import ch.ethz.ssh2.Session;
+import ch.ethz.ssh2.StreamGobbler;
 
 // Google Cloud NLP API
 import com.google.api.gax.core.FixedCredentialsProvider;
