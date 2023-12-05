@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     //Updating textOutput here.
-                    Log.d("The speech has been catched: ", result.get(0));
+                    Log.d("The speech: ", result.get(0));
                 }
                 break;
             }
