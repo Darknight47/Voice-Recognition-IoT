@@ -46,9 +46,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_voice_control);
-        //TextOutput gets its value from TextView in layout.
-        textOutput = (TextView) findViewById(R.id.textOutput);
+        setContentView(R.layout.activity_main);
+        // gets its value from the TextView UI.
+        textOutput= (TextView) findViewById(R.id.textOutput);
+        Log.d("Tag", "onCreateMethod");
         // Google Cloud NLP API connections
         /*
         LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
@@ -65,10 +66,7 @@ public class MainActivity extends AppCompatActivity {
             for (Entity entity : response.getEntitiesList()) {
                 System.out.printf("Entity: %s", entity.getName());
             }
-        }
-        */
-
-
+        }*/
     }
 
     public void onClick(View v)
