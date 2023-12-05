@@ -5,4 +5,4 @@
 
 **Description:** Reasoning as described earlier but do it voice controlled, using speechrecognizer and more.	.
 
-**App:** We have an android app with voice recognition and reasoning. ...
+**App:** We have an android app with voice recognition and reasoning. ... !
