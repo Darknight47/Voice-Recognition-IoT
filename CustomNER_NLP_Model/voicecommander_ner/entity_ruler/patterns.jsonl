@@ -1,0 +1,3435 @@
+{"label":"VERB","pattern":"ask somebody out"}
+{"label":"VERB","pattern":"ask around"}
+{"label":"VERB","pattern":"add up to something"}
+{"label":"VERB","pattern":"back something up"}
+{"label":"VERB","pattern":"back somebody up"}
+{"label":"VERB","pattern":"blow up"}
+{"label":"VERB","pattern":"blow something up"}
+{"label":"VERB","pattern":"break down"}
+{"label":"VERB","pattern":"break something down"}
+{"label":"VERB","pattern":"break in"}
+{"label":"VERB","pattern":"break into something"}
+{"label":"VERB","pattern":"break something in"}
+{"label":"VERB","pattern":"break up"}
+{"label":"VERB","pattern":"break out"}
+{"label":"VERB","pattern":"break out in something"}
+{"label":"VERB","pattern":"bring somebody down"}
+{"label":"VERB","pattern":"bring somebody up"}
+{"label":"VERB","pattern":"bring something up"}
+{"label":"VERB","pattern":"call around"}
+{"label":"VERB","pattern":"call somebody back"}
+{"label":"VERB","pattern":"call something off"}
+{"label":"VERB","pattern":"call on somebody"}
+{"label":"VERB","pattern":"calm down"}
+{"label":"VERB","pattern":"care for somebody"}
+{"label":"VERB","pattern":"catch up"}
+{"label":"VERB","pattern":"check in"}
+{"label":"VERB","pattern":"come across"}
+{"label":"VERB","pattern":"come up with"}
+{"label":"VERB","pattern":"carry on"}
+{"label":"VERB","pattern":"call off"}
+{"label":"VERB","pattern":"falal apart"}
+{"label":"VERB","pattern":"get in"}
+{"label":"VERB","pattern":"get out"}
+{"label":"VERB","pattern":"get off"}
+{"label":"VERB","pattern":"get away"}
+{"label":"VERB","pattern":"get over"}
+{"label":"VERB","pattern":"get back"}
+{"label":"VERB","pattern":"go on"}
+{"label":"VERB","pattern":"give in"}
+{"label":"VERB","pattern":"give up"}
+{"label":"VERB","pattern":"hang on"}
+{"label":"VERB","pattern":"hold on"}
+{"label":"VERB","pattern":"hold up"}
+{"label":"VERB","pattern":"keep on"}
+{"label":"VERB","pattern":"let down"}
+{"label":"VERB","pattern":"look up"}
+{"label":"VERB","pattern":"look into"}
+{"label":"VERB","pattern":"make up"}
+{"label":"VERB","pattern":"move on"}
+{"label":"VERB","pattern":"pick up"}
+{"label":"VERB","pattern":"run out"}
+{"label":"VERB","pattern":"set up"}
+{"label":"VERB","pattern":"show up"}
+{"label":"VERB","pattern":"take off"}
+{"label":"VERB","pattern":"turn up"}
+{"label":"VERB","pattern":"turn down"}
+{"label":"VERB","pattern":"work out"}
+{"label":"VERB","pattern":"bring off"}
+{"label":"VERB","pattern":"call up"}
+{"label":"VERB","pattern":"do over"}
+{"label":"VERB","pattern":"get together"}
+{"label":"VERB","pattern":"go over"}
+{"label":"VERB","pattern":"hand in"}
+{"label":"VERB","pattern":"hold out"}
+{"label":"VERB","pattern":"jot down"}
+{"label":"VERB","pattern":"knock out"}
+{"label":"VERB","pattern":"leave out"}
+{"label":"VERB","pattern":"mull over"}
+{"label":"VERB","pattern":"narrow down"}
+{"label":"VERB","pattern":"own up"}
+{"label":"VERB","pattern":"poke around"}
+{"label":"VERB","pattern":"queue up"}
+{"label":"VERB","pattern":"rough up"}
+{"label":"VERB","pattern":"single out"}
+{"label":"VERB","pattern":"take after"}
+{"label":"VERB","pattern":"undercut"}
+{"label":"VERB","pattern":"vote down"}
+{"label":"VERB","pattern":"wash up"}
+{"label":"VERB","pattern":"bail someone out"}
+{"label":"VERB","pattern":"bank on"}
+{"label":"VERB","pattern":"beaver away"}
+{"label":"VERB","pattern":"bog down"}
+{"label":"VERB","pattern":"breeze through"}
+{"label":"VERB","pattern":"clam up"}
+{"label":"VERB","pattern":"dish out"}
+{"label":"VERB","pattern":"egg on"}
+{"label":"VERB","pattern":"fend off"}
+{"label":"VERB","pattern":"gloss over"}
+{"label":"VERB","pattern":"ham it up"}
+{"label":"VERB","pattern":"ice over"}
+{"label":"VERB","pattern":"jazz up"}
+{"label":"VERB","pattern":"kick back"}
+{"label":"VERB","pattern":"log on"}
+{"label":"VERB","pattern":"make do"}
+{"label":"VERB","pattern":"nip in the bud"}
+{"label":"VERB","pattern":"own up to"}
+{"label":"VERB","pattern":"pile up"}
+{"label":"VERB","pattern":"rub out"}
+{"label":"VERB","pattern":"see through"}
+{"label":"VERB","pattern":"take down"}
+{"label":"VERB","pattern":"up to"}
+{"label":"VERB","pattern":"vouch for"}
+{"label":"VERB","pattern":"wade through"}
+{"label":"VERB","pattern":"zero in on"}
+{"label":"VERB","pattern":"turn on"}
+{"label":"VERB","pattern":"bu"}
+{"label":"VERB","pattern":"shut down"}
+{"label":"VERB","pattern":"check out"}
+{"label":"VERB","pattern":"cheer up"}
+{"label":"VERB","pattern":"chip in"}
+{"label":"VERB","pattern":"clean up"}
+{"label":"VERB","pattern":"come across"}
+{"label":"VERB","pattern":"come by"}
+{"label":"VERB","pattern":"come over"}
+{"label":"VERB","pattern":"come up with"}
+{"label":"VERB","pattern":"count on"}
+{"label":"VERB","pattern":"cross out"}
+{"label":"VERB","pattern":"cut back"}
+{"label":"VERB","pattern":"cut down"}
+{"label":"VERB","pattern":"cut off"}
+{"label":"VERB","pattern":"cut out"}
+{"label":"VERB","pattern":"do over"}
+{"label":"VERB","pattern":"do without"}
+{"label":"VERB","pattern":"dress up"}
+{"label":"VERB","pattern":"drop by"}
+{"label":"VERB","pattern":"drop off"}
+{"label":"VERB","pattern":"drop out"}
+{"label":"VERB","pattern":"eat out"}
+{"label":"VERB","pattern":"end up"}
+{"label":"VERB","pattern":"fall apart"}
+{"label":"VERB","pattern":"fall down"}
+{"label":"VERB","pattern":"fall out"}
+{"label":"VERB","pattern":"fill in"}
+{"label":"VERB","pattern":"fill out"}
+{"label":"VERB","pattern":"find out"}
+{"label":"VERB","pattern":"get along"}
+{"label":"VERB","pattern":"get around"}
+{"label":"VERB","pattern":"get by"}
+{"label":"VERB","pattern":"get in"}
+{"label":"VERB","pattern":"get off"}
+{"label":"VERB","pattern":"get on"}
+{"label":"VERB","pattern":"get over"}
+{"label":"VERB","pattern":"get up"}
+{"label":"VERB","pattern":"give away"}
+{"label":"VERB","pattern":"give back"}
+{"label":"VERB","pattern":"give in"}
+{"label":"VERB","pattern":"give out"}
+{"label":"VERB","pattern":"give up"}
+{"label":"VERB","pattern":"go after"}
+{"label":"VERB","pattern":"go ahead"}
+{"label":"VERB","pattern":"go back"}
+{"label":"VERB","pattern":"go on"}
+{"label":"VERB","pattern":"go over"}
+{"label":"VERB","pattern":"go through"}
+{"label":"VERB","pattern":"go under"}
+{"label":"VERB","pattern":"grow up"}
+{"label":"VERB","pattern":"hand in"}
+{"label":"VERB","pattern":"hand out"}
+{"label":"VERB","pattern":"hang out"}
+{"label":"VERB","pattern":"hang up"}
+{"label":"VERB","pattern":"hold back"}
+{"label":"VERB","pattern":"hold on"}
+{"label":"VERB","pattern":"hold up"}
+{"label":"VERB","pattern":"keep on"}
+{"label":"VERB","pattern":"keep up"}
+{"label":"VERB","pattern":"kick back"}
+{"label":"VERB","pattern":"knock out"}
+{"label":"VERB","pattern":"let down"}
+{"label":"VERB","pattern":"let in"}
+{"label":"VERB","pattern":"let out"}
+{"label":"VERB","pattern":"let up"}
+{"label":"VERB","pattern":"log in"}
+{"label":"VERB","pattern":"log out"}
+{"label":"VERB","pattern":"look after"}
+{"label":"VERB","pattern":"look down"}
+{"label":"VERB","pattern":"look for"}
+{"label":"VERB","pattern":"look forward"}
+{"label":"VERB","pattern":"look into"}
+{"label":"VERB","pattern":"look out"}
+{"label":"VERB","pattern":"look over"}
+{"label":"VERB","pattern":"look up"}
+{"label":"VERB","pattern":"make out"}
+{"label":"VERB","pattern":"make up"}
+{"label":"VERB","pattern":"mix up"}
+{"label":"VERB","pattern":"move in"}
+{"label":"VERB","pattern":"move out"}
+{"label":"VERB","pattern":"pass out"}
+{"label":"VERB","pattern":"pass up"}
+{"label":"VERB","pattern":"pay back"}
+{"label":"VERB","pattern":"pick out"}
+{"label":"VERB","pattern":"pick up"}
+{"label":"VERB","pattern":"point out"}
+{"label":"VERB","pattern":"put away"}
+{"label":"VERB","pattern":"put back"}
+{"label":"VERB","pattern":"put down"}
+{"label":"VERB","pattern":"put off"}
+{"label":"VERB","pattern":"put on"}
+{"label":"VERB","pattern":"put out"}
+{"label":"VERB","pattern":"put up"}
+{"label":"VERB","pattern":"run into"}
+{"label":"VERB","pattern":"run out"}
+{"label":"VERB","pattern":"run over"}
+{"label":"VERB","pattern":"see off"}
+{"label":"VERB","pattern":"set off"}
+{"label":"VERB","pattern":"set up"}
+{"label":"VERB","pattern":"show up"}
+{"label":"VERB","pattern":"shut down"}
+{"label":"VERB","pattern":"shut off"}
+{"label":"VERB","pattern":"shut up"}
+{"label":"VERB","pattern":"sit down"}
+{"label":"VERB","pattern":"stand up"}
+{"label":"VERB","pattern":"start over"}
+{"label":"VERB","pattern":"stay in"}
+{"label":"VERB","pattern":"stay out"}
+{"label":"VERB","pattern":"stay up"}
+{"label":"VERB","pattern":"take after"}
+{"label":"VERB","pattern":"take away"}
+{"label":"VERB","pattern":"take back"}
+{"label":"VERB","pattern":"take down"}
+{"label":"VERB","pattern":"take in"}
+{"label":"VERB","pattern":"take off"}
+{"label":"VERB","pattern":"take out"}
+{"label":"VERB","pattern":"take over"}
+{"label":"VERB","pattern":"take up"}
+{"label":"VERB","pattern":"talk back"}
+{"label":"VERB","pattern":"throw away"}
+{"label":"VERB","pattern":"throw out"}
+{"label":"VERB","pattern":"throw up"}
+{"label":"VERB","pattern":"turn around"}
+{"label":"VERB","pattern":"turn down"}
+{"label":"VERB","pattern":"turn off"}
+{"label":"VERB","pattern":"turn on"}
+{"label":"VERB","pattern":"turn out"}
+{"label":"VERB","pattern":"turn over"}
+{"label":"VERB","pattern":"turn up"}
+{"label":"VERB","pattern":"wait on"}
+{"label":"VERB","pattern":"wait up"}
+{"label":"VERB","pattern":"wake up"}
+{"label":"VERB","pattern":"walk out"}
+{"label":"VERB","pattern":"watch out"}
+{"label":"VERB","pattern":"wear off"}
+{"label":"VERB","pattern":"wear out"}
+{"label":"VERB","pattern":"work out"}
+{"label":"VERB","pattern":"wrap up"}
+{"label":"VERB","pattern":"write down"}
+{"label":"VERB","pattern":"write off"}
+{"label":"VERB","pattern":"zoom in"}
+{"label":"VERB","pattern":"act up"}
+{"label":"VERB","pattern":"add up"}
+{"label":"VERB","pattern":"agree with"}
+{"label":"VERB","pattern":"aim at"}
+{"label":"VERB","pattern":"allow for"}
+{"label":"VERB","pattern":"angle for"}
+{"label":"VERB","pattern":"answer back"}
+{"label":"VERB","pattern":"argue down"}
+{"label":"VERB","pattern":"arrive at"}
+{"label":"VERB","pattern":"ask for"}
+{"label":"VERB","pattern":"attach to"}
+{"label":"VERB","pattern":"bargain for"}
+{"label":"VERB","pattern":"bear with"}
+{"label":"VERB","pattern":"beat up"}
+{"label":"VERB","pattern":"belong to"}
+{"label":"VERB","pattern":"blow over"}
+{"label":"VERB","pattern":"boil down to"}
+{"label":"VERB","pattern":"bottle up"}
+{"label":"VERB","pattern":"break into"}
+{"label":"VERB","pattern":"bring about"}
+{"label":"VERB","pattern":"brush up"}
+{"label":"VERB","pattern":"buckle down"}
+{"label":"VERB","pattern":"bump into"}
+{"label":"VERB","pattern":"burn down"}
+{"label":"VERB","pattern":"bust up"}
+{"label":"VERB","pattern":"butter up"}
+{"label":"VERB","pattern":"cancel out"}
+{"label":"VERB","pattern":"care for"}
+{"label":"VERB","pattern":"catch on"}
+{"label":"VERB","pattern":"check off"}
+{"label":"VERB","pattern":"chew out"}
+{"label":"VERB","pattern":"chill out"}
+{"label":"VERB","pattern":"chip away at"}
+{"label":"VERB","pattern":"clamp down on"}
+{"label":"VERB","pattern":"clean out"}
+{"label":"VERB","pattern":"clear up"}
+{"label":"VERB","pattern":"close down"}
+{"label":"VERB","pattern":"come down with"}
+{"label":"VERB","pattern":"come up against"}
+{"label":"VERB","pattern":"conform to"}
+{"label":"VERB","pattern":"cope with"}
+{"label":"VERB","pattern":"count in"}
+{"label":"VERB","pattern":"crack down on"}
+{"label":"VERB","pattern":"cross off"}
+{"label":"VERB","pattern":"cut in"}
+{"label":"VERB","pattern":"deal with"}
+{"label":"VERB","pattern":"die down"}
+{"label":"VERB","pattern":"dish up"}
+{"label":"VERB","pattern":"do away with"}
+{"label":"VERB","pattern":"do up"}
+{"label":"VERB","pattern":"drag on"}
+{"label":"VERB","pattern":"draw up"}
+{"label":"VERB","pattern":"dress down"}
+{"label":"VERB","pattern":"drive at"}
+{"label":"VERB","pattern":"drop in"}
+{"label":"VERB","pattern":"dwell on"}
+{"label":"VERB","pattern":"ease off"}
+{"label":"VERB","pattern":"end in"}
+{"label":"VERB","pattern":"face up to"}
+{"label":"VERB","pattern":"fall behind"}
+{"label":"VERB","pattern":"fall for"}
+{"label":"VERB","pattern":"fall through"}
+{"label":"VERB","pattern":"feel up to"}
+{"label":"VERB","pattern":"fight off"}
+{"label":"VERB","pattern":"figure out"}
+{"label":"VERB","pattern":"fill up"}
+{"label":"VERB","pattern":"fit in"}
+{"label":"VERB","pattern":"fix up"}
+{"label":"VERB","pattern":"flip out"}
+{"label":"VERB","pattern":"follow through"}
+{"label":"VERB","pattern":"get across"}
+{"label":"VERB","pattern":"get at"}
+{"label":"VERB","pattern":"get down to"}
+{"label":"VERB","pattern":"get through"}
+{"label":"VERB","pattern":"give off"}
+{"label":"VERB","pattern":"go along with"}
+{"label":"VERB","pattern":"go down with"}
+{"label":"VERB","pattern":"go for"}
+{"label":"VERB","pattern":"go through with"}
+{"label":"VERB","pattern":"grow out of"}
+{"label":"VERB","pattern":"hang around"}
+{"label":"VERB","pattern":"head for"}
+{"label":"VERB","pattern":"hear from"}
+{"label":"VERB","pattern":"heat up"}
+{"label":"VERB","pattern":"help out"}
+{"label":"VERB","pattern":"hit on"}
+{"label":"VERB","pattern":"hold off"}
+{"label":"VERB","pattern":"hook up"}
+{"label":"VERB","pattern":"hurry up"}
+{"label":"VERB","pattern":"iron out"}
+{"label":"VERB","pattern":"join in"}
+{"label":"VERB","pattern":"jump at"}
+{"label":"VERB","pattern":"keep away"}
+{"label":"VERB","pattern":"kick off"}
+{"label":"VERB","pattern":"knock down"}
+{"label":"VERB","pattern":"lay off"}
+{"label":"VERB","pattern":"lead to"}
+{"label":"VERB","pattern":"leave behind"}
+{"label":"VERB","pattern":"let off"}
+{"label":"VERB","pattern":"line up"}
+{"label":"VERB","pattern":"live up to"}
+{"label":"VERB","pattern":"lock out"}
+{"label":"VERB","pattern":"look after"}
+{"label":"VERB","pattern":"make of"}
+{"label":"VERB","pattern":"mess up"}
+{"label":"VERB","pattern":"move on"}
+{"label":"VERB","pattern":"nail down"}
+{"label":"VERB","pattern":"narrow down"}
+{"label":"VERB","pattern":"open up"}
+{"label":"VERB","pattern":"own up"}
+{"label":"VERB","pattern":"pass on"}
+{"label":"VERB","pattern":"pay off"}
+{"label":"VERB","pattern":"pick on"}
+{"label":"VERB","pattern":"play down"}
+{"label":"VERB","pattern":"point out"}
+{"label":"VERB","pattern":"pull off"}
+{"label":"VERB","pattern":"put through"}
+{"label":"VERB","pattern":"read up on"}
+{"label":"VERB","pattern":"rely on"}
+{"label":"VERB","pattern":"ring up"}
+{"label":"VERB","pattern":"rule out"}
+{"label":"VERB","pattern":"run by"}
+{"label":"VERB","pattern":"see off"}
+{"label":"VERB","pattern":"set aside"}
+{"label":"VERB","pattern":"settle down"}
+{"label":"VERB","pattern":"show off"}
+{"label":"VERB","pattern":"shut out"}
+{"label":"VERB","pattern":"sign up"}
+{"label":"VERB","pattern":"sort out"}
+{"label":"VERB","pattern":"stand for"}
+{"label":"VERB","pattern":"stick to"}
+{"label":"VERB","pattern":"take in"}
+{"label":"VERB","pattern":"talk into"}
+{"label":"VERB","pattern":"think over"}
+{"label":"VERB","pattern":"throw away"}
+{"label":"VERB","pattern":"top off"}
+{"label":"VERB","pattern":"try on"}
+{"label":"VERB","pattern":"turn out"}
+{"label":"VERB","pattern":"use up"}
+{"label":"VERB","pattern":"wait on"}
+{"label":"VERB","pattern":"walk away"}
+{"label":"VERB","pattern":"warm up"}
+{"label":"VERB","pattern":"wash out"}
+{"label":"VERB","pattern":"wear down"}
+{"label":"VERB","pattern":"wind up"}
+{"label":"VERB","pattern":"work up"}
+{"label":"VERB","pattern":"write down"}
+{"label":"VERB","pattern":"yell at"}
+{"label":"VERB","pattern":"zone out"}
+{"label":"VERB","pattern":"act on"}
+{"label":"VERB","pattern":"add on"}
+{"label":"VERB","pattern":"adhere to"}
+{"label":"VERB","pattern":"allow in"}
+{"label":"VERB","pattern":"angle at"}
+{"label":"VERB","pattern":"answer for"}
+{"label":"VERB","pattern":"argue for"}
+{"label":"VERB","pattern":"arrive in"}
+{"label":"VERB","pattern":"ask in"}
+{"label":"VERB","pattern":"attach on"}
+{"label":"VERB","pattern":"bargain with"}
+{"label":"VERB","pattern":"bear on"}
+{"label":"VERB","pattern":"beat down"}
+{"label":"VERB","pattern":"belong with"}
+{"label":"VERB","pattern":"blow in"}
+{"label":"VERB","pattern":"boil over"}
+{"label":"VERB","pattern":"bottle down"}
+{"label":"VERB","pattern":"break off"}
+{"label":"VERB","pattern":"bring in"}
+{"label":"VERB","pattern":"brush down"}
+{"label":"VERB","pattern":"buckle up"}
+{"label":"VERB","pattern":"bump up"}
+{"label":"VERB","pattern":"burn up"}
+{"label":"VERB","pattern":"bust down"}
+{"label":"VERB","pattern":"butter down"}
+{"label":"VERB","pattern":"cancel in"}
+{"label":"VERB","pattern":"care about"}
+{"label":"VERB","pattern":"catch off"}
+{"label":"VERB","pattern":"check on"}
+{"label":"VERB","pattern":"chew up"}
+{"label":"VERB","pattern":"chill down"}
+{"label":"VERB","pattern":"chip off"}
+{"label":"VERB","pattern":"clamp on"}
+{"label":"VERB","pattern":"clean down"}
+{"label":"VERB","pattern":"clear out"}
+{"label":"VERB","pattern":"close off"}
+{"label":"VERB","pattern":"come in"}
+{"label":"VERB","pattern":"come out"}
+{"label":"VERB","pattern":"come with"}
+{"label":"VERB","pattern":"conform with"}
+{"label":"VERB","pattern":"cope on"}
+{"label":"VERB","pattern":"count out"}
+{"label":"VERB","pattern":"crack on"}
+{"label":"VERB","pattern":"cross up"}
+{"label":"VERB","pattern":"cut off"}
+{"label":"VERB","pattern":"deal off"}
+{"label":"VERB","pattern":"die off"}
+{"label":"VERB","pattern":"dish down"}
+{"label":"VERB","pattern":"do in"}
+{"label":"VERB","pattern":"do with"}
+{"label":"VERB","pattern":"drag off"}
+{"label":"VERB","pattern":"draw down"}
+{"label":"VERB","pattern":"dress off"}
+{"label":"VERB","pattern":"drive in"}
+{"label":"VERB","pattern":"drop off"}
+{"label":"VERB","pattern":"dwell in"}
+{"label":"VERB","pattern":"ease on"}
+{"label":"VERB","pattern":"end off"}
+{"label":"VERB","pattern":"face down"}
+{"label":"VERB","pattern":"fall in"}
+{"label":"VERB","pattern":"fall on"}
+{"label":"VERB","pattern":"fall up"}
+{"label":"VERB","pattern":"feel down"}
+{"label":"VERB","pattern":"fight on"}
+{"label":"VERB","pattern":"figure in"}
+{"label":"VERB","pattern":"fill down"}
+{"label":"VERB","pattern":"fit off"}
+{"label":"VERB","pattern":"fix down"}
+{"label":"VERB","pattern":"flip in"}
+{"label":"VERB","pattern":"follow off"}
+{"label":"VERB","pattern":"get in"}
+{"label":"VERB","pattern":"get out"}
+{"label":"VERB","pattern":"get up"}
+{"label":"VERB","pattern":"give on"}
+{"label":"VERB","pattern":"go in"}
+{"label":"VERB","pattern":"go off"}
+{"label":"VERB","pattern":"go up"}
+{"label":"VERB","pattern":"grow in"}
+{"label":"VERB","pattern":"hang in"}
+{"label":"VERB","pattern":"head in"}
+{"label":"VERB","pattern":"hear out"}
+{"label":"VERB","pattern":"heat down"}
+{"label":"VERB","pattern":"help in"}
+{"label":"VERB","pattern":"hit off"}
+{"label":"VERB","pattern":"hold in"}
+{"label":"VERB","pattern":"hook down"}
+{"label":"VERB","pattern":"hurry down"}
+{"label":"VERB","pattern":"iron in"}
+{"label":"VERB","pattern":"join off"}
+{"label":"VERB","pattern":"jump in"}
+{"label":"VERB","pattern":"keep in"}
+{"label":"VERB","pattern":"kick in"}
+{"label":"VERB","pattern":"knock in"}
+{"label":"VERB","pattern":"lay on"}
+{"label":"VERB","pattern":"lead off"}
+{"label":"VERB","pattern":"leave off"}
+{"label":"VERB","pattern":"let in"}
+{"label":"VERB","pattern":"let up"}
+{"label":"VERB","pattern":"line down"}
+{"label":"VERB","pattern":"live off"}
+{"label":"VERB","pattern":"lock in"}
+{"label":"VERB","pattern":"look in"}
+{"label":"VERB","pattern":"make off"}
+{"label":"VERB","pattern":"mess down"}
+{"label":"VERB","pattern":"move off"}
+{"label":"VERB","pattern":"nail on"}
+{"label":"VERB","pattern":"narrow in"}
+{"label":"VERB","pattern":"open down"}
+{"label":"VERB","pattern":"own down"}
+{"label":"VERB","pattern":"pass in"}
+{"label":"VERB","pattern":"pay on"}
+{"label":"VERB","pattern":"pick off"}
+{"label":"VERB","pattern":"play off"}
+{"label":"VERB","pattern":"point in"}
+{"label":"VERB","pattern":"pull on"}
+{"label":"VERB","pattern":"put in"}
+{"label":"VERB","pattern":"read off"}
+{"label":"VERB","pattern":"rely off"}
+{"label":"VERB","pattern":"ring down"}
+{"label":"VERB","pattern":"rule in"}
+{"label":"VERB","pattern":"run in"}
+{"label":"VERB","pattern":"see in"}
+{"label":"VERB","pattern":"set in"}
+{"label":"VERB","pattern":"settle in"}
+{"label":"VERB","pattern":"show on"}
+{"label":"VERB","pattern":"shut in"}
+{"label":"VERB","pattern":"sign off"}
+{"label":"VERB","pattern":"sort in"}
+{"label":"VERB","pattern":"stand off"}
+{"label":"VERB","pattern":"stick off"}
+{"label":"VERB","pattern":"take off"}
+{"label":"VERB","pattern":"talk off"}
+{"label":"VERB","pattern":"think in"}
+{"label":"VERB","pattern":"throw in"}
+{"label":"VERB","pattern":"top on"}
+{"label":"VERB","pattern":"try off"}
+{"label":"VERB","pattern":"turn in"}
+{"label":"VERB","pattern":"use down"}
+{"label":"VERB","pattern":"wait off"}
+{"label":"VERB","pattern":"walk in"}
+{"label":"VERB","pattern":"warm down"}
+{"label":"VERB","pattern":"wash in"}
+{"label":"VERB","pattern":"wear in"}
+{"label":"VERB","pattern":"wind down"}
+{"label":"VERB","pattern":"work down"}
+{"label":"VERB","pattern":"write in"}
+{"label":"VERB","pattern":"yell off"}
+{"label":"VERB","pattern":"zone in"}
+{"label":"VERB","pattern":"rein in"}
+{"label":"VERB","pattern":"rejoice in"}
+{"label":"VERB","pattern":"relate to"}
+{"label":"VERB","pattern":"relieve of"}
+{"label":"VERB","pattern":"remind of"}
+{"label":"VERB","pattern":"rent out"}
+{"label":"VERB","pattern":"repair to"}
+{"label":"VERB","pattern":"repeat on"}
+{"label":"VERB","pattern":"report back"}
+{"label":"VERB","pattern":"report in"}
+{"label":"VERB","pattern":"report to"}
+{"label":"VERB","pattern":"reside in"}
+{"label":"VERB","pattern":"rest on"}
+{"label":"VERB","pattern":"rest up"}
+{"label":"VERB","pattern":"rest with"}
+{"label":"VERB","pattern":"result in"}
+{"label":"VERB","pattern":"return to"}
+{"label":"VERB","pattern":"revel in"}
+{"label":"VERB","pattern":"revolve around"}
+{"label":"VERB","pattern":"ride off"}
+{"label":"VERB","pattern":"ride on"}
+{"label":"VERB","pattern":"ride out"}
+{"label":"VERB","pattern":"ride up"}
+{"label":"VERB","pattern":"rifle through"}
+{"label":"VERB","pattern":"rig out"}
+{"label":"VERB","pattern":"rig up"}
+{"label":"VERB","pattern":"ring around"}
+{"label":"VERB","pattern":"ring back"}
+{"label":"VERB","pattern":"ring in"}
+{"label":"VERB","pattern":"ring off"}
+{"label":"VERB","pattern":"ring out"}
+{"label":"VERB","pattern":"ring round"}
+{"label":"VERB","pattern":"ring through"}
+{"label":"VERB","pattern":"ring up"}
+{"label":"VERB","pattern":"ring with"}
+{"label":"VERB","pattern":"rinse out"}
+{"label":"VERB","pattern":"rip off"}
+{"label":"VERB","pattern":"rip on"}
+{"label":"VERB","pattern":"rise above"}
+{"label":"VERB","pattern":"rise to"}
+{"label":"VERB","pattern":"rise up"}
+{"label":"VERB","pattern":"rock up"}
+{"label":"VERB","pattern":"roll back"}
+{"label":"VERB","pattern":"roll by"}
+{"label":"VERB","pattern":"roll down"}
+{"label":"VERB","pattern":"roll in"}
+{"label":"VERB","pattern":"roll off"}
+{"label":"VERB","pattern":"roll on"}
+{"label":"VERB","pattern":"roll on!"}
+{"label":"VERB","pattern":"roll out"}
+{"label":"VERB","pattern":"roll over"}
+{"label":"VERB","pattern":"roll up"}
+{"label":"VERB","pattern":"roll up!"}
+{"label":"VERB","pattern":"romp ahead"}
+{"label":"VERB","pattern":"romp in"}
+{"label":"VERB","pattern":"romp through"}
+{"label":"VERB","pattern":"room in"}
+{"label":"VERB","pattern":"root about"}
+{"label":"VERB","pattern":"root around"}
+{"label":"VERB","pattern":"root for"}
+{"label":"VERB","pattern":"root out"}
+{"label":"VERB","pattern":"root up"}
+{"label":"VERB","pattern":"rope in"}
+{"label":"VERB","pattern":"rope into"}
+{"label":"VERB","pattern":"rope off"}
+{"label":"VERB","pattern":"rope up"}
+{"label":"VERB","pattern":"rough out"}
+{"label":"VERB","pattern":"rough up"}
+{"label":"VERB","pattern":"round down"}
+{"label":"VERB","pattern":"round off"}
+{"label":"VERB","pattern":"round on"}
+{"label":"VERB","pattern":"round out"}
+{"label":"VERB","pattern":"round up"}
+{"label":"VERB","pattern":"row back"}
+{"label":"VERB","pattern":"rub along"}
+{"label":"VERB","pattern":"rub down"}
+{"label":"VERB","pattern":"rub in"}
+{"label":"VERB","pattern":"rub it in"}
+{"label":"VERB","pattern":"rub off"}
+{"label":"VERB","pattern":"rub off on"}
+{"label":"VERB","pattern":"rub out"}
+{"label":"VERB","pattern":"rub up against"}
+{"label":"VERB","pattern":"rub up on"}
+{"label":"VERB","pattern":"ruck up"}
+{"label":"VERB","pattern":"rule in"}
+{"label":"VERB","pattern":"rule out"}
+{"label":"VERB","pattern":"rule out of"}
+{"label":"VERB","pattern":"rumble on"}
+{"label":"VERB","pattern":"run across"}
+{"label":"VERB","pattern":"run after"}
+{"label":"VERB","pattern":"run against"}
+{"label":"VERB","pattern":"run along"}
+{"label":"VERB","pattern":"run around"}
+{"label":"VERB","pattern":"run around after"}
+{"label":"VERB","pattern":"run around with"}
+{"label":"VERB","pattern":"run away"}
+{"label":"VERB","pattern":"run away with"}
+{"label":"VERB","pattern":"run by"}
+{"label":"VERB","pattern":"run down"}
+{"label":"VERB","pattern":"run for"}
+{"label":"VERB","pattern":"run in"}
+{"label":"VERB","pattern":"run into"}
+{"label":"VERB","pattern":"run off"}
+{"label":"VERB","pattern":"run off with"}
+{"label":"VERB","pattern":"run on"}
+{"label":"VERB","pattern":"run out"}
+{"label":"VERB","pattern":"run out of"}
+{"label":"VERB","pattern":"run out on"}
+{"label":"VERB","pattern":"run over"}
+{"label":"VERB","pattern":"run through"}
+{"label":"VERB","pattern":"run to"}
+{"label":"VERB","pattern":"run up"}
+{"label":"VERB","pattern":"run up against"}
+{"label":"VERB","pattern":"run up on"}
+{"label":"VERB","pattern":"run with"}
+{"label":"VERB","pattern":"rush around"}
+{"label":"VERB","pattern":"rush away"}
+{"label":"VERB","pattern":"rush in"}
+{"label":"VERB","pattern":"rush into"}
+{"label":"VERB","pattern":"rush off"}
+{"label":"VERB","pattern":"rush out"}
+{"label":"VERB","pattern":"rush through"}
+{"label":"VERB","pattern":"rustle up"}
+{"label":"VERB","pattern":"sack out"}
+{"label":"VERB","pattern":"saddle up"}
+{"label":"VERB","pattern":"saddle with"}
+{"label":"VERB","pattern":"sag off"}
+{"label":"VERB","pattern":"sail into"}
+{"label":"VERB","pattern":"sail through"}
+{"label":"VERB","pattern":"sally forth"}
+{"label":"VERB","pattern":"sally out"}
+{"label":"VERB","pattern":"salt away"}
+{"label":"VERB","pattern":"save on"}
+{"label":"VERB","pattern":"save up"}
+{"label":"VERB","pattern":"savour of"}
+{"label":"VERB","pattern":"saw at"}
+{"label":"VERB","pattern":"saw down"}
+{"label":"VERB","pattern":"saw off"}
+{"label":"VERB","pattern":"saw up"}
+{"label":"VERB","pattern":"scale back"}
+{"label":"VERB","pattern":"scale down"}
+{"label":"VERB","pattern":"scale up"}
+{"label":"VERB","pattern":"scar over"}
+{"label":"VERB","pattern":"scare away"}
+{"label":"VERB","pattern":"scare into"}
+{"label":"VERB","pattern":"scare off"}
+{"label":"VERB","pattern":"scare up"}
+{"label":"VERB","pattern":"scoop up"}
+{"label":"VERB","pattern":"scoot over"}
+{"label":"VERB","pattern":"score off"}
+{"label":"VERB","pattern":"score out"}
+{"label":"VERB","pattern":"scout about"}
+{"label":"VERB","pattern":"scout around"}
+{"label":"VERB","pattern":"scout out"}
+{"label":"VERB","pattern":"scout round"}
+{"label":"VERB","pattern":"scout up"}
+{"label":"VERB","pattern":"scrape along"}
+{"label":"VERB","pattern":"scrape back"}
+{"label":"VERB","pattern":"scrape by"}
+{"label":"VERB","pattern":"scrape in"}
+{"label":"VERB","pattern":"scrape into"}
+{"label":"VERB","pattern":"scrape through"}
+{"label":"VERB","pattern":"scrape together"}
+{"label":"VERB","pattern":"scrape up"}
+{"label":"VERB","pattern":"scratch around for"}
+{"label":"VERB","pattern":"scratch out"}
+{"label":"VERB","pattern":"screen off"}
+{"label":"VERB","pattern":"screen out"}
+{"label":"VERB","pattern":"screw around"}
+{"label":"VERB","pattern":"screw over"}
+{"label":"VERB","pattern":"screw up"}
+{"label":"VERB","pattern":"scrub out"}
+{"label":"VERB","pattern":"scrub up"}
+{"label":"VERB","pattern":"scuzz up"}
+{"label":"VERB","pattern":"seal in"}
+{"label":"VERB","pattern":"seal off"}
+{"label":"VERB","pattern":"seal up"}
+{"label":"VERB","pattern":"search out"}
+{"label":"VERB","pattern":"section off"}
+{"label":"VERB","pattern":"see about"}
+{"label":"VERB","pattern":"see around"}
+{"label":"VERB","pattern":"see in"}
+{"label":"VERB","pattern":"see into"}
+{"label":"VERB","pattern":"see off"}
+{"label":"VERB","pattern":"see out"}
+{"label":"VERB","pattern":"see over"}
+{"label":"VERB","pattern":"see through"}
+{"label":"VERB","pattern":"see to"}
+{"label":"VERB","pattern":"seek out"}
+{"label":"VERB","pattern":"seep away"}
+{"label":"VERB","pattern":"seize on"}
+{"label":"VERB","pattern":"seize up"}
+{"label":"VERB","pattern":"sell off"}
+{"label":"VERB","pattern":"sell on"}
+{"label":"VERB","pattern":"sell out"}
+{"label":"VERB","pattern":"sell up"}
+{"label":"VERB","pattern":"send away"}
+{"label":"VERB","pattern":"send away for"}
+{"label":"VERB","pattern":"send back"}
+{"label":"VERB","pattern":"send down"}
+{"label":"VERB","pattern":"send for"}
+{"label":"VERB","pattern":"send in"}
+{"label":"VERB","pattern":"send off"}
+{"label":"VERB","pattern":"send off for"}
+{"label":"VERB","pattern":"send out"}
+{"label":"VERB","pattern":"send out for"}
+{"label":"VERB","pattern":"send up"}
+{"label":"VERB","pattern":"separate out"}
+{"label":"VERB","pattern":"serve out"}
+{"label":"VERB","pattern":"serve up"}
+{"label":"VERB","pattern":"set about"}
+{"label":"VERB","pattern":"set against"}
+{"label":"VERB","pattern":"set apart"}
+{"label":"VERB","pattern":"set aside"}
+{"label":"VERB","pattern":"set back"}
+{"label":"VERB","pattern":"set down"}
+{"label":"VERB","pattern":"set forth"}
+{"label":"VERB","pattern":"set in"}
+{"label":"VERB","pattern":"set off"}
+{"label":"VERB","pattern":"set off against"}
+{"label":"VERB","pattern":"set on"}
+{"label":"VERB","pattern":"set out"}
+{"label":"VERB","pattern":"set to"}
+{"label":"VERB","pattern":"set up"}
+{"label":"VERB","pattern":"set upon"}
+{"label":"VERB","pattern":"settle down"}
+{"label":"VERB","pattern":"settle for"}
+{"label":"VERB","pattern":"settle in"}
+{"label":"VERB","pattern":"settle into"}
+{"label":"VERB","pattern":"settle on"}
+{"label":"VERB","pattern":"settle up"}
+{"label":"VERB","pattern":"sew up"}
+{"label":"VERB","pattern":"sex up"}
+{"label":"VERB","pattern":"shack up"}
+{"label":"VERB","pattern":"shade in"}
+{"label":"VERB","pattern":"shade into"}
+{"label":"VERB","pattern":"shake down"}
+{"label":"VERB","pattern":"shake off"}
+{"label":"VERB","pattern":"shake out"}
+{"label":"VERB","pattern":"shake up"}
+{"label":"VERB","pattern":"shame into"}
+{"label":"VERB","pattern":"shape up"}
+{"label":"VERB","pattern":"share in"}
+{"label":"VERB","pattern":"share out"}
+{"label":"VERB","pattern":"shave off"}
+{"label":"VERB","pattern":"shell out"}
+{"label":"VERB","pattern":"shin up"}
+{"label":"VERB","pattern":"shine through"}
+{"label":"VERB","pattern":"ship off"}
+{"label":"VERB","pattern":"ship out"}
+{"label":"VERB","pattern":"shit on"}
+{"label":"VERB","pattern":"shoot away"}
+{"label":"VERB","pattern":"shoot back"}
+{"label":"VERB","pattern":"shoot down"}
+{"label":"VERB","pattern":"shoot for"}
+{"label":"VERB","pattern":"shoot off"}
+{"label":"VERB","pattern":"shoot out"}
+{"label":"VERB","pattern":"shoot through"}
+{"label":"VERB","pattern":"shoot up"}
+{"label":"VERB","pattern":"shop around"}
+{"label":"VERB","pattern":"shore up"}
+{"label":"VERB","pattern":"short out"}
+{"label":"VERB","pattern":"shout down"}
+{"label":"VERB","pattern":"shout out"}
+{"label":"VERB","pattern":"shove around"}
+{"label":"VERB","pattern":"shove off"}
+{"label":"VERB","pattern":"shove over"}
+{"label":"VERB","pattern":"show around"}
+{"label":"VERB","pattern":"show in"}
+{"label":"VERB","pattern":"show off"}
+{"label":"VERB","pattern":"show out"}
+{"label":"VERB","pattern":"show over"}
+{"label":"VERB","pattern":"show round"}
+{"label":"VERB","pattern":"show through"}
+{"label":"VERB","pattern":"show up"}
+{"label":"VERB","pattern":"shrink from"}
+{"label":"VERB","pattern":"shrug off"}
+{"label":"VERB","pattern":"shuck off"}
+{"label":"VERB","pattern":"shudder at"}
+{"label":"VERB","pattern":"shuffle through"}
+{"label":"VERB","pattern":"shut away"}
+{"label":"VERB","pattern":"shut down"}
+{"label":"VERB","pattern":"shut in"}
+{"label":"VERB","pattern":"shut off"}
+{"label":"VERB","pattern":"shut out"}
+{"label":"VERB","pattern":"shut out of"}
+{"label":"VERB","pattern":"shut up"}
+{"label":"VERB","pattern":"shut yourself away"}
+{"label":"VERB","pattern":"shy away"}
+{"label":"VERB","pattern":"shy away from"}
+{"label":"VERB","pattern":"side with"}
+{"label":"VERB","pattern":"sidle up to"}
+{"label":"VERB","pattern":"sift out"}
+{"label":"VERB","pattern":"sift through"}
+{"label":"VERB","pattern":"sign away"}
+{"label":"VERB","pattern":"sign for"}
+{"label":"VERB","pattern":"sign in"}
+{"label":"VERB","pattern":"sign into"}
+{"label":"VERB","pattern":"sign off"}
+{"label":"VERB","pattern":"sign off on"}
+{"label":"VERB","pattern":"sign on"}
+{"label":"VERB","pattern":"sign on with"}
+{"label":"VERB","pattern":"sign out"}
+{"label":"VERB","pattern":"sign out of"}
+{"label":"VERB","pattern":"sign over"}
+{"label":"VERB","pattern":"sign up"}
+{"label":"VERB","pattern":"sign with"}
+{"label":"VERB","pattern":"silt up"}
+{"label":"VERB","pattern":"simmer down"}
+{"label":"VERB","pattern":"sing along"}
+{"label":"VERB","pattern":"sing out"}
+{"label":"VERB","pattern":"sing up"}
+{"label":"VERB","pattern":"single out"}
+{"label":"VERB","pattern":"sink in"}
+{"label":"VERB","pattern":"sit about"}
+{"label":"VERB","pattern":"sit around"}
+{"label":"VERB","pattern":"sit back"}
+{"label":"VERB","pattern":"sit by"}
+{"label":"VERB","pattern":"sit down"}
+{"label":"VERB","pattern":"sit for"}
+{"label":"VERB","pattern":"sit in"}
+{"label":"VERB","pattern":"sit in for"}
+{"label":"VERB","pattern":"sit in on"}
+{"label":"VERB","pattern":"sit on"}
+{"label":"VERB","pattern":"sit out"}
+{"label":"VERB","pattern":"sit over"}
+{"label":"VERB","pattern":"sit through"}
+{"label":"VERB","pattern":"sit up"}
+{"label":"VERB","pattern":"sit with"}
+{"label":"VERB","pattern":"size up"}
+{"label":"VERB","pattern":"skate around"}
+{"label":"VERB","pattern":"skate over"}
+{"label":"VERB","pattern":"sketch in"}
+{"label":"VERB","pattern":"sketch out"}
+{"label":"VERB","pattern":"skin up"}
+{"label":"VERB","pattern":"skive off"}
+{"label":"VERB","pattern":"slack off"}
+{"label":"VERB","pattern":"slacken off"}
+{"label":"VERB","pattern":"slag off"}
+{"label":"VERB","pattern":"slam out"}
+{"label":"VERB","pattern":"slant toward"}
+{"label":"VERB","pattern":"slap around"}
+{"label":"VERB","pattern":"slap down"}
+{"label":"VERB","pattern":"slap on"}
+{"label":"VERB","pattern":"sleep around"}
+{"label":"VERB","pattern":"sleep away"}
+{"label":"VERB","pattern":"sleep in"}
+{"label":"VERB","pattern":"sleep off"}
+{"label":"VERB","pattern":"sleep on"}
+{"label":"VERB","pattern":"sleep out"}
+{"label":"VERB","pattern":"sleep over"}
+{"label":"VERB","pattern":"sleep through"}
+{"label":"VERB","pattern":"sleep together"}
+{"label":"VERB","pattern":"sleep with"}
+{"label":"VERB","pattern":"slice off"}
+{"label":"VERB","pattern":"slice up"}
+{"label":"VERB","pattern":"slim down"}
+{"label":"VERB","pattern":"sling off"}
+{"label":"VERB","pattern":"slip away"}
+{"label":"VERB","pattern":"slip by"}
+{"label":"VERB","pattern":"slip down"}
+{"label":"VERB","pattern":"slip in"}
+{"label":"VERB","pattern":"slip into"}
+{"label":"VERB","pattern":"slip off"}
+{"label":"VERB","pattern":"slip off to"}
+{"label":"VERB","pattern":"slip on"}
+{"label":"VERB","pattern":"slip out"}
+{"label":"VERB","pattern":"slip out of"}
+{"label":"VERB","pattern":"slip through"}
+{"label":"VERB","pattern":"slip up"}
+{"label":"VERB","pattern":"slob about"}
+{"label":"VERB","pattern":"slob around"}
+{"label":"VERB","pattern":"slobber over"}
+{"label":"VERB","pattern":"slope off"}
+{"label":"VERB","pattern":"slosh around"}
+{"label":"VERB","pattern":"slough off"}
+{"label":"VERB","pattern":"slow down"}
+{"label":"VERB","pattern":"slow up"}
+{"label":"VERB","pattern":"slug it out"}
+{"label":"VERB","pattern":"smack of"}
+{"label":"VERB","pattern":"smarten up"}
+{"label":"VERB","pattern":"smash down"}
+{"label":"VERB","pattern":"smash in"}
+{"label":"VERB","pattern":"smash into"}
+{"label":"VERB","pattern":"smash up"}
+{"label":"VERB","pattern":"smoke out"}
+{"label":"VERB","pattern":"smooth over"}
+{"label":"VERB","pattern":"snaffle up"}
+{"label":"VERB","pattern":"snap off"}
+{"label":"VERB","pattern":"snap out of"}
+{"label":"VERB","pattern":"snap to it!"}
+{"label":"VERB","pattern":"snap up"}
+{"label":"VERB","pattern":"snarl up"}
+{"label":"VERB","pattern":"sneak out"}
+{"label":"VERB","pattern":"sneak up"}
+{"label":"VERB","pattern":"sneak up on"}
+{"label":"VERB","pattern":"sniff around"}
+{"label":"VERB","pattern":"sniff at"}
+{"label":"VERB","pattern":"sniff out"}
+{"label":"VERB","pattern":"sniff round"}
+{"label":"VERB","pattern":"snitch on"}
+{"label":"VERB","pattern":"snuff out"}
+{"label":"VERB","pattern":"soak in"}
+{"label":"VERB","pattern":"soak up"}
+{"label":"VERB","pattern":"sober up"}
+{"label":"VERB","pattern":"sock away"}
+{"label":"VERB","pattern":"sock in"}
+{"label":"VERB","pattern":"sod off"}
+{"label":"VERB","pattern":"soften up"}
+{"label":"VERB","pattern":"soldier on"}
+{"label":"VERB","pattern":"sort out"}
+{"label":"VERB","pattern":"sort through"}
+{"label":"VERB","pattern":"sound off"}
+{"label":"VERB","pattern":"sound out"}
+{"label":"VERB","pattern":"soup up"}
+{"label":"VERB","pattern":"spaff away"}
+{"label":"VERB","pattern":"spark off"}
+{"label":"VERB","pattern":"spark up"}
+{"label":"VERB","pattern":"speak for"}
+{"label":"VERB","pattern":"speak of"}
+{"label":"VERB","pattern":"speak out"}
+{"label":"VERB","pattern":"speak to"}
+{"label":"VERB","pattern":"speak up"}
+{"label":"VERB","pattern":"speak up for"}
+{"label":"VERB","pattern":"speed up"}
+{"label":"VERB","pattern":"spell out"}
+{"label":"VERB","pattern":"spew out"}
+{"label":"VERB","pattern":"spew up"}
+{"label":"VERB","pattern":"spice up"}
+{"label":"VERB","pattern":"spiff up"}
+{"label":"VERB","pattern":"spike up"}
+{"label":"VERB","pattern":"spill out"}
+{"label":"VERB","pattern":"spill over"}
+{"label":"VERB","pattern":"spin off"}
+{"label":"VERB","pattern":"spin out"}
+{"label":"VERB","pattern":"spin round"}
+{"label":"VERB","pattern":"spirit away"}
+{"label":"VERB","pattern":"spirit off"}
+{"label":"VERB","pattern":"spit at"}
+{"label":"VERB","pattern":"spit it out"}
+{"label":"VERB","pattern":"spit out"}
+{"label":"VERB","pattern":"spit up"}
+{"label":"VERB","pattern":"splash around"}
+{"label":"VERB","pattern":"splash down"}
+{"label":"VERB","pattern":"splash out"}
+{"label":"VERB","pattern":"splash out on"}
+{"label":"VERB","pattern":"split up"}
+{"label":"VERB","pattern":"spoil for"}
+{"label":"VERB","pattern":"sponge down"}
+{"label":"VERB","pattern":"sponge off"}
+{"label":"VERB","pattern":"sponge on"}
+{"label":"VERB","pattern":"spread out"}
+{"label":"VERB","pattern":"spring back"}
+{"label":"VERB","pattern":"spring for"}
+{"label":"VERB","pattern":"spring from"}
+{"label":"VERB","pattern":"spring on"}
+{"label":"VERB","pattern":"spring up"}
+{"label":"VERB","pattern":"spruce up"}
+{"label":"VERB","pattern":"spur on"}
+{"label":"VERB","pattern":"spy on"}
+{"label":"VERB","pattern":"spy out"}
+{"label":"VERB","pattern":"square away"}
+{"label":"VERB","pattern":"square off"}
+{"label":"VERB","pattern":"square off against"}
+{"label":"VERB","pattern":"square up"}
+{"label":"VERB","pattern":"square up to"}
+{"label":"VERB","pattern":"square with"}
+{"label":"VERB","pattern":"squeeze in"}
+{"label":"VERB","pattern":"squeeze out"}
+{"label":"VERB","pattern":"squeeze up"}
+{"label":"VERB","pattern":"squirrel away"}
+{"label":"VERB","pattern":"stack up"}
+{"label":"VERB","pattern":"stack up against"}
+{"label":"VERB","pattern":"staff up"}
+{"label":"VERB","pattern":"stake out"}
+{"label":"VERB","pattern":"stammer out"}
+{"label":"VERB","pattern":"stamp on"}
+{"label":"VERB","pattern":"stamp out"}
+{"label":"VERB","pattern":"stand about"}
+{"label":"VERB","pattern":"stand against"}
+{"label":"VERB","pattern":"stand around"}
+{"label":"VERB","pattern":"stand aside"}
+{"label":"VERB","pattern":"stand at"}
+{"label":"VERB","pattern":"stand back"}
+{"label":"VERB","pattern":"stand between"}
+{"label":"VERB","pattern":"stand by"}
+{"label":"VERB","pattern":"stand down"}
+{"label":"VERB","pattern":"stand for"}
+{"label":"VERB","pattern":"stand in"}
+{"label":"VERB","pattern":"stand in for"}
+{"label":"VERB","pattern":"stand out"}
+{"label":"VERB","pattern":"stand out against"}
+{"label":"VERB","pattern":"stand out for"}
+{"label":"VERB","pattern":"stand over"}
+{"label":"VERB","pattern":"stand up"}
+{"label":"VERB","pattern":"stand up for"}
+{"label":"VERB","pattern":"stand up to"}
+{"label":"VERB","pattern":"stare down"}
+{"label":"VERB","pattern":"stare out"}
+{"label":"VERB","pattern":"start back"}
+{"label":"VERB","pattern":"start in"}
+{"label":"VERB","pattern":"start off"}
+{"label":"VERB","pattern":"start off on"}
+{"label":"VERB","pattern":"start on"}
+{"label":"VERB","pattern":"start on at"}
+{"label":"VERB","pattern":"start out"}
+{"label":"VERB","pattern":"start out as"}
+{"label":"VERB","pattern":"start out to"}
+{"label":"VERB","pattern":"start over"}
+{"label":"VERB","pattern":"start up"}
+{"label":"VERB","pattern":"starve out"}
+{"label":"VERB","pattern":"stash away"}
+{"label":"VERB","pattern":"stave in"}
+{"label":"VERB","pattern":"stave off"}
+{"label":"VERB","pattern":"stay around"}
+{"label":"VERB","pattern":"stay away"}
+{"label":"VERB","pattern":"stay away from"}
+{"label":"VERB","pattern":"stay back"}
+{"label":"VERB","pattern":"stay behind"}
+{"label":"VERB","pattern":"stay down"}
+{"label":"VERB","pattern":"stay in"}
+{"label":"VERB","pattern":"stay off"}
+{"label":"VERB","pattern":"stay on"}
+{"label":"VERB","pattern":"stay out"}
+{"label":"VERB","pattern":"stay out of"}
+{"label":"VERB","pattern":"stay over"}
+{"label":"VERB","pattern":"stay together"}
+{"label":"VERB","pattern":"stay up"}
+{"label":"VERB","pattern":"stay with"}
+{"label":"VERB","pattern":"steal away"}
+{"label":"VERB","pattern":"steal out"}
+{"label":"VERB","pattern":"steal over"}
+{"label":"VERB","pattern":"steal up"}
+{"label":"VERB","pattern":"steal up on"}
+{"label":"VERB","pattern":"steam off"}
+{"label":"VERB","pattern":"steam open"}
+{"label":"VERB","pattern":"steam up"}
+{"label":"VERB","pattern":"steer clear of"}
+{"label":"VERB","pattern":"stem from"}
+{"label":"VERB","pattern":"step aside"}
+{"label":"VERB","pattern":"step back"}
+{"label":"VERB","pattern":"step down"}
+{"label":"VERB","pattern":"step forward"}
+{"label":"VERB","pattern":"step in"}
+{"label":"VERB","pattern":"step on"}
+{"label":"VERB","pattern":"step on it"}
+{"label":"VERB","pattern":"step out"}
+{"label":"VERB","pattern":"step to"}
+{"label":"VERB","pattern":"step up"}
+{"label":"VERB","pattern":"stick around"}
+{"label":"VERB","pattern":"stick at"}
+{"label":"VERB","pattern":"stick by"}
+{"label":"VERB","pattern":"stick down"}
+{"label":"VERB","pattern":"stick it to"}
+{"label":"VERB","pattern":"stick on"}
+{"label":"VERB","pattern":"stick out"}
+{"label":"VERB","pattern":"stick out for"}
+{"label":"VERB","pattern":"stick to"}
+{"label":"VERB","pattern":"stick together"}
+{"label":"VERB","pattern":"stick up"}
+{"label":"VERB","pattern":"stick up for"}
+{"label":"VERB","pattern":"stick with"}
+{"label":"VERB","pattern":"stiffen up"}
+{"label":"VERB","pattern":"stink out"}
+{"label":"VERB","pattern":"stir in"}
+{"label":"VERB","pattern":"stir into"}
+{"label":"VERB","pattern":"stir up"}
+{"label":"VERB","pattern":"stitch up"}
+{"label":"VERB","pattern":"stock up"}
+{"label":"VERB","pattern":"stomp off"}
+{"label":"VERB","pattern":"stomp on"}
+{"label":"VERB","pattern":"stoop down"}
+{"label":"VERB","pattern":"stop around"}
+{"label":"VERB","pattern":"stop away"}
+{"label":"VERB","pattern":"stop back"}
+{"label":"VERB","pattern":"stop behind"}
+{"label":"VERB","pattern":"stop by"}
+{"label":"VERB","pattern":"stop in"}
+{"label":"VERB","pattern":"stop off"}
+{"label":"VERB","pattern":"stop on"}
+{"label":"VERB","pattern":"stop out"}
+{"label":"VERB","pattern":"stop over"}
+{"label":"VERB","pattern":"stop up"}
+{"label":"VERB","pattern":"store away"}
+{"label":"VERB","pattern":"store up"}
+{"label":"VERB","pattern":"storm off"}
+{"label":"VERB","pattern":"storm out"}
+{"label":"VERB","pattern":"stow away"}
+{"label":"VERB","pattern":"straighten out"}
+{"label":"VERB","pattern":"straighten up"}
+{"label":"VERB","pattern":"stretch out"}
+{"label":"VERB","pattern":"stretch to"}
+{"label":"VERB","pattern":"stretcher off"}
+{"label":"VERB","pattern":"strike at"}
+{"label":"VERB","pattern":"strike back"}
+{"label":"VERB","pattern":"strike down"}
+{"label":"VERB","pattern":"strike off"}
+{"label":"VERB","pattern":"strike on"}
+{"label":"VERB","pattern":"strike out"}
+{"label":"VERB","pattern":"strike up"}
+{"label":"VERB","pattern":"strike upon"}
+{"label":"VERB","pattern":"string along"}
+{"label":"VERB","pattern":"string out"}
+{"label":"VERB","pattern":"string together"}
+{"label":"VERB","pattern":"string up"}
+{"label":"VERB","pattern":"strip away"}
+{"label":"VERB","pattern":"strip down"}
+{"label":"VERB","pattern":"strip down to"}
+{"label":"VERB","pattern":"strip of"}
+{"label":"VERB","pattern":"strip off"}
+{"label":"VERB","pattern":"strip out"}
+{"label":"VERB","pattern":"strip to"}
+{"label":"VERB","pattern":"stub out"}
+{"label":"VERB","pattern":"stuff up"}
+{"label":"VERB","pattern":"stumble across"}
+{"label":"VERB","pattern":"stumble into"}
+{"label":"VERB","pattern":"stumble upon"}
+{"label":"VERB","pattern":"stump up"}
+{"label":"VERB","pattern":"style after"}
+{"label":"VERB","pattern":"subscribe for"}
+{"label":"VERB","pattern":"subscribe to"}
+{"label":"VERB","pattern":"suck in"}
+{"label":"VERB","pattern":"suck into"}
+{"label":"VERB","pattern":"suck off"}
+{"label":"VERB","pattern":"suck up"}
+{"label":"VERB","pattern":"suck up to"}
+{"label":"VERB","pattern":"suit up"}
+{"label":"VERB","pattern":"sum up"}
+{"label":"VERB","pattern":"summon up"}
+{"label":"VERB","pattern":"sup up"}
+{"label":"VERB","pattern":"suss out"}
+{"label":"VERB","pattern":"swallow up"}
+{"label":"VERB","pattern":"swan about"}
+{"label":"VERB","pattern":"swan around"}
+{"label":"VERB","pattern":"swan in"}
+{"label":"VERB","pattern":"swan off"}
+{"label":"VERB","pattern":"swarm with"}
+{"label":"VERB","pattern":"swear by"}
+{"label":"VERB","pattern":"swear down"}
+{"label":"VERB","pattern":"swear in"}
+{"label":"VERB","pattern":"swear off"}
+{"label":"VERB","pattern":"swear to"}
+{"label":"VERB","pattern":"sweat off"}
+{"label":"VERB","pattern":"sweep along"}
+{"label":"VERB","pattern":"sweep aside"}
+{"label":"VERB","pattern":"sweep away"}
+{"label":"VERB","pattern":"sweep back"}
+{"label":"VERB","pattern":"sweep over"}
+{"label":"VERB","pattern":"sweep through"}
+{"label":"VERB","pattern":"sweep up"}
+{"label":"VERB","pattern":"sweeten up"}
+{"label":"VERB","pattern":"swell up"}
+{"label":"VERB","pattern":"swing around"}
+{"label":"VERB","pattern":"swing at"}
+{"label":"VERB","pattern":"swing by"}
+{"label":"VERB","pattern":"swing round"}
+{"label":"VERB","pattern":"swing through"}
+{"label":"VERB","pattern":"switch off"}
+{"label":"VERB","pattern":"switch on"}
+{"label":"VERB","pattern":"switch over"}
+{"label":"VERB","pattern":"swot up"}
+{"label":"VERB","pattern":"syphon off"}
+{"label":"VERB","pattern":"tack on"}
+{"label":"VERB","pattern":"tack onto"}
+{"label":"VERB","pattern":"tag along"}
+{"label":"VERB","pattern":"tag on"}
+{"label":"VERB","pattern":"tag onto"}
+{"label":"VERB","pattern":"tag with"}
+{"label":"VERB","pattern":"tail away"}
+{"label":"VERB","pattern":"tail back"}
+{"label":"VERB","pattern":"tail off"}
+{"label":"VERB","pattern":"take aback"}
+{"label":"VERB","pattern":"take after"}
+{"label":"VERB","pattern":"take against"}
+{"label":"VERB","pattern":"take apart"}
+{"label":"VERB","pattern":"take aside"}
+{"label":"VERB","pattern":"take away"}
+{"label":"VERB","pattern":"take away from"}
+{"label":"VERB","pattern":"take back"}
+{"label":"VERB","pattern":"take down"}
+{"label":"VERB","pattern":"take for"}
+{"label":"VERB","pattern":"take in"}
+{"label":"VERB","pattern":"take it"}
+{"label":"VERB","pattern":"take it out on"}
+{"label":"VERB","pattern":"take it upon yourself"}
+{"label":"VERB","pattern":"take off"}
+{"label":"VERB","pattern":"take on"}
+{"label":"VERB","pattern":"take out"}
+{"label":"VERB","pattern":"take over"}
+{"label":"VERB","pattern":"take through"}
+{"label":"VERB","pattern":"take to"}
+{"label":"VERB","pattern":"take up"}
+{"label":"VERB","pattern":"take up on"}
+{"label":"VERB","pattern":"take up with"}
+{"label":"VERB","pattern":"take upon"}
+{"label":"VERB","pattern":"talk around"}
+{"label":"VERB","pattern":"talk at"}
+{"label":"VERB","pattern":"talk away"}
+{"label":"VERB","pattern":"talk back"}
+{"label":"VERB","pattern":"talk down"}
+{"label":"VERB","pattern":"talk down to"}
+{"label":"VERB","pattern":"talk into"}
+{"label":"VERB","pattern":"talk out"}
+{"label":"VERB","pattern":"talk out of"}
+{"label":"VERB","pattern":"talk over"}
+{"label":"VERB","pattern":"talk round"}
+{"label":"VERB","pattern":"talk through"}
+{"label":"VERB","pattern":"talk to"}
+{"label":"VERB","pattern":"talk up"}
+{"label":"VERB","pattern":"talk yourself out"}
+{"label":"VERB","pattern":"tally up"}
+{"label":"VERB","pattern":"tangle up"}
+{"label":"VERB","pattern":"tangle with"}
+{"label":"VERB","pattern":"tank up"}
+{"label":"VERB","pattern":"tap for"}
+{"label":"VERB","pattern":"tap into"}
+{"label":"VERB","pattern":"tap off with"}
+{"label":"VERB","pattern":"tap out"}
+{"label":"VERB","pattern":"tap up"}
+{"label":"VERB","pattern":"tape up"}
+{"label":"VERB","pattern":"taper off"}
+{"label":"VERB","pattern":"tart up"}
+{"label":"VERB","pattern":"tax with"}
+{"label":"VERB","pattern":"team up"}
+{"label":"VERB","pattern":"tear apart"}
+{"label":"VERB","pattern":"tear at"}
+{"label":"VERB","pattern":"tear away"}
+{"label":"VERB","pattern":"tear down"}
+{"label":"VERB","pattern":"tear into"}
+{"label":"VERB","pattern":"tear off"}
+{"label":"VERB","pattern":"tear out"}
+{"label":"VERB","pattern":"tear up"}
+{"label":"VERB","pattern":"tease out"}
+{"label":"VERB","pattern":"tee off"}
+{"label":"VERB","pattern":"tee off on"}
+{"label":"VERB","pattern":"tee up"}
+{"label":"VERB","pattern":"teem with"}
+{"label":"VERB","pattern":"tell against"}
+{"label":"VERB","pattern":"tell apart"}
+{"label":"VERB","pattern":"tell of"}
+{"label":"VERB","pattern":"tell off"}
+{"label":"VERB","pattern":"tell on"}
+{"label":"VERB","pattern":"tense up"}
+{"label":"VERB","pattern":"test out"}
+{"label":"VERB","pattern":"text out"}
+{"label":"VERB","pattern":"think ahead"}
+{"label":"VERB","pattern":"think back"}
+{"label":"VERB","pattern":"think out"}
+{"label":"VERB","pattern":"think over"}
+{"label":"VERB","pattern":"think through"}
+{"label":"VERB","pattern":"think up"}
+{"label":"VERB","pattern":"thirst for"}
+{"label":"VERB","pattern":"thrash out"}
+{"label":"VERB","pattern":"thrive on"}
+{"label":"VERB","pattern":"throttle back"}
+{"label":"VERB","pattern":"throttle up"}
+{"label":"VERB","pattern":"throw aside"}
+{"label":"VERB","pattern":"throw away"}
+{"label":"VERB","pattern":"throw back"}
+{"label":"VERB","pattern":"throw back on"}
+{"label":"VERB","pattern":"throw in"}
+{"label":"VERB","pattern":"throw off"}
+{"label":"VERB","pattern":"throw off at"}
+{"label":"VERB","pattern":"throw on"}
+{"label":"VERB","pattern":"throw out"}
+{"label":"VERB","pattern":"throw over"}
+{"label":"VERB","pattern":"throw together"}
+{"label":"VERB","pattern":"throw up"}
+{"label":"VERB","pattern":"throw yourself at"}
+{"label":"VERB","pattern":"throw yourself into"}
+{"label":"VERB","pattern":"thrust aside"}
+{"label":"VERB","pattern":"thrust upon"}
+{"label":"VERB","pattern":"thumb through"}
+{"label":"VERB","pattern":"thump out"}
+{"label":"VERB","pattern":"tick along"}
+{"label":"VERB","pattern":"tick away"}
+{"label":"VERB","pattern":"tick by"}
+{"label":"VERB","pattern":"tick off"}
+{"label":"VERB","pattern":"tick over"}
+{"label":"VERB","pattern":"tickle up"}
+{"label":"VERB","pattern":"tide over"}
+{"label":"VERB","pattern":"tidy away"}
+{"label":"VERB","pattern":"tidy out"}
+{"label":"VERB","pattern":"tidy up"}
+{"label":"VERB","pattern":"tidy up after"}
+{"label":"VERB","pattern":"tie back"}
+{"label":"VERB","pattern":"tie down"}
+{"label":"VERB","pattern":"tie in"}
+{"label":"VERB","pattern":"tie in with"}
+{"label":"VERB","pattern":"tie up"}
+{"label":"VERB","pattern":"tie up with"}
+{"label":"VERB","pattern":"tighten up"}
+{"label":"VERB","pattern":"time out"}
+{"label":"VERB","pattern":"tip off"}
+{"label":"VERB","pattern":"tip over"}
+{"label":"VERB","pattern":"tip up"}
+{"label":"VERB","pattern":"tiptoe around"}
+{"label":"VERB","pattern":"tire of"}
+{"label":"VERB","pattern":"tire out"}
+{"label":"VERB","pattern":"toddle off"}
+{"label":"VERB","pattern":"tone down"}
+{"label":"VERB","pattern":"tone in"}
+{"label":"VERB","pattern":"tone in with"}
+{"label":"VERB","pattern":"tone up"}
+{"label":"VERB","pattern":"tool up"}
+{"label":"VERB","pattern":"tootle off"}
+{"label":"VERB","pattern":"top off"}
+{"label":"VERB","pattern":"top out"}
+{"label":"VERB","pattern":"top up"}
+{"label":"VERB","pattern":"toss about"}
+{"label":"VERB","pattern":"toss around"}
+{"label":"VERB","pattern":"toss aside"}
+{"label":"VERB","pattern":"toss back"}
+{"label":"VERB","pattern":"toss down"}
+{"label":"VERB","pattern":"toss for"}
+{"label":"VERB","pattern":"toss off"}
+{"label":"VERB","pattern":"toss out"}
+{"label":"VERB","pattern":"toss up"}
+{"label":"VERB","pattern":"tot up"}
+{"label":"VERB","pattern":"touch down"}
+{"label":"VERB","pattern":"touch for"}
+{"label":"VERB","pattern":"touch off"}
+{"label":"VERB","pattern":"touch on"}
+{"label":"VERB","pattern":"touch up"}
+{"label":"VERB","pattern":"touch upon"}
+{"label":"VERB","pattern":"tow away"}
+{"label":"VERB","pattern":"toy at"}
+{"label":"VERB","pattern":"toy over"}
+{"label":"VERB","pattern":"toy with"}
+{"label":"VERB","pattern":"track down"}
+{"label":"VERB","pattern":"trade down"}
+{"label":"VERB","pattern":"trade in"}
+{"label":"VERB","pattern":"trade off"}
+{"label":"VERB","pattern":"trade on"}
+{"label":"VERB","pattern":"trade up"}
+{"label":"VERB","pattern":"trade upon"}
+{"label":"VERB","pattern":"trail away"}
+{"label":"VERB","pattern":"trail off"}
+{"label":"VERB","pattern":"train up"}
+{"label":"VERB","pattern":"treat with"}
+{"label":"VERB","pattern":"trespass on"}
+{"label":"VERB","pattern":"trick out"}
+{"label":"VERB","pattern":"trickle down"}
+{"label":"VERB","pattern":"trickle up"}
+{"label":"VERB","pattern":"trifle with"}
+{"label":"VERB","pattern":"trigger off"}
+{"label":"VERB","pattern":"trim down"}
+{"label":"VERB","pattern":"trip out"}
+{"label":"VERB","pattern":"trip over"}
+{"label":"VERB","pattern":"trip up"}
+{"label":"VERB","pattern":"troll for"}
+{"label":"VERB","pattern":"trot off"}
+{"label":"VERB","pattern":"trot off to"}
+{"label":"VERB","pattern":"trot out"}
+{"label":"VERB","pattern":"trudge through"}
+{"label":"VERB","pattern":"trump up"}
+{"label":"VERB","pattern":"trundle out"}
+{"label":"VERB","pattern":"truss up"}
+{"label":"VERB","pattern":"trust in"}
+{"label":"VERB","pattern":"trust to"}
+{"label":"VERB","pattern":"try back"}
+{"label":"VERB","pattern":"try for"}
+{"label":"VERB","pattern":"try it on"}
+{"label":"VERB","pattern":"try on"}
+{"label":"VERB","pattern":"try out"}
+{"label":"VERB","pattern":"try out for"}
+{"label":"VERB","pattern":"tuck away"}
+{"label":"VERB","pattern":"tuck in"}
+{"label":"VERB","pattern":"tuck into"}
+{"label":"VERB","pattern":"tuck up"}
+{"label":"VERB","pattern":"tumble down"}
+{"label":"VERB","pattern":"tumble to"}
+{"label":"VERB","pattern":"tune in"}
+{"label":"VERB","pattern":"tune in to"}
+{"label":"VERB","pattern":"tune out"}
+{"label":"VERB","pattern":"tune up"}
+{"label":"VERB","pattern":"turf out"}
+{"label":"VERB","pattern":"turn against"}
+{"label":"VERB","pattern":"turn around"}
+{"label":"VERB","pattern":"turn away"}
+{"label":"VERB","pattern":"turn away from"}
+{"label":"VERB","pattern":"turn back"}
+{"label":"VERB","pattern":"turn down"}
+{"label":"VERB","pattern":"turn in"}
+{"label":"VERB","pattern":"turn in on"}
+{"label":"VERB","pattern":"turn into"}
+{"label":"VERB","pattern":"turn off"}
+{"label":"VERB","pattern":"turn on"}
+{"label":"VERB","pattern":"turn out"}
+{"label":"VERB","pattern":"turn over"}
+{"label":"VERB","pattern":"turn round"}
+{"label":"VERB","pattern":"turn to"}
+{"label":"VERB","pattern":"turn up"}
+{"label":"VERB","pattern":"type in"}
+{"label":"VERB","pattern":"type into"}
+{"label":"VERB","pattern":"type out"}
+{"label":"VERB","pattern":"type up"}
+{"label":"VERB","pattern":"urge on"}
+{"label":"VERB","pattern":"urge upon"}
+{"label":"VERB","pattern":"use up"}
+{"label":"VERB","pattern":"usher in"}
+{"label":"VERB","pattern":"vacuum up"}
+{"label":"VERB","pattern":"vamp up"}
+{"label":"VERB","pattern":"veg out"}
+{"label":"VERB","pattern":"venture forth"}
+{"label":"VERB","pattern":"verge on"}
+{"label":"VERB","pattern":"visit on"}
+{"label":"VERB","pattern":"visit with"}
+{"label":"VERB","pattern":"vote down"}
+{"label":"VERB","pattern":"vote in"}
+{"label":"VERB","pattern":"vote off"}
+{"label":"VERB","pattern":"vote out"}
+{"label":"VERB","pattern":"vote through"}
+{"label":"VERB","pattern":"vouch for"}
+{"label":"VERB","pattern":"wade in"}
+{"label":"VERB","pattern":"wade into"}
+{"label":"VERB","pattern":"wade through"}
+{"label":"VERB","pattern":"wait about"}
+{"label":"VERB","pattern":"wait around"}
+{"label":"VERB","pattern":"wait behind"}
+{"label":"VERB","pattern":"wait in"}
+{"label":"VERB","pattern":"wait on"}
+{"label":"VERB","pattern":"wait out"}
+{"label":"VERB","pattern":"wait up"}
+{"label":"VERB","pattern":"wait up!"}
+{"label":"VERB","pattern":"wait upon"}
+{"label":"VERB","pattern":"wake up"}
+{"label":"VERB","pattern":"wake up to"}
+{"label":"VERB","pattern":"walk around"}
+{"label":"VERB","pattern":"walk away"}
+{"label":"VERB","pattern":"walk away from"}
+{"label":"VERB","pattern":"walk away with"}
+{"label":"VERB","pattern":"walk back from"}
+{"label":"VERB","pattern":"walk in on"}
+{"label":"VERB","pattern":"walk into"}
+{"label":"VERB","pattern":"walk off"}
+{"label":"VERB","pattern":"walk off with"}
+{"label":"VERB","pattern":"walk on"}
+{"label":"VERB","pattern":"walk out"}
+{"label":"VERB","pattern":"walk out on"}
+{"label":"VERB","pattern":"walk over"}
+{"label":"VERB","pattern":"walk through"}
+{"label":"VERB","pattern":"walk up"}
+{"label":"VERB","pattern":"wall in"}
+{"label":"VERB","pattern":"wall off"}
+{"label":"VERB","pattern":"wall up"}
+{"label":"VERB","pattern":"waltz off with"}
+{"label":"VERB","pattern":"waltz through"}
+{"label":"VERB","pattern":"wander off"}
+{"label":"VERB","pattern":"want for"}
+{"label":"VERB","pattern":"want in"}
+{"label":"VERB","pattern":"want out"}
+{"label":"VERB","pattern":"ward off"}
+{"label":"VERB","pattern":"warm through"}
+{"label":"VERB","pattern":"warm to"}
+{"label":"VERB","pattern":"warm up"}
+{"label":"VERB","pattern":"warn away"}
+{"label":"VERB","pattern":"warn off"}
+{"label":"VERB","pattern":"wash away"}
+{"label":"VERB","pattern":"wash down"}
+{"label":"VERB","pattern":"wash off"}
+{"label":"VERB","pattern":"wash out"}
+{"label":"VERB","pattern":"wash over"}
+{"label":"VERB","pattern":"wash up"}
+{"label":"VERB","pattern":"waste away"}
+{"label":"VERB","pattern":"watch for"}
+{"label":"VERB","pattern":"watch out"}
+{"label":"VERB","pattern":"watch out for"}
+{"label":"VERB","pattern":"watch over"}
+{"label":"VERB","pattern":"water down"}
+{"label":"VERB","pattern":"wave aside"}
+{"label":"VERB","pattern":"wave down"}
+{"label":"VERB","pattern":"wave off"}
+{"label":"VERB","pattern":"wave on"}
+{"label":"VERB","pattern":"wave through"}
+{"label":"VERB","pattern":"wean off"}
+{"label":"VERB","pattern":"wean on"}
+{"label":"VERB","pattern":"wear away"}
+{"label":"VERB","pattern":"wear down"}
+{"label":"VERB","pattern":"wear in"}
+{"label":"VERB","pattern":"wear off"}
+{"label":"VERB","pattern":"wear on"}
+{"label":"VERB","pattern":"wear out"}
+{"label":"VERB","pattern":"weary of"}
+{"label":"VERB","pattern":"weasel out"}
+{"label":"VERB","pattern":"weasel out of"}
+{"label":"VERB","pattern":"weed out"}
+{"label":"VERB","pattern":"weigh down"}
+{"label":"VERB","pattern":"weigh down on"}
+{"label":"VERB","pattern":"weigh in"}
+{"label":"VERB","pattern":"weigh in on"}
+{"label":"VERB","pattern":"weigh into"}
+{"label":"VERB","pattern":"weigh on"}
+{"label":"VERB","pattern":"weigh out"}
+{"label":"VERB","pattern":"weigh up"}
+{"label":"VERB","pattern":"weird out"}
+{"label":"VERB","pattern":"well up"}
+{"label":"VERB","pattern":"whack off"}
+{"label":"VERB","pattern":"wheel around"}
+{"label":"VERB","pattern":"wheel out"}
+{"label":"VERB","pattern":"wheel round"}
+{"label":"VERB","pattern":"while away"}
+{"label":"VERB","pattern":"whip into"}
+{"label":"VERB","pattern":"whip off"}
+{"label":"VERB","pattern":"whip out"}
+{"label":"VERB","pattern":"whip out of"}
+{"label":"VERB","pattern":"whip through"}
+{"label":"VERB","pattern":"whip up"}
+{"label":"VERB","pattern":"whisk away"}
+{"label":"VERB","pattern":"whisk off"}
+{"label":"VERB","pattern":"whistle at"}
+{"label":"VERB","pattern":"white out"}
+{"label":"VERB","pattern":"whittle away"}
+{"label":"VERB","pattern":"whittle down"}
+{"label":"VERB","pattern":"whizz through"}
+{"label":"VERB","pattern":"wig out"}
+{"label":"VERB","pattern":"wiggle out"}
+{"label":"VERB","pattern":"wiggle out of"}
+{"label":"VERB","pattern":"wimp out"}
+{"label":"VERB","pattern":"win back"}
+{"label":"VERB","pattern":"win out"}
+{"label":"VERB","pattern":"win over"}
+{"label":"VERB","pattern":"win round"}
+{"label":"VERB","pattern":"win through"}
+{"label":"VERB","pattern":"wind down"}
+{"label":"VERB","pattern":"wind on"}
+{"label":"VERB","pattern":"wind up"}
+{"label":"VERB","pattern":"wink at"}
+{"label":"VERB","pattern":"winkle out"}
+{"label":"VERB","pattern":"winnow down"}
+{"label":"VERB","pattern":"winnow out"}
+{"label":"VERB","pattern":"wipe down"}
+{"label":"VERB","pattern":"wipe off"}
+{"label":"VERB","pattern":"wipe out"}
+{"label":"VERB","pattern":"wipe up"}
+{"label":"VERB","pattern":"wire up"}
+{"label":"VERB","pattern":"wise up"}
+{"label":"VERB","pattern":"wish away"}
+{"label":"VERB","pattern":"wish for"}
+{"label":"VERB","pattern":"witness to"}
+{"label":"VERB","pattern":"word up"}
+{"label":"VERB","pattern":"word up!"}
+{"label":"VERB","pattern":"work around"}
+{"label":"VERB","pattern":"work around to"}
+{"label":"VERB","pattern":"work at"}
+{"label":"VERB","pattern":"work in"}
+{"label":"VERB","pattern":"work off"}
+{"label":"VERB","pattern":"work on"}
+{"label":"VERB","pattern":"work out"}
+{"label":"VERB","pattern":"work over"}
+{"label":"VERB","pattern":"work through"}
+{"label":"VERB","pattern":"work towards"}
+{"label":"VERB","pattern":"work up"}
+{"label":"VERB","pattern":"work up to"}
+{"label":"VERB","pattern":"worm out of"}
+{"label":"VERB","pattern":"worry at"}
+{"label":"VERB","pattern":"wrap around"}
+{"label":"VERB","pattern":"wrap round"}
+{"label":"VERB","pattern":"wrap up"}
+{"label":"VERB","pattern":"wrestle with"}
+{"label":"VERB","pattern":"wriggle out of"}
+{"label":"VERB","pattern":"write away"}
+{"label":"VERB","pattern":"write back"}
+{"label":"VERB","pattern":"write down"}
+{"label":"VERB","pattern":"write in"}
+{"label":"VERB","pattern":"write into"}
+{"label":"VERB","pattern":"write off"}
+{"label":"VERB","pattern":"write out"}
+{"label":"VERB","pattern":"write up"}
+{"label":"VERB","pattern":"yack on"}
+{"label":"VERB","pattern":"yammer on"}
+{"label":"VERB","pattern":"yell out"}
+{"label":"VERB","pattern":"yield to"}
+{"label":"VERB","pattern":"yield up"}
+{"label":"VERB","pattern":"zero in on"}
+{"label":"VERB","pattern":"zero out"}
+{"label":"VERB","pattern":"zip around"}
+{"label":"VERB","pattern":"zip by"}
+{"label":"VERB","pattern":"zip it"}
+{"label":"VERB","pattern":"zip through"}
+{"label":"VERB","pattern":"zip up"}
+{"label":"VERB","pattern":"zone in"}
+{"label":"VERB","pattern":"zone in on"}
+{"label":"VERB","pattern":"zone out"}
+{"label":"VERB","pattern":"zonk out"}
+{"label":"VERB","pattern":"zoom in"}
+{"label":"VERB","pattern":"zoom in on"}
+{"label":"VERB","pattern":"zoom off"}
+{"label":"VERB","pattern":"zoom out"}
+{"label":"VERB","pattern":"go in"}
+{"label":"VERB","pattern":"go in for"}
+{"label":"VERB","pattern":"go in with"}
+{"label":"VERB","pattern":"go into"}
+{"label":"VERB","pattern":"go it"}
+{"label":"VERB","pattern":"go it alone"}
+{"label":"VERB","pattern":"go off"}
+{"label":"VERB","pattern":"go off with"}
+{"label":"VERB","pattern":"go on"}
+{"label":"VERB","pattern":"go on about"}
+{"label":"VERB","pattern":"go on at"}
+{"label":"VERB","pattern":"go on to"}
+{"label":"VERB","pattern":"go on with"}
+{"label":"VERB","pattern":"go one"}
+{"label":"VERB","pattern":"go out"}
+{"label":"VERB","pattern":"go out for"}
+{"label":"VERB","pattern":"go out of"}
+{"label":"VERB","pattern":"go out to"}
+{"label":"VERB","pattern":"go out with"}
+{"label":"VERB","pattern":"go over"}
+{"label":"VERB","pattern":"go over to"}
+{"label":"VERB","pattern":"go past"}
+{"label":"VERB","pattern":"go round"}
+{"label":"VERB","pattern":"go through"}
+{"label":"VERB","pattern":"go through with"}
+{"label":"VERB","pattern":"go to"}
+{"label":"VERB","pattern":"go together"}
+{"label":"VERB","pattern":"go towards"}
+{"label":"VERB","pattern":"go under"}
+{"label":"VERB","pattern":"go up"}
+{"label":"VERB","pattern":"go up to"}
+{"label":"VERB","pattern":"go with"}
+{"label":"VERB","pattern":"go without"}
+{"label":"VERB","pattern":"goad on"}
+{"label":"VERB","pattern":"gobble down"}
+{"label":"VERB","pattern":"gobble up"}
+{"label":"VERB","pattern":"goof around"}
+{"label":"VERB","pattern":"goof off"}
+{"label":"VERB","pattern":"goof on"}
+{"label":"VERB","pattern":"goof up"}
+{"label":"VERB","pattern":"gouge out"}
+{"label":"VERB","pattern":"grab at"}
+{"label":"VERB","pattern":"grapple with"}
+{"label":"VERB","pattern":"grasp at"}
+{"label":"VERB","pattern":"grass on"}
+{"label":"VERB","pattern":"grass over"}
+{"label":"VERB","pattern":"grass up"}
+{"label":"VERB","pattern":"grey out"}
+{"label":"VERB","pattern":"grind away"}
+{"label":"VERB","pattern":"grind away at"}
+{"label":"VERB","pattern":"grind down"}
+{"label":"VERB","pattern":"grind into"}
+{"label":"VERB","pattern":"grind on"}
+{"label":"VERB","pattern":"grind out"}
+{"label":"VERB","pattern":"grind up"}
+{"label":"VERB","pattern":"gross out"}
+{"label":"VERB","pattern":"gross up"}
+{"label":"VERB","pattern":"grow apart"}
+{"label":"VERB","pattern":"grow away from"}
+{"label":"VERB","pattern":"grow back"}
+{"label":"VERB","pattern":"grow from"}
+{"label":"VERB","pattern":"grow in"}
+{"label":"VERB","pattern":"grow into"}
+{"label":"VERB","pattern":"grow on"}
+{"label":"VERB","pattern":"grow out"}
+{"label":"VERB","pattern":"grow out of"}
+{"label":"VERB","pattern":"grow to"}
+{"label":"VERB","pattern":"grow together"}
+{"label":"VERB","pattern":"grow up"}
+{"label":"VERB","pattern":"grow up on"}
+{"label":"VERB","pattern":"grow upon"}
+{"label":"VERB","pattern":"grub up"}
+{"label":"VERB","pattern":"guard against"}
+{"label":"VERB","pattern":"gulp back"}
+{"label":"VERB","pattern":"gulp down"}
+{"label":"VERB","pattern":"gulp in"}
+{"label":"VERB","pattern":"gum up"}
+{"label":"VERB","pattern":"gun down"}
+{"label":"VERB","pattern":"gun for"}
+{"label":"VERB","pattern":"gussy up"}
+{"label":"VERB","pattern":"gut out"}
+{"label":"VERB","pattern":"hack around"}
+{"label":"VERB","pattern":"hack into"}
+{"label":"VERB","pattern":"hack off"}
+{"label":"VERB","pattern":"hack up"}
+{"label":"VERB","pattern":"hail from"}
+{"label":"VERB","pattern":"ham up"}
+{"label":"VERB","pattern":"hammer away"}
+{"label":"VERB","pattern":"hammer away at"}
+{"label":"VERB","pattern":"hammer into"}
+{"label":"VERB","pattern":"hammer out"}
+{"label":"VERB","pattern":"hand around"}
+{"label":"VERB","pattern":"hand back"}
+{"label":"VERB","pattern":"hand down"}
+{"label":"VERB","pattern":"hand in"}
+{"label":"VERB","pattern":"hand on"}
+{"label":"VERB","pattern":"hand out"}
+{"label":"VERB","pattern":"hand over"}
+{"label":"VERB","pattern":"hand round"}
+{"label":"VERB","pattern":"hang about"}
+{"label":"VERB","pattern":"hang about!"}
+{"label":"VERB","pattern":"hang around"}
+{"label":"VERB","pattern":"hang around with"}
+{"label":"VERB","pattern":"hang back"}
+{"label":"VERB","pattern":"hang back from"}
+{"label":"VERB","pattern":"hang in there"}
+{"label":"VERB","pattern":"hang it up"}
+{"label":"VERB","pattern":"hang on"}
+{"label":"VERB","pattern":"hang onto"}
+{"label":"VERB","pattern":"hang out"}
+{"label":"VERB","pattern":"hang out for"}
+{"label":"VERB","pattern":"hang over"}
+{"label":"VERB","pattern":"hang together"}
+{"label":"VERB","pattern":"hang up"}
+{"label":"VERB","pattern":"hang up on"}
+{"label":"VERB","pattern":"hang with"}
+{"label":"VERB","pattern":"hanker after"}
+{"label":"VERB","pattern":"hanker for"}
+{"label":"VERB","pattern":"happen along"}
+{"label":"VERB","pattern":"happen on"}
+{"label":"VERB","pattern":"happen to"}
+{"label":"VERB","pattern":"hark at"}
+{"label":"VERB","pattern":"hark back to"}
+{"label":"VERB","pattern":"harp on"}
+{"label":"VERB","pattern":"hash out"}
+{"label":"VERB","pattern":"hash up"}
+{"label":"VERB","pattern":"hatch out"}
+{"label":"VERB","pattern":"hate on"}
+{"label":"VERB","pattern":"haul in"}
+{"label":"VERB","pattern":"haul off"}
+{"label":"VERB","pattern":"have against"}
+{"label":"VERB","pattern":"have around"}
+{"label":"VERB","pattern":"have away"}
+{"label":"VERB","pattern":"have down as"}
+{"label":"VERB","pattern":"have got against"}
+{"label":"VERB","pattern":"have in"}
+{"label":"VERB","pattern":"have in for"}
+{"label":"VERB","pattern":"have it away"}
+{"label":"VERB","pattern":"have it in for"}
+{"label":"VERB","pattern":"have it off"}
+{"label":"VERB","pattern":"have it out with"}
+{"label":"VERB","pattern":"have off"}
+{"label":"VERB","pattern":"have on"}
+{"label":"VERB","pattern":"have out"}
+{"label":"VERB","pattern":"have over"}
+{"label":"VERB","pattern":"have round"}
+{"label":"VERB","pattern":"have up"}
+{"label":"VERB","pattern":"head for"}
+{"label":"VERB","pattern":"head off"}
+{"label":"VERB","pattern":"head out"}
+{"label":"VERB","pattern":"head up"}
+{"label":"VERB","pattern":"heal over"}
+{"label":"VERB","pattern":"heal up"}
+{"label":"VERB","pattern":"heap up"}
+{"label":"VERB","pattern":"hear about"}
+{"label":"VERB","pattern":"hear from"}
+{"label":"VERB","pattern":"hear of"}
+{"label":"VERB","pattern":"hear out"}
+{"label":"VERB","pattern":"heat through"}
+{"label":"VERB","pattern":"heat up"}
+{"label":"VERB","pattern":"heave to"}
+{"label":"VERB","pattern":"heave up"}
+{"label":"VERB","pattern":"hedge in"}
+{"label":"VERB","pattern":"hedge with"}
+{"label":"VERB","pattern":"help along"}
+{"label":"VERB","pattern":"help out"}
+{"label":"VERB","pattern":"hem in"}
+{"label":"VERB","pattern":"herd together"}
+{"label":"VERB","pattern":"hew to"}
+{"label":"VERB","pattern":"hide away"}
+{"label":"VERB","pattern":"hide behind"}
+{"label":"VERB","pattern":"hide out"}
+{"label":"VERB","pattern":"hike up"}
+{"label":"VERB","pattern":"hinge on"}
+{"label":"VERB","pattern":"hinge upon"}
+{"label":"VERB","pattern":"hire out"}
+{"label":"VERB","pattern":"hit back"}
+{"label":"VERB","pattern":"hit for"}
+{"label":"VERB","pattern":"hit it off"}
+{"label":"VERB","pattern":"hit it off with"}
+{"label":"VERB","pattern":"hit on"}
+{"label":"VERB","pattern":"hit out"}
+{"label":"VERB","pattern":"hit out at"}
+{"label":"VERB","pattern":"hit up"}
+{"label":"VERB","pattern":"hit up on"}
+{"label":"VERB","pattern":"hit upon"}
+{"label":"VERB","pattern":"hit with"}
+{"label":"VERB","pattern":"hitch up"}
+{"label":"VERB","pattern":"hive off"}
+{"label":"VERB","pattern":"hoe in"}
+{"label":"VERB","pattern":"hold against"}
+{"label":"VERB","pattern":"hold back"}
+{"label":"VERB","pattern":"hold back from"}
+{"label":"VERB","pattern":"hold down"}
+{"label":"VERB","pattern":"hold forth"}
+{"label":"VERB","pattern":"hold in"}
+{"label":"VERB","pattern":"hold off"}
+{"label":"VERB","pattern":"hold on"}
+{"label":"VERB","pattern":"hold on to"}
+{"label":"VERB","pattern":"hold onto"}
+{"label":"VERB","pattern":"hold out"}
+{"label":"VERB","pattern":"hold out against"}
+{"label":"VERB","pattern":"hold out for"}
+{"label":"VERB","pattern":"hold out on"}
+{"label":"VERB","pattern":"hold over"}
+{"label":"VERB","pattern":"hold to"}
+{"label":"VERB","pattern":"hold together"}
+{"label":"VERB","pattern":"hold up"}
+{"label":"VERB","pattern":"hold up as"}
+{"label":"VERB","pattern":"hold with"}
+{"label":"VERB","pattern":"hole up"}
+{"label":"VERB","pattern":"hollow out"}
+{"label":"VERB","pattern":"home in on"}
+{"label":"VERB","pattern":"hone in on"}
+{"label":"VERB","pattern":"hook into"}
+{"label":"VERB","pattern":"hook up"}
+{"label":"VERB","pattern":"hook up to"}
+{"label":"VERB","pattern":"hoon around"}
+{"label":"VERB","pattern":"hoover up"}
+{"label":"VERB","pattern":"horse around"}
+{"label":"VERB","pattern":"hose down"}
+{"label":"VERB","pattern":"hot up"}
+{"label":"VERB","pattern":"hound out"}
+{"label":"VERB","pattern":"hover around"}
+{"label":"VERB","pattern":"howl down"}
+{"label":"VERB","pattern":"hunker down"}
+{"label":"VERB","pattern":"hunt down"}
+{"label":"VERB","pattern":"hunt out"}
+{"label":"VERB","pattern":"hunt up"}
+{"label":"VERB","pattern":"hurry along"}
+{"label":"VERB","pattern":"hurry up"}
+{"label":"VERB","pattern":"hush up"}
+{"label":"VERB","pattern":"hutch up"}
+{"label":"VERB","pattern":"hype up"}
+{"label":"VERB","pattern":"ice over"}
+{"label":"VERB","pattern":"ice up"}
+{"label":"VERB","pattern":"identify with"}
+{"label":"VERB","pattern":"idle away"}
+{"label":"VERB","pattern":"impress on"}
+{"label":"VERB","pattern":"improve on"}
+{"label":"VERB","pattern":"inform on"}
+{"label":"VERB","pattern":"ink in"}
+{"label":"VERB","pattern":"inquire after"}
+{"label":"VERB","pattern":"inquire into"}
+{"label":"VERB","pattern":"inquire of"}
+{"label":"VERB","pattern":"insist on"}
+{"label":"VERB","pattern":"insure against"}
+{"label":"VERB","pattern":"interfere with"}
+{"label":"VERB","pattern":"invest in"}
+{"label":"VERB","pattern":"invest with"}
+{"label":"VERB","pattern":"invite along"}
+{"label":"VERB","pattern":"invite back"}
+{"label":"VERB","pattern":"invite in"}
+{"label":"VERB","pattern":"invite out"}
+{"label":"VERB","pattern":"invite over"}
+{"label":"VERB","pattern":"invite round"}
+{"label":"VERB","pattern":"iron out"}
+{"label":"VERB","pattern":"issue forth"}
+{"label":"VERB","pattern":"issue from"}
+{"label":"VERB","pattern":"jabber away"}
+{"label":"VERB","pattern":"jack around"}
+{"label":"VERB","pattern":"jack in"}
+{"label":"VERB","pattern":"jack up"}
+{"label":"VERB","pattern":"jam on"}
+{"label":"VERB","pattern":"jam up"}
+{"label":"VERB","pattern":"jaw away"}
+{"label":"VERB","pattern":"jazz up"}
+{"label":"VERB","pattern":"jerk around"}
+{"label":"VERB","pattern":"jerk off"}
+{"label":"VERB","pattern":"jib at"}
+{"label":"VERB","pattern":"jockey into"}
+{"label":"VERB","pattern":"jog along"}
+{"label":"VERB","pattern":"join in"}
+{"label":"VERB","pattern":"join up"}
+{"label":"VERB","pattern":"join with"}
+{"label":"VERB","pattern":"joke around"}
+{"label":"VERB","pattern":"jolly along"}
+{"label":"VERB","pattern":"jolly up"}
+{"label":"VERB","pattern":"jot down"}
+{"label":"VERB","pattern":"juice up"}
+{"label":"VERB","pattern":"jump at"}
+{"label":"VERB","pattern":"jump in"}
+{"label":"VERB","pattern":"jump into"}
+{"label":"VERB","pattern":"jump off"}
+{"label":"VERB","pattern":"jump on"}
+{"label":"VERB","pattern":"jump out"}
+{"label":"VERB","pattern":"jump out at"}
+{"label":"VERB","pattern":"jump up"}
+{"label":"VERB","pattern":"keel over"}
+{"label":"VERB","pattern":"keep around"}
+{"label":"VERB","pattern":"keep at"}
+{"label":"VERB","pattern":"keep away"}
+{"label":"VERB","pattern":"keep back"}
+{"label":"VERB","pattern":"keep down"}
+{"label":"VERB","pattern":"keep from"}
+{"label":"VERB","pattern":"keep in"}
+{"label":"VERB","pattern":"keep in with"}
+{"label":"VERB","pattern":"keep off"}
+{"label":"VERB","pattern":"keep on"}
+{"label":"VERB","pattern":"keep on about"}
+{"label":"VERB","pattern":"keep out"}
+{"label":"VERB","pattern":"keep out of"}
+{"label":"VERB","pattern":"keep to"}
+{"label":"VERB","pattern":"keep up"}
+{"label":"VERB","pattern":"keep up at"}
+{"label":"VERB","pattern":"keep up with"}
+{"label":"VERB","pattern":"key down"}
+{"label":"VERB","pattern":"key in"}
+{"label":"VERB","pattern":"key in on"}
+{"label":"VERB","pattern":"key on"}
+{"label":"VERB","pattern":"key to"}
+{"label":"VERB","pattern":"key up"}
+{"label":"VERB","pattern":"kick about"}
+{"label":"VERB","pattern":"kick against"}
+{"label":"VERB","pattern":"kick around"}
+{"label":"VERB","pattern":"kick around with"}
+{"label":"VERB","pattern":"kick back"}
+{"label":"VERB","pattern":"kick down"}
+{"label":"VERB","pattern":"kick in"}
+{"label":"VERB","pattern":"kick in the teeth"}
+{"label":"VERB","pattern":"kick off"}
+{"label":"VERB","pattern":"kick out"}
+{"label":"VERB","pattern":"kick over"}
+{"label":"VERB","pattern":"kick up"}
+{"label":"VERB","pattern":"kid around"}
+{"label":"VERB","pattern":"kill off"}
+{"label":"VERB","pattern":"kip down"}
+{"label":"VERB","pattern":"kip down on"}
+{"label":"VERB","pattern":"kiss away"}
+{"label":"VERB","pattern":"kiss off"}
+{"label":"VERB","pattern":"kiss up to"}
+{"label":"VERB","pattern":"kit out"}
+{"label":"VERB","pattern":"knock about"}
+{"label":"VERB","pattern":"knock around"}
+{"label":"VERB","pattern":"knock back"}
+{"label":"VERB","pattern":"knock down"}
+{"label":"VERB","pattern":"knock it off!"}
+{"label":"VERB","pattern":"knock off"}
+{"label":"VERB","pattern":"knock out"}
+{"label":"VERB","pattern":"knock over"}
+{"label":"VERB","pattern":"knock together"}
+{"label":"VERB","pattern":"knock up"}
+{"label":"VERB","pattern":"know from"}
+{"label":"VERB","pattern":"know of"}
+{"label":"VERB","pattern":"knuckle down"}
+{"label":"VERB","pattern":"knuckle under"}
+{"label":"VERB","pattern":"labour under"}
+{"label":"VERB","pattern":"ladle out"}
+{"label":"VERB","pattern":"land in"}
+{"label":"VERB","pattern":"land on"}
+{"label":"VERB","pattern":"land up"}
+{"label":"VERB","pattern":"land up in"}
+{"label":"VERB","pattern":"land with"}
+{"label":"VERB","pattern":"lap up"}
+{"label":"VERB","pattern":"lapse into"}
+{"label":"VERB","pattern":"large it up"}
+{"label":"VERB","pattern":"lark about"}
+{"label":"VERB","pattern":"lark around"}
+{"label":"VERB","pattern":"lark it up"}
+{"label":"VERB","pattern":"lash down"}
+{"label":"VERB","pattern":"lash into"}
+{"label":"VERB","pattern":"lash out"}
+{"label":"VERB","pattern":"lash out against"}
+{"label":"VERB","pattern":"lash out at"}
+{"label":"VERB","pattern":"lash out on"}
+{"label":"VERB","pattern":"last out"}
+{"label":"VERB","pattern":"latch on"}
+{"label":"VERB","pattern":"latch on to"}
+{"label":"VERB","pattern":"latch onto"}
+{"label":"VERB","pattern":"laugh at"}
+{"label":"VERB","pattern":"laugh off"}
+{"label":"VERB","pattern":"launch into"}
+{"label":"VERB","pattern":"launch out"}
+{"label":"VERB","pattern":"lay about"}
+{"label":"VERB","pattern":"lay aside"}
+{"label":"VERB","pattern":"lay before"}
+{"label":"VERB","pattern":"lay down"}
+{"label":"VERB","pattern":"lay in"}
+{"label":"VERB","pattern":"lay into"}
+{"label":"VERB","pattern":"lay off"}
+{"label":"VERB","pattern":"lay on"}
+{"label":"VERB","pattern":"lay out"}
+{"label":"VERB","pattern":"lay to"}
+{"label":"VERB","pattern":"lay up"}
+{"label":"VERB","pattern":"laze around"}
+{"label":"VERB","pattern":"laze away"}
+{"label":"VERB","pattern":"lead into"}
+{"label":"VERB","pattern":"lead off"}
+{"label":"VERB","pattern":"lead on"}
+{"label":"VERB","pattern":"lead on to"}
+{"label":"VERB","pattern":"lead to"}
+{"label":"VERB","pattern":"lead up to"}
+{"label":"VERB","pattern":"lead with"}
+{"label":"VERB","pattern":"leaf through"}
+{"label":"VERB","pattern":"leak out"}
+{"label":"VERB","pattern":"lean on"}
+{"label":"VERB","pattern":"leap at"}
+{"label":"VERB","pattern":"leap in"}
+{"label":"VERB","pattern":"leap on"}
+{"label":"VERB","pattern":"leap out at"}
+{"label":"VERB","pattern":"leap upon"}
+{"label":"VERB","pattern":"leave aside"}
+{"label":"VERB","pattern":"leave behind"}
+{"label":"VERB","pattern":"leave off"}
+{"label":"VERB","pattern":"leave on"}
+{"label":"VERB","pattern":"leave out"}
+{"label":"VERB","pattern":"leave over"}
+{"label":"VERB","pattern":"let down"}
+{"label":"VERB","pattern":"let in"}
+{"label":"VERB","pattern":"let in on"}
+{"label":"VERB","pattern":"let into"}
+{"label":"VERB","pattern":"let off"}
+{"label":"VERB","pattern":"let on"}
+{"label":"VERB","pattern":"let out"}
+{"label":"VERB","pattern":"let up"}
+{"label":"VERB","pattern":"let up on"}
+{"label":"VERB","pattern":"level at"}
+{"label":"VERB","pattern":"level off"}
+{"label":"VERB","pattern":"level out"}
+{"label":"VERB","pattern":"level up"}
+{"label":"VERB","pattern":"level with"}
+{"label":"VERB","pattern":"lie about"}
+{"label":"VERB","pattern":"lie ahead"}
+{"label":"VERB","pattern":"lie around"}
+{"label":"VERB","pattern":"lie back"}
+{"label":"VERB","pattern":"lie behind"}
+{"label":"VERB","pattern":"lie down"}
+{"label":"VERB","pattern":"lie in"}
+{"label":"VERB","pattern":"lie with"}
+{"label":"VERB","pattern":"lift off"}
+{"label":"VERB","pattern":"lift up"}
+{"label":"VERB","pattern":"light on"}
+{"label":"VERB","pattern":"light out"}
+{"label":"VERB","pattern":"light up"}
+{"label":"VERB","pattern":"light upon"}
+{"label":"VERB","pattern":"lighten up"}
+{"label":"VERB","pattern":"limber up"}
+{"label":"VERB","pattern":"limber up for"}
+{"label":"VERB","pattern":"line up"}
+{"label":"VERB","pattern":"linger on"}
+{"label":"VERB","pattern":"link up"}
+{"label":"VERB","pattern":"link up with"}
+{"label":"VERB","pattern":"listen in"}
+{"label":"VERB","pattern":"listen out for"}
+{"label":"VERB","pattern":"listen up"}
+{"label":"VERB","pattern":"live by"}
+{"label":"VERB","pattern":"live down"}
+{"label":"VERB","pattern":"live for"}
+{"label":"VERB","pattern":"live in"}
+{"label":"VERB","pattern":"live it up"}
+{"label":"VERB","pattern":"live off"}
+{"label":"VERB","pattern":"live on"}
+{"label":"VERB","pattern":"live out"}
+{"label":"VERB","pattern":"live through"}
+{"label":"VERB","pattern":"live together"}
+{"label":"VERB","pattern":"live up to"}
+{"label":"VERB","pattern":"live with"}
+{"label":"VERB","pattern":"liven up"}
+{"label":"VERB","pattern":"load down"}
+{"label":"VERB","pattern":"load up"}
+{"label":"VERB","pattern":"load up on"}
+{"label":"VERB","pattern":"lock away"}
+{"label":"VERB","pattern":"lock down"}
+{"label":"VERB","pattern":"lock in"}
+{"label":"VERB","pattern":"lock in on"}
+{"label":"VERB","pattern":"lock into"}
+{"label":"VERB","pattern":"lock onto"}
+{"label":"VERB","pattern":"lock out"}
+{"label":"VERB","pattern":"lock up"}
+{"label":"VERB","pattern":"lock yourself away"}
+{"label":"VERB","pattern":"log in"}
+{"label":"VERB","pattern":"log into"}
+{"label":"VERB","pattern":"log off"}
+{"label":"VERB","pattern":"log on"}
+{"label":"VERB","pattern":"log out"}
+{"label":"VERB","pattern":"look after"}
+{"label":"VERB","pattern":"look ahead"}
+{"label":"VERB","pattern":"look around"}
+{"label":"VERB","pattern":"look at"}
+{"label":"VERB","pattern":"look back"}
+{"label":"VERB","pattern":"look down on"}
+{"label":"VERB","pattern":"look for"}
+{"label":"VERB","pattern":"look forward to"}
+{"label":"VERB","pattern":"look in"}
+{"label":"VERB","pattern":"look in on"}
+{"label":"VERB","pattern":"look into"}
+{"label":"VERB","pattern":"look on"}
+{"label":"VERB","pattern":"look on as"}
+{"label":"VERB","pattern":"look out"}
+{"label":"VERB","pattern":"look out for"}
+{"label":"VERB","pattern":"look over"}
+{"label":"VERB","pattern":"look round"}
+{"label":"VERB","pattern":"look through"}
+{"label":"VERB","pattern":"look to"}
+{"label":"VERB","pattern":"look up"}
+{"label":"VERB","pattern":"look up to"}
+{"label":"VERB","pattern":"look upon"}
+{"label":"VERB","pattern":"look upon as"}
+{"label":"VERB","pattern":"loose off"}
+{"label":"VERB","pattern":"loose on"}
+{"label":"VERB","pattern":"loosen up"}
+{"label":"VERB","pattern":"lop off"}
+{"label":"VERB","pattern":"lord it over"}
+{"label":"VERB","pattern":"lose out"}
+{"label":"VERB","pattern":"lose out on"}
+{"label":"VERB","pattern":"lose out to"}
+{"label":"VERB","pattern":"lounge around"}
+{"label":"VERB","pattern":"luck into"}
+{"label":"VERB","pattern":"luck out"}
+{"label":"VERB","pattern":"lust after"}
+{"label":"VERB","pattern":"magic away"}
+{"label":"VERB","pattern":"mail off"}
+{"label":"VERB","pattern":"mail out"}
+{"label":"VERB","pattern":"make after"}
+{"label":"VERB","pattern":"make away with"}
+{"label":"VERB","pattern":"make do with"}
+{"label":"VERB","pattern":"make for"}
+{"label":"VERB","pattern":"make into"}
+{"label":"VERB","pattern":"make it"}
+{"label":"VERB","pattern":"make it up to"}
+{"label":"VERB","pattern":"make of"}
+{"label":"VERB","pattern":"make off"}
+{"label":"VERB","pattern":"make off with"}
+{"label":"VERB","pattern":"make out"}
+{"label":"VERB","pattern":"make over"}
+{"label":"VERB","pattern":"make towards"}
+{"label":"VERB","pattern":"make up"}
+{"label":"VERB","pattern":"make up for"}
+{"label":"VERB","pattern":"make up to"}
+{"label":"VERB","pattern":"make with"}
+{"label":"VERB","pattern":"man down"}
+{"label":"VERB","pattern":"man up"}
+{"label":"VERB","pattern":"manage down"}
+{"label":"VERB","pattern":"manage up"}
+{"label":"VERB","pattern":"map onto"}
+{"label":"VERB","pattern":"map out"}
+{"label":"VERB","pattern":"mark as"}
+{"label":"VERB","pattern":"mark down"}
+{"label":"VERB","pattern":"mark down as"}
+{"label":"VERB","pattern":"mark off"}
+{"label":"VERB","pattern":"mark out"}
+{"label":"VERB","pattern":"mark out for"}
+{"label":"VERB","pattern":"mark out from"}
+{"label":"VERB","pattern":"mark up"}
+{"label":"VERB","pattern":"marry in"}
+{"label":"VERB","pattern":"marry into"}
+{"label":"VERB","pattern":"marry off"}
+{"label":"VERB","pattern":"marry out"}
+{"label":"VERB","pattern":"marry up"}
+{"label":"VERB","pattern":"mash up"}
+{"label":"VERB","pattern":"match up"}
+{"label":"VERB","pattern":"max out"}
+{"label":"VERB","pattern":"measure against"}
+{"label":"VERB","pattern":"measure off"}
+{"label":"VERB","pattern":"measure out"}
+{"label":"VERB","pattern":"measure up"}
+{"label":"VERB","pattern":"measure up to"}
+{"label":"VERB","pattern":"meet up"}
+{"label":"VERB","pattern":"meet up with"}
+{"label":"VERB","pattern":"meet with"}
+{"label":"VERB","pattern":"mellow out"}
+{"label":"VERB","pattern":"melt away"}
+{"label":"VERB","pattern":"melt down"}
+{"label":"VERB","pattern":"mess about"}
+{"label":"VERB","pattern":"mess about with"}
+{"label":"VERB","pattern":"mess around"}
+{"label":"VERB","pattern":"mess around with"}
+{"label":"VERB","pattern":"mess over"}
+{"label":"VERB","pattern":"mess up"}
+{"label":"VERB","pattern":"mess with"}
+{"label":"VERB","pattern":"mete out"}
+{"label":"VERB","pattern":"mill around"}
+{"label":"VERB","pattern":"miss out"}
+{"label":"VERB","pattern":"miss out on"}
+{"label":"VERB","pattern":"mistake for"}
+{"label":"VERB","pattern":"mix up"}
+{"label":"VERB","pattern":"mock up"}
+{"label":"VERB","pattern":"model on"}
+{"label":"VERB","pattern":"moggy off"}
+{"label":"VERB","pattern":"monkey around"}
+{"label":"VERB","pattern":"mooch about"}
+{"label":"VERB","pattern":"mooch around"}
+{"label":"VERB","pattern":"moon around"}
+{"label":"VERB","pattern":"moon over"}
+{"label":"VERB","pattern":"mop up"}
+{"label":"VERB","pattern":"mope about"}
+{"label":"VERB","pattern":"mope around"}
+{"label":"VERB","pattern":"mount up"}
+{"label":"VERB","pattern":"mouth off"}
+{"label":"VERB","pattern":"move ahead"}
+{"label":"VERB","pattern":"move along"}
+{"label":"VERB","pattern":"move away"}
+{"label":"VERB","pattern":"move away from"}
+{"label":"VERB","pattern":"move down"}
+{"label":"VERB","pattern":"move in"}
+{"label":"VERB","pattern":"move in on"}
+{"label":"VERB","pattern":"move into"}
+{"label":"VERB","pattern":"move off"}
+{"label":"VERB","pattern":"move on"}
+{"label":"VERB","pattern":"move out"}
+{"label":"VERB","pattern":"move over"}
+{"label":"VERB","pattern":"move towards"}
+{"label":"VERB","pattern":"move up"}
+{"label":"VERB","pattern":"mow down"}
+{"label":"VERB","pattern":"muck in"}
+{"label":"VERB","pattern":"muck out"}
+{"label":"VERB","pattern":"muck up"}
+{"label":"VERB","pattern":"muddle along"}
+{"label":"VERB","pattern":"muddle through"}
+{"label":"VERB","pattern":"muddle up"}
+{"label":"VERB","pattern":"mug up"}
+{"label":"VERB","pattern":"mug up on"}
+{"label":"VERB","pattern":"mull over"}
+{"label":"VERB","pattern":"muscle in"}
+{"label":"VERB","pattern":"muscle in on"}
+{"label":"VERB","pattern":"muscle into"}
+{"label":"VERB","pattern":"muscle out"}
+{"label":"VERB","pattern":"naff off"}
+{"label":"VERB","pattern":"nag at"}
+{"label":"VERB","pattern":"nail down"}
+{"label":"VERB","pattern":"nail up"}
+{"label":"VERB","pattern":"name after"}
+{"label":"VERB","pattern":"name for"}
+{"label":"VERB","pattern":"narrow down"}
+{"label":"VERB","pattern":"nerd out"}
+{"label":"VERB","pattern":"nibble away at"}
+{"label":"VERB","pattern":"nick off"}
+{"label":"VERB","pattern":"nip off"}
+{"label":"VERB","pattern":"nip out"}
+{"label":"VERB","pattern":"nod off"}
+{"label":"VERB","pattern":"nod through"}
+{"label":"VERB","pattern":"nose about"}
+{"label":"VERB","pattern":"nose around"}
+{"label":"VERB","pattern":"nose into"}
+{"label":"VERB","pattern":"nose out"}
+{"label":"VERB","pattern":"notch up"}
+{"label":"VERB","pattern":"note down"}
+{"label":"VERB","pattern":"number among"}
+{"label":"VERB","pattern":"number off"}
+{"label":"VERB","pattern":"nut out"}
+{"label":"VERB","pattern":"occur to"}
+{"label":"VERB","pattern":"offer up"}
+{"label":"VERB","pattern":"open out"}
+{"label":"VERB","pattern":"open up"}
+{"label":"VERB","pattern":"operate on"}
+{"label":"VERB","pattern":"opt for"}
+{"label":"VERB","pattern":"opt in"}
+{"label":"VERB","pattern":"opt into"}
+{"label":"VERB","pattern":"opt out"}
+{"label":"VERB","pattern":"order about"}
+{"label":"VERB","pattern":"order around"}
+{"label":"VERB","pattern":"order in"}
+{"label":"VERB","pattern":"order off"}
+{"label":"VERB","pattern":"order out"}
+{"label":"VERB","pattern":"order out for"}
+{"label":"VERB","pattern":"order up"}
+{"label":"VERB","pattern":"owe to"}
+{"label":"VERB","pattern":"own up"}
+{"label":"VERB","pattern":"pace out"}
+{"label":"VERB","pattern":"pack away"}
+{"label":"VERB","pattern":"pack in"}
+{"label":"VERB","pattern":"pack into"}
+{"label":"VERB","pattern":"pack it in"}
+{"label":"VERB","pattern":"pack off"}
+{"label":"VERB","pattern":"pack out"}
+{"label":"VERB","pattern":"pack up"}
+{"label":"VERB","pattern":"pad down"}
+{"label":"VERB","pattern":"pad out"}
+{"label":"VERB","pattern":"pad up"}
+{"label":"VERB","pattern":"page down"}
+{"label":"VERB","pattern":"page through"}
+{"label":"VERB","pattern":"page up"}
+{"label":"VERB","pattern":"pair off"}
+{"label":"VERB","pattern":"pair off with"}
+{"label":"VERB","pattern":"pair up"}
+{"label":"VERB","pattern":"pal about"}
+{"label":"VERB","pattern":"pal around"}
+{"label":"VERB","pattern":"pal up"}
+{"label":"VERB","pattern":"palm off"}
+{"label":"VERB","pattern":"pan out"}
+{"label":"VERB","pattern":"paper over"}
+{"label":"VERB","pattern":"parachute in"}
+{"label":"VERB","pattern":"parcel out"}
+{"label":"VERB","pattern":"pare back"}
+{"label":"VERB","pattern":"pare down"}
+{"label":"VERB","pattern":"part with"}
+{"label":"VERB","pattern":"partake of"}
+{"label":"VERB","pattern":"partition off"}
+{"label":"VERB","pattern":"partner up"}
+{"label":"VERB","pattern":"pass around"}
+{"label":"VERB","pattern":"pass as"}
+{"label":"VERB","pattern":"pass away"}
+{"label":"VERB","pattern":"pass back"}
+{"label":"VERB","pattern":"pass by"}
+{"label":"VERB","pattern":"pass down"}
+{"label":"VERB","pattern":"pass for"}
+{"label":"VERB","pattern":"pass off"}
+{"label":"VERB","pattern":"pass on"}
+{"label":"VERB","pattern":"pass on to"}
+{"label":"VERB","pattern":"pass out"}
+{"label":"VERB","pattern":"pass over"}
+{"label":"VERB","pattern":"pass round"}
+{"label":"VERB","pattern":"pass through"}
+{"label":"VERB","pattern":"pass to"}
+{"label":"VERB","pattern":"pass up"}
+{"label":"VERB","pattern":"pat down"}
+{"label":"VERB","pattern":"patch together"}
+{"label":"VERB","pattern":"patch up"}
+{"label":"VERB","pattern":"pave over"}
+{"label":"VERB","pattern":"pawn off"}
+{"label":"VERB","pattern":"pawn off as"}
+{"label":"VERB","pattern":"pay back"}
+{"label":"VERB","pattern":"pay down"}
+{"label":"VERB","pattern":"pay for"}
+{"label":"VERB","pattern":"pay in"}
+{"label":"VERB","pattern":"pay into"}
+{"label":"VERB","pattern":"pay off"}
+{"label":"VERB","pattern":"pay out"}
+{"label":"VERB","pattern":"pay up"}
+{"label":"VERB","pattern":"peal out"}
+{"label":"VERB","pattern":"peck at"}
+{"label":"VERB","pattern":"pee down"}
+{"label":"VERB","pattern":"peel away"}
+{"label":"VERB","pattern":"peel away from"}
+{"label":"VERB","pattern":"peel off"}
+{"label":"VERB","pattern":"peel off from"}
+{"label":"VERB","pattern":"peel out"}
+{"label":"VERB","pattern":"peg away"}
+{"label":"VERB","pattern":"peg back"}
+{"label":"VERB","pattern":"peg down"}
+{"label":"VERB","pattern":"peg it"}
+{"label":"VERB","pattern":"peg out"}
+{"label":"VERB","pattern":"pen in"}
+{"label":"VERB","pattern":"pen up"}
+{"label":"VERB","pattern":"pencil in"}
+{"label":"VERB","pattern":"pension off"}
+{"label":"VERB","pattern":"pep up"}
+{"label":"VERB","pattern":"perk up"}
+{"label":"VERB","pattern":"permit of"}
+{"label":"VERB","pattern":"peter out"}
+{"label":"VERB","pattern":"phase in"}
+{"label":"VERB","pattern":"phase out"}
+{"label":"VERB","pattern":"phone back"}
+{"label":"VERB","pattern":"phone in"}
+{"label":"VERB","pattern":"phone round"}
+{"label":"VERB","pattern":"phone through"}
+{"label":"VERB","pattern":"phone up"}
+{"label":"VERB","pattern":"pick apart"}
+{"label":"VERB","pattern":"pick at"}
+{"label":"VERB","pattern":"pick off"}
+{"label":"VERB","pattern":"pick on"}
+{"label":"VERB","pattern":"pick out"}
+{"label":"VERB","pattern":"pick over"}
+{"label":"VERB","pattern":"pick through"}
+{"label":"VERB","pattern":"pick up"}
+{"label":"VERB","pattern":"pick up after"}
+{"label":"VERB","pattern":"pick up on"}
+{"label":"VERB","pattern":"pick yourself up"}
+{"label":"VERB","pattern":"piddle around"}
+{"label":"VERB","pattern":"piddle away"}
+{"label":"VERB","pattern":"piece together"}
+{"label":"VERB","pattern":"pig off"}
+{"label":"VERB","pattern":"pig out"}
+{"label":"VERB","pattern":"pile in"}
+{"label":"VERB","pattern":"pile into"}
+{"label":"VERB","pattern":"pile on"}
+{"label":"VERB","pattern":"pile out"}
+{"label":"VERB","pattern":"pile up"}
+{"label":"VERB","pattern":"pin down"}
+{"label":"VERB","pattern":"pin on"}
+{"label":"VERB","pattern":"pin up"}
+{"label":"VERB","pattern":"pine away"}
+{"label":"VERB","pattern":"pine for"}
+{"label":"VERB","pattern":"pipe down"}
+{"label":"VERB","pattern":"pipe up"}
+{"label":"VERB","pattern":"piss about"}
+{"label":"VERB","pattern":"piss around"}
+{"label":"VERB","pattern":"piss away"}
+{"label":"VERB","pattern":"piss down"}
+{"label":"VERB","pattern":"piss off"}
+{"label":"VERB","pattern":"pit against"}
+{"label":"VERB","pattern":"pit out"}
+{"label":"VERB","pattern":"pitch against"}
+{"label":"VERB","pattern":"pitch for"}
+{"label":"VERB","pattern":"pitch in"}
+{"label":"VERB","pattern":"pitch into"}
+{"label":"VERB","pattern":"pitch out"}
+{"label":"VERB","pattern":"pitch up"}
+{"label":"VERB","pattern":"pivot on"}
+{"label":"VERB","pattern":"plan on"}
+{"label":"VERB","pattern":"plant out"}
+{"label":"VERB","pattern":"plant over"}
+{"label":"VERB","pattern":"plant up"}
+{"label":"VERB","pattern":"plaster over"}
+{"label":"VERB","pattern":"plate up"}
+{"label":"VERB","pattern":"play about"}
+{"label":"VERB","pattern":"play along"}
+{"label":"VERB","pattern":"play around"}
+{"label":"VERB","pattern":"play at"}
+{"label":"VERB","pattern":"play away"}
+{"label":"VERB","pattern":"play back"}
+{"label":"VERB","pattern":"play down"}
+{"label":"VERB","pattern":"play off"}
+{"label":"VERB","pattern":"play off against"}
+{"label":"VERB","pattern":"play on"}
+{"label":"VERB","pattern":"play out"}
+{"label":"VERB","pattern":"play up"}
+{"label":"VERB","pattern":"play up to"}
+{"label":"VERB","pattern":"play upon"}
+{"label":"VERB","pattern":"play with"}
+{"label":"VERB","pattern":"plead out"}
+{"label":"VERB","pattern":"plod along"}
+{"label":"VERB","pattern":"plonk down"}
+{"label":"VERB","pattern":"plop down"}
+{"label":"VERB","pattern":"plough ahead"}
+{"label":"VERB","pattern":"plough back"}
+{"label":"VERB","pattern":"plough into"}
+{"label":"VERB","pattern":"plough on"}
+{"label":"VERB","pattern":"plough through"}
+{"label":"VERB","pattern":"plough up"}
+{"label":"VERB","pattern":"plow back"}
+{"label":"VERB","pattern":"plow into"}
+{"label":"VERB","pattern":"plow on"}
+{"label":"VERB","pattern":"plow through"}
+{"label":"VERB","pattern":"plow up"}
+{"label":"VERB","pattern":"pluck at"}
+{"label":"VERB","pattern":"pluck up"}
+{"label":"VERB","pattern":"plug away"}
+{"label":"VERB","pattern":"plug in"}
+{"label":"VERB","pattern":"plug into"}
+{"label":"VERB","pattern":"plumb in"}
+{"label":"VERB","pattern":"plump down"}
+{"label":"VERB","pattern":"plump for"}
+{"label":"VERB","pattern":"plump out"}
+{"label":"VERB","pattern":"plump up"}
+{"label":"VERB","pattern":"plump yourself down"}
+{"label":"VERB","pattern":"plunge in"}
+{"label":"VERB","pattern":"plunge into"}
+{"label":"VERB","pattern":"plunk down"}
+{"label":"VERB","pattern":"ply with"}
+{"label":"VERB","pattern":"point out"}
+{"label":"VERB","pattern":"point to"}
+{"label":"VERB","pattern":"point up"}
+{"label":"VERB","pattern":"poke about"}
+{"label":"VERB","pattern":"poke around"}
+{"label":"VERB","pattern":"poke at"}
+{"label":"VERB","pattern":"polish off"}
+{"label":"VERB","pattern":"polish up"}
+{"label":"VERB","pattern":"pony up"}
+{"label":"VERB","pattern":"poop out"}
+{"label":"VERB","pattern":"poop out on"}
+{"label":"VERB","pattern":"pootle along"}
+{"label":"VERB","pattern":"pop down"}
+{"label":"VERB","pattern":"pop down to"}
+{"label":"VERB","pattern":"pop in"}
+{"label":"VERB","pattern":"pop off"}
+{"label":"VERB","pattern":"pop out"}
+{"label":"VERB","pattern":"pop up"}
+{"label":"VERB","pattern":"pore over"}
+{"label":"VERB","pattern":"pose as"}
+{"label":"VERB","pattern":"post off"}
+{"label":"VERB","pattern":"post up"}
+{"label":"VERB","pattern":"pot on"}
+{"label":"VERB","pattern":"potter about"}
+{"label":"VERB","pattern":"potter around"}
+{"label":"VERB","pattern":"pound into"}
+{"label":"VERB","pattern":"pound out"}
+{"label":"VERB","pattern":"pour down"}
+{"label":"VERB","pattern":"pour forth"}
+{"label":"VERB","pattern":"pour into"}
+{"label":"VERB","pattern":"pour out"}
+{"label":"VERB","pattern":"power down"}
+{"label":"VERB","pattern":"power off"}
+{"label":"VERB","pattern":"power up"}
+{"label":"VERB","pattern":"practise on"}
+{"label":"VERB","pattern":"prattle on"}
+{"label":"VERB","pattern":"preside over"}
+{"label":"VERB","pattern":"press ahead"}
+{"label":"VERB","pattern":"press for"}
+{"label":"VERB","pattern":"press forward with"}
+{"label":"VERB","pattern":"press into"}
+{"label":"VERB","pattern":"press on"}
+{"label":"VERB","pattern":"press upon"}
+{"label":"VERB","pattern":"presume on"}
+{"label":"VERB","pattern":"prevail on"}
+{"label":"VERB","pattern":"prey on"}
+{"label":"VERB","pattern":"prey upon"}
+{"label":"VERB","pattern":"price in"}
+{"label":"VERB","pattern":"price up"}
+{"label":"VERB","pattern":"prick out"}
+{"label":"VERB","pattern":"print out"}
+{"label":"VERB","pattern":"prise out of"}
+{"label":"VERB","pattern":"proceed against"}
+{"label":"VERB","pattern":"proceed from"}
+{"label":"VERB","pattern":"profit from"}
+{"label":"VERB","pattern":"pronounce on"}
+{"label":"VERB","pattern":"prop up"}
+{"label":"VERB","pattern":"provide against"}
+{"label":"VERB","pattern":"provide for"}
+{"label":"VERB","pattern":"pry out"}
+{"label":"VERB","pattern":"psych out"}
+{"label":"VERB","pattern":"psych up"}
+{"label":"VERB","pattern":"pucker up"}
+{"label":"VERB","pattern":"puff out"}
+{"label":"VERB","pattern":"puff up"}
+{"label":"VERB","pattern":"pull ahead"}
+{"label":"VERB","pattern":"pull apart"}
+{"label":"VERB","pattern":"pull away"}
+{"label":"VERB","pattern":"pull back"}
+{"label":"VERB","pattern":"pull down"}
+{"label":"VERB","pattern":"pull for"}
+{"label":"VERB","pattern":"pull in"}
+{"label":"VERB","pattern":"pull into"}
+{"label":"VERB","pattern":"pull off"}
+{"label":"VERB","pattern":"pull on"}
+{"label":"VERB","pattern":"pull out"}
+{"label":"VERB","pattern":"pull over"}
+{"label":"VERB","pattern":"pull round"}
+{"label":"VERB","pattern":"pull through"}
+{"label":"VERB","pattern":"pull to"}
+{"label":"VERB","pattern":"pull together"}
+{"label":"VERB","pattern":"pull up"}
+{"label":"VERB","pattern":"pull yourself together"}
+{"label":"VERB","pattern":"pump (money) into"}
+{"label":"VERB","pattern":"pump in"}
+{"label":"VERB","pattern":"pump into"}
+{"label":"VERB","pattern":"pump out"}
+{"label":"VERB","pattern":"pump up"}
+{"label":"VERB","pattern":"punch in"}
+{"label":"VERB","pattern":"punch out"}
+{"label":"VERB","pattern":"punch up"}
+{"label":"VERB","pattern":"push about"}
+{"label":"VERB","pattern":"push ahead"}
+{"label":"VERB","pattern":"push along"}
+{"label":"VERB","pattern":"push around"}
+{"label":"VERB","pattern":"push aside"}
+{"label":"VERB","pattern":"push away"}
+{"label":"VERB","pattern":"push back"}
+{"label":"VERB","pattern":"push for"}
+{"label":"VERB","pattern":"push forward"}
+{"label":"VERB","pattern":"push in"}
+{"label":"VERB","pattern":"push off"}
+{"label":"VERB","pattern":"push on"}
+{"label":"VERB","pattern":"push out"}
+{"label":"VERB","pattern":"push over"}
+{"label":"VERB","pattern":"push through"}
+{"label":"VERB","pattern":"put about"}
+{"label":"VERB","pattern":"put across"}
+{"label":"VERB","pattern":"put around"}
+{"label":"VERB","pattern":"put aside"}
+{"label":"VERB","pattern":"put at"}
+{"label":"VERB","pattern":"put away"}
+{"label":"VERB","pattern":"put back"}
+{"label":"VERB","pattern":"put before"}
+{"label":"VERB","pattern":"put by"}
+{"label":"VERB","pattern":"put down"}
+{"label":"VERB","pattern":"put down as"}
+{"label":"VERB","pattern":"put down for"}
+{"label":"VERB","pattern":"put down to"}
+{"label":"VERB","pattern":"put forth"}
+{"label":"VERB","pattern":"put forward"}
+{"label":"VERB","pattern":"put in"}
+{"label":"VERB","pattern":"put in for"}
+{"label":"VERB","pattern":"put into"}
+{"label":"VERB","pattern":"put off"}
+{"label":"VERB","pattern":"put on"}
+{"label":"VERB","pattern":"put onto"}
+{"label":"VERB","pattern":"put out"}
+{"label":"VERB","pattern":"put over"}
+{"label":"VERB","pattern":"put round"}
+{"label":"VERB","pattern":"put through"}
+{"label":"VERB","pattern":"put to"}
+{"label":"VERB","pattern":"put together"}
+{"label":"VERB","pattern":"put towards"}
+{"label":"VERB","pattern":"put under"}
+{"label":"VERB","pattern":"put up"}
+{"label":"VERB","pattern":"put up to"}
+{"label":"VERB","pattern":"put up with"}
+{"label":"VERB","pattern":"puzzle out"}
+{"label":"VERB","pattern":"puzzle over"}
+{"label":"VERB","pattern":"quarrel out"}
+{"label":"VERB","pattern":"quarrel with"}
+{"label":"VERB","pattern":"queer up"}
+{"label":"VERB","pattern":"quieten down"}
+{"label":"VERB","pattern":"quit on"}
+{"label":"VERB","pattern":"rabbit on"}
+{"label":"VERB","pattern":"race off"}
+{"label":"VERB","pattern":"rack off"}
+{"label":"VERB","pattern":"rack out"}
+{"label":"VERB","pattern":"rack up"}
+{"label":"VERB","pattern":"railroad through"}
+{"label":"VERB","pattern":"rain down"}
+{"label":"VERB","pattern":"rain down on"}
+{"label":"VERB","pattern":"rain off"}
+{"label":"VERB","pattern":"rain out"}
+{"label":"VERB","pattern":"rake in"}
+{"label":"VERB","pattern":"rake it in"}
+{"label":"VERB","pattern":"rake off"}
+{"label":"VERB","pattern":"rake over"}
+{"label":"VERB","pattern":"rake through"}
+{"label":"VERB","pattern":"rake up"}
+{"label":"VERB","pattern":"rally around"}
+{"label":"VERB","pattern":"rally round"}
+{"label":"VERB","pattern":"ramble on"}
+{"label":"VERB","pattern":"ramp up"}
+{"label":"VERB","pattern":"rap out"}
+{"label":"VERB","pattern":"rat on"}
+{"label":"VERB","pattern":"rat out"}
+{"label":"VERB","pattern":"rat through"}
+{"label":"VERB","pattern":"ratchet up"}
+{"label":"VERB","pattern":"ration out"}
+{"label":"VERB","pattern":"rattle around"}
+{"label":"VERB","pattern":"rattle off"}
+{"label":"VERB","pattern":"rattle on"}
+{"label":"VERB","pattern":"rattle out"}
+{"label":"VERB","pattern":"rattle through"}
+{"label":"VERB","pattern":"rattle up"}
+{"label":"VERB","pattern":"reach out"}
+{"label":"VERB","pattern":"reach out for"}
+{"label":"VERB","pattern":"reach out to"}
+{"label":"VERB","pattern":"react against"}
+{"label":"VERB","pattern":"read back"}
+{"label":"VERB","pattern":"read for"}
+{"label":"VERB","pattern":"read into"}
+{"label":"VERB","pattern":"read off"}
+{"label":"VERB","pattern":"read out"}
+{"label":"VERB","pattern":"read through"}
+{"label":"VERB","pattern":"read up on"}
+{"label":"VERB","pattern":"rear up"}
+{"label":"VERB","pattern":"reason out"}
+{"label":"VERB","pattern":"reason with"}
+{"label":"VERB","pattern":"reckon on"}
+{"label":"VERB","pattern":"reckon with"}
+{"label":"VERB","pattern":"reckon without"}
+{"label":"VERB","pattern":"reduce to"}
+{"label":"VERB","pattern":"reel in"}
+{"label":"VERB","pattern":"reel off"}
+{"label":"VERB","pattern":"reel out"}
+{"label":"VERB","pattern":"reflect on"}
+{"label":"DEVICE","pattern":"light"}
+{"label":"DEVICE","pattern":"lamp"}
+{"label":"DEVICE","pattern":"computer"}
+{"label":"DEVICE","pattern":"phone"}
+{"label":"DEVICE","pattern":"television"}
+{"label":"DEVICE","pattern":"refrigerator"}
+{"label":"DEVICE","pattern":"microwave"}
+{"label":"DEVICE","pattern":"speaker"}
+{"label":"DEVICE","pattern":"printer"}
+{"label":"DEVICE","pattern":"camera"}
+{"label":"DEVICE","pattern":"headphones"}
+{"label":"DEVICE","pattern":"router"}
+{"label":"DEVICE","pattern":"thermostat"}
+{"label":"DEVICE","pattern":"fan"}
+{"label":"DEVICE","pattern":"air_conditioner"}
+{"label":"DEVICE","pattern":"dishwasher"}
+{"label":"DEVICE","pattern":"oven"}
+{"label":"DEVICE","pattern":"toaster"}
+{"label":"DEVICE","pattern":"blender"}
+{"label":"DEVICE","pattern":"vacuum_cleaner"}
+{"label":"DEVICE","pattern":"washing_machine"}
+{"label":"DEVICE","pattern":"dryer"}
+{"label":"DEVICE","pattern":"electric_kettle"}
+{"label":"DEVICE","pattern":"hair_dryer"}
+{"label":"DEVICE","pattern":"sewing_machine"}
+{"label":"DEVICE","pattern":"drill"}
+{"label":"DEVICE","pattern":"saw"}
+{"label":"DEVICE","pattern":"lawn_mower"}
+{"label":"DEVICE","pattern":"air_purifier"}
+{"label":"DEVICE","pattern":"humidifier"}
+{"label":"DEVICE","pattern":"mixer"}
+{"label":"DEVICE","pattern":"juicer"}
+{"label":"DEVICE","pattern":"grill"}
+{"label":"DEVICE","pattern":"deep_fryer"}
+{"label":"DEVICE","pattern":"rice_cooker"}
+{"label":"DEVICE","pattern":"slow_cooker"}
+{"label":"DEVICE","pattern":"bread_maker"}
+{"label":"DEVICE","pattern":"espresso_machine"}
+{"label":"DEVICE","pattern":"food_processor"}
+{"label":"DEVICE","pattern":"iron"}
+{"label":"DEVICE","pattern":"steamer"}
+{"label":"DEVICE","pattern":"heater"}
+{"label":"DEVICE","pattern":"dehumidifier"}
+{"label":"DEVICE","pattern":"projector"}
+{"label":"DEVICE","pattern":"scanner"}
+{"label":"DEVICE","pattern":"fax_machine"}
+{"label":"DEVICE","pattern":"modem"}
+{"label":"DEVICE","pattern":"monitor"}
+{"label":"DEVICE","pattern":"keyboard"}
+{"label":"DEVICE","pattern":"mouse"}
+{"label":"DEVICE","pattern":"webcam"}
+{"label":"DEVICE","pattern":"game_console"}
+{"label":"DEVICE","pattern":"remote_control"}
+{"label":"DEVICE","pattern":"hard_drive"}
+{"label":"DEVICE","pattern":"flash_drive"}
+{"label":"DEVICE","pattern":"charger"}
+{"label":"DEVICE","pattern":"power_bank"}
+{"label":"DEVICE","pattern":"smart_watch"}
+{"label":"DEVICE","pattern":"fitness_tracker"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"robot_vacuum"}
+{"label":"DEVICE","pattern":"smart_speaker"}
+{"label":"DEVICE","pattern":"smart_light"}
+{"label":"DEVICE","pattern":"smart_lock"}
+{"label":"DEVICE","pattern":"smart_plug"}
+{"label":"DEVICE","pattern":"smart_thermostat"}
+{"label":"DEVICE","pattern":"smart_doorbell"}
+{"label":"DEVICE","pattern":"smartphone"}
+{"label":"DEVICE","pattern":"tablet"}
+{"label":"DEVICE","pattern":"laptop"}
+{"label":"DEVICE","pattern":"desktop"}
+{"label":"DEVICE","pattern":"printer"}
+{"label":"DEVICE","pattern":"scanner"}
+{"label":"DEVICE","pattern":"modem"}
+{"label":"DEVICE","pattern":"router"}
+{"label":"DEVICE","pattern":"television"}
+{"label":"DEVICE","pattern":"radio"}
+{"label":"DEVICE","pattern":"speaker"}
+{"label":"DEVICE","pattern":"headphone"}
+{"label":"DEVICE","pattern":"microphone"}
+{"label":"DEVICE","pattern":"camera"}
+{"label":"DEVICE","pattern":"flashdrive"}
+{"label":"DEVICE","pattern":"harddrive"}
+{"label":"DEVICE","pattern":"dvdplayer"}
+{"label":"DEVICE","pattern":"projector"}
+{"label":"DEVICE","pattern":"monitor"}
+{"label":"DEVICE","pattern":"keyboard"}
+{"label":"DEVICE","pattern":"mouse"}
+{"label":"DEVICE","pattern":"gameconsole"}
+{"label":"DEVICE","pattern":"joystick"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"fitnesstracker"}
+{"label":"DEVICE","pattern":"smartwatch"}
+{"label":"DEVICE","pattern":"vrheadset"}
+{"label":"DEVICE","pattern":"ereader"}
+{"label":"DEVICE","pattern":"graphictablet"}
+{"label":"DEVICE","pattern":"pda"}
+{"label":"DEVICE","pattern":"gpsdevice"}
+{"label":"DEVICE","pattern":"webcam"}
+{"label":"DEVICE","pattern":"amplifier"}
+{"label":"DEVICE","pattern":"blender"}
+{"label":"DEVICE","pattern":"microwave"}
+{"label":"DEVICE","pattern":"washingmachine"}
+{"label":"DEVICE","pattern":"refrigerator"}
+{"label":"DEVICE","pattern":"toaster"}
+{"label":"DEVICE","pattern":"oven"}
+{"label":"DEVICE","pattern":"coffeemaker"}
+{"label":"DEVICE","pattern":"airconditioner"}
+{"label":"DEVICE","pattern":"fan"}
+{"label":"DEVICE","pattern":"vacuumcleaner"}
+{"label":"DEVICE","pattern":"hairdryer"}
+{"label":"DEVICE","pattern":"electricrazor"}
+{"label":"DEVICE","pattern":"sewingmachine"}
+{"label":"DEVICE","pattern":"treadmill"}
+{"label":"DEVICE","pattern":"electricpiano"}
+{"label":"DEVICE","pattern":"thermostat"}
+{"label":"DEVICE","pattern":"bloodpressuremonitor"}
+{"label":"DEVICE","pattern":"pacemaker"}
+{"label":"DEVICE","pattern":"insulinpump"}
+{"label":"DEVICE","pattern":"hearingaid"}
+{"label":"DEVICE","pattern":"defibrillator"}
+{"label":"DEVICE","pattern":"ventilator"}
+{"label":"DEVICE","pattern":"ultrasoundmachine"}
+{"label":"DEVICE","pattern":"mriscanner"}
+{"label":"DEVICE","pattern":"telescope"}
+{"label":"DEVICE","pattern":"microscope"}
+{"label":"DEVICE","pattern":"spectrometer"}
+{"label":"DEVICE","pattern":"oscilloscope"}
+{"label":"DEVICE","pattern":"photocopier"}
+{"label":"DEVICE","pattern":"faxmachine"}
+{"label":"DEVICE","pattern":"cashregister"}
+{"label":"DEVICE","pattern":"atmmachine"}
+{"label":"DEVICE","pattern":"vendingmachine"}
+{"label":"DEVICE","pattern":"slotmachine"}
+{"label":"DEVICE","pattern":"jukebox"}
+{"label":"DEVICE","pattern":"arcadegamemachine"}
+{"label":"DEVICE","pattern":"karaokemachine"}
+{"label":"DEVICE","pattern":"photobooth"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"hoverboard"}
+{"label":"DEVICE","pattern":"electricscooter"}
+{"label":"DEVICE","pattern":"segway"}
+{"label":"DEVICE","pattern":"electricbicycle"}
+{"label":"DEVICE","pattern":"metaldetector"}
+{"label":"DEVICE","pattern":"radar"}
+{"label":"DEVICE","pattern":"sonar"}
+{"label":"DEVICE","pattern":"satellite"}
+{"label":"DEVICE","pattern":"theremin"}
+{"label":"DEVICE","pattern":"synthesizer"}
+{"label":"DEVICE","pattern":"mixingconsole"}
+{"label":"DEVICE","pattern":"turntable"}
+{"label":"DEVICE","pattern":"stroboscope"}
+{"label":"DEVICE","pattern":"barcodescanner"}
+{"label":"DEVICE","pattern":"3dprinter"}
+{"label":"DEVICE","pattern":"cncmachine"}
+{"label":"DEVICE","pattern":"robotarm"}
+{"label":"DEVICE","pattern":"automatedguidedvehicle"}
+{"label":"DEVICE","pattern":"uninterruptiblepowersupply"}
+{"label":"DEVICE","pattern":"inverter"}
+{"label":"DEVICE","pattern":"solarpanel"}
+{"label":"DEVICE","pattern":"windturbine"}
+{"label":"DEVICE","pattern":"hydroelectricgenerator"}
+{"label":"DEVICE","pattern":"nuclearreactor"}
+{"label":"DEVICE","pattern":"spacecraft"}
+{"label":"DEVICE","pattern":"rocket"}
+{"label":"DEVICE","pattern":"submarine"}
+{"label":"DEVICE","pattern":"electriccar"}
+{"label":"DEVICE","pattern":"smartglasses"}
+{"label":"DEVICE","pattern":"smartspeaker"}
+{"label":"DEVICE","pattern":"smartplug"}
+{"label":"DEVICE","pattern":"electricgrill"}
+{"label":"DEVICE","pattern":"ricecooker"}
+{"label":"DEVICE","pattern":"mixer"}
+{"label":"DEVICE","pattern":"handblender"}
+{"label":"DEVICE","pattern":"dishwasher"}
+{"label":"DEVICE","pattern":"freezer"}
+{"label":"DEVICE","pattern":"iron"}
+{"label":"DEVICE","pattern":"steamer"}
+{"label":"DEVICE","pattern":"airfryer"}
+{"label":"DEVICE","pattern":"slowcooker"}
+{"label":"DEVICE","pattern":"foodprocessor"}
+{"label":"DEVICE","pattern":"juicer"}
+{"label":"DEVICE","pattern":"breadmaker"}
+{"label":"DEVICE","pattern":"dehumidifier"}
+{"label":"DEVICE","pattern":"humidifier"}
+{"label":"DEVICE","pattern":"airpurifier"}
+{"label":"DEVICE","pattern":"waterheater"}
+{"label":"DEVICE","pattern":"electricblanket"}
+{"label":"DEVICE","pattern":"electricfireplace"}
+{"label":"DEVICE","pattern":"treadmill"}
+{"label":"DEVICE","pattern":"elliptical"}
+{"label":"DEVICE","pattern":"stationarybike"}
+{"label":"DEVICE","pattern":"rowmachine"}
+{"label":"DEVICE","pattern":"weightscale"}
+{"label":"DEVICE","pattern":"thermometer"}
+{"label":"DEVICE","pattern":"stethoscope"}
+{"label":"DEVICE","pattern":"otoscope"}
+{"label":"DEVICE","pattern":"glucometer"}
+{"label":"DEVICE","pattern":"centrifuge"}
+{"label":"DEVICE","pattern":"incubator"}
+{"label":"DEVICE","pattern":"autoclave"}
+{"label":"DEVICE","pattern":"pipette"}
+{"label":"DEVICE","pattern":"spectrophotometer"}
+{"label":"DEVICE","pattern":"chromatograph"}
+{"label":"DEVICE","pattern":"massspectrometer"}
+{"label":"DEVICE","pattern":"solderingiron"}
+{"label":"DEVICE","pattern":"multimeter"}
+{"label":"DEVICE","pattern":"powersupply"}
+{"label":"DEVICE","pattern":"oscillator"}
+{"label":"DEVICE","pattern":"signalgenerator"}
+{"label":"DEVICE","pattern":"logicanalyzer"}
+{"label":"DEVICE","pattern":"transistor"}
+{"label":"DEVICE","pattern":"diode"}
+{"label":"DEVICE","pattern":"resistor"}
+{"label":"DEVICE","pattern":"capacitor"}
+{"label":"DEVICE","pattern":"inductor"}
+{"label":"DEVICE","pattern":"relay"}
+{"label":"DEVICE","pattern":"switch"}
+{"label":"DEVICE","pattern":"fuse"}
+{"label":"DEVICE","pattern":"circuitbreaker"}
+{"label":"DEVICE","pattern":"transformer"}
+{"label":"DEVICE","pattern":"rectifier"}
+{"label":"DEVICE","pattern":"inverter"}
+{"label":"DEVICE","pattern":"converter"}
+{"label":"DEVICE","pattern":"motor"}
+{"label":"DEVICE","pattern":"generator"}
+{"label":"DEVICE","pattern":"compressor"}
+{"label":"DEVICE","pattern":"pump"}
+{"label":"DEVICE","pattern":"valve"}
+{"label":"DEVICE","pattern":"cylinder"}
+{"label":"DEVICE","pattern":"actuator"}
+{"label":"DEVICE","pattern":"sensor"}
+{"label":"DEVICE","pattern":"transducer"}
+{"label":"DEVICE","pattern":"encoder"}
+{"label":"DEVICE","pattern":"decoder"}
+{"label":"DEVICE","pattern":"multiplexer"}
+{"label":"DEVICE","pattern":"demultiplexer"}
+{"label":"DEVICE","pattern":"modulator"}
+{"label":"DEVICE","pattern":"demodulator"}
+{"label":"DEVICE","pattern":"amplifier"}
+{"label":"DEVICE","pattern":"oscillator"}
+{"label":"DEVICE","pattern":"filter"}
+{"label":"DEVICE","pattern":"coupler"}
+{"label":"DEVICE","pattern":"connector"}
+{"label":"DEVICE","pattern":"socket"}
+{"label":"DEVICE","pattern":"plug"}
+{"label":"DEVICE","pattern":"jack"}
+{"label":"DEVICE","pattern":"terminal"}
+{"label":"DEVICE","pattern":"cable"}
+{"label":"DEVICE","pattern":"wire"}
+{"label":"DEVICE","pattern":"coil"}
+{"label":"DEVICE","pattern":"spring"}
+{"label":"DEVICE","pattern":"screw"}
+{"label":"DEVICE","pattern":"bolt"}
+{"label":"DEVICE","pattern":"nut"}
+{"label":"DEVICE","pattern":"washer"}
+{"label":"DEVICE","pattern":"rivet"}
+{"label":"DEVICE","pattern":"pin"}
+{"label":"DEVICE","pattern":"key"}
+{"label":"DEVICE","pattern":"gear"}
+{"label":"DEVICE","pattern":"belt"}
+{"label":"DEVICE","pattern":"chain"}
+{"label":"DEVICE","pattern":"pulley"}
+{"label":"DEVICE","pattern":"shaft"}
+{"label":"DEVICE","pattern":"bearing"}
+{"label":"DEVICE","pattern":"seal"}
+{"label":"DEVICE","pattern":"lubricant"}
+{"label":"DEVICE","pattern":"adhesive"}
+{"label":"DEVICE","pattern":"glue"}
+{"label":"DEVICE","pattern":"tape"}
+{"label":"DEVICE","pattern":"paint"}
+{"label":"DEVICE","pattern":"varnish"}
+{"label":"DEVICE","pattern":"polish"}
+{"label":"DEVICE","pattern":"dye"}
+{"label":"DEVICE","pattern":"ink"}
+{"label":"DEVICE","pattern":"toner"}
+{"label":"DEVICE","pattern":"stapler"}
+{"label":"DEVICE","pattern":"puncher"}
+{"label":"DEVICE","pattern":"cutter"}
+{"label":"DEVICE","pattern":"scissors"}
+{"label":"DEVICE","pattern":"knife"}
+{"label":"DEVICE","pattern":"blade"}
+{"label":"DEVICE","pattern":"saw"}
+{"label":"DEVICE","pattern":"drill"}
+{"label":"DEVICE","pattern":"hammer"}
+{"label":"DEVICE","pattern":"screwdriver"}
+{"label":"DEVICE","pattern":"wrench"}
+{"label":"DEVICE","pattern":"pliers"}
+{"label":"DEVICE","pattern":"clamp"}
+{"label":"DEVICE","pattern":"vise"}
+{"label":"DEVICE","pattern":"tongs"}
+{"label":"DEVICE","pattern":"rake"}
+{"label":"DEVICE","pattern":"shovel"}
+{"label":"DEVICE","pattern":"hoe"}
+{"label":"DEVICE","pattern":"plow"}
+{"label":"DEVICE","pattern":"harrow"}
+{"label":"DEVICE","pattern":"tractor"}
+{"label":"DEVICE","pattern":"combine"}
+{"label":"DEVICE","pattern":"harvester"}
+{"label":"DEVICE","pattern":"baler"}
+{"label":"DEVICE","pattern":"mower"}
+{"label":"DEVICE","pattern":"sprayer"}
+{"label":"DEVICE","pattern":"spreader"}
+{"label":"DEVICE","pattern":"planter"}
+{"label":"DEVICE","pattern":"seeder"}
+{"label":"DEVICE","pattern":"cultivator"}
+{"label":"DEVICE","pattern":"weeder"}
+{"label":"DEVICE","pattern":"pruner"}
+{"label":"DEVICE","pattern":"shearer"}
+{"label":"DEVICE","pattern":"milker"}
+{"label":"DEVICE","pattern":"feeder"}
+{"label":"DEVICE","pattern":"waterer"}
+{"label":"DEVICE","pattern":"brooder"}
+{"label":"DEVICE","pattern":"incubator"}
+{"label":"DEVICE","pattern":"hatcher"}
+{"label":"DEVICE","pattern":"slaughterer"}
+{"label":"DEVICE","pattern":"butcher"}
+{"label":"DEVICE","pattern":"skinner"}
+{"label":"DEVICE","pattern":"tanner"}
+{"label":"DEVICE","pattern":"curer"}
+{"label":"DEVICE","pattern":"smoker"}
+{"label":"DEVICE","pattern":"baker"}
+{"label":"DEVICE","pattern":"roaster"}
+{"label":"DEVICE","pattern":"griller"}
+{"label":"DEVICE","pattern":"fryer"}
+{"label":"DEVICE","pattern":"steamer"}
+{"label":"DEVICE","pattern":"boiler"}
+{"label":"DEVICE","pattern":"simmerer"}
+{"label":"DEVICE","pattern":"stewer"}
+{"label":"DEVICE","pattern":"braiser"}
+{"label":"DEVICE","pattern":"poacher"}
+{"label":"DEVICE","pattern":"scrambler"}
+{"label":"DEVICE","pattern":"frother"}
+{"label":"DEVICE","pattern":"whisker"}
+{"label":"DEVICE","pattern":"beater"}
+{"label":"DEVICE","pattern":"mixer"}
+{"label":"DEVICE","pattern":"blender"}
+{"label":"DEVICE","pattern":"grinder"}
+{"label":"DEVICE","pattern":"crusher"}
+{"label":"DEVICE","pattern":"masher"}
+{"label":"DEVICE","pattern":"slicer"}
+{"label":"DEVICE","pattern":"chopper"}
+{"label":"DEVICE","pattern":"cutter"}
+{"label":"DEVICE","pattern":"peeler"}
+{"label":"DEVICE","pattern":"shredder"}
+{"label":"DEVICE","pattern":"grater"}
+{"label":"DEVICE","pattern":"sieve"}
+{"label":"DEVICE","pattern":"strainer"}
+{"label":"DEVICE","pattern":"colander"}
+{"label":"DEVICE","pattern":"funnel"}
+{"label":"DEVICE","pattern":"ladle"}
+{"label":"DEVICE","pattern":"spoon"}
+{"label":"DEVICE","pattern":"fork"}
+{"label":"DEVICE","pattern":"knife"}
+{"label":"DEVICE","pattern":"skewer"}
+{"label":"DEVICE","pattern":"tongs"}
+{"label":"DEVICE","pattern":"spatula"}
+{"label":"DEVICE","pattern":"whisk"}
+{"label":"DEVICE","pattern":"bowl"}
+{"label":"DEVICE","pattern":"plate"}
+{"label":"DEVICE","pattern":"cup"}
+{"label":"DEVICE","pattern":"glass"}
+{"label":"DEVICE","pattern":"mug"}
+{"label":"DEVICE","pattern":"pot"}
+{"label":"DEVICE","pattern":"pan"}
+{"label":"DEVICE","pattern":"kettle"}
+{"label":"DEVICE","pattern":"jug"}
+{"label":"DEVICE","pattern":"jar"}
+{"label":"DEVICE","pattern":"bottle"}
+{"label":"DEVICE","pattern":"can"}
+{"label":"DEVICE","pattern":"box"}
+{"label":"DEVICE","pattern":"bag"}
+{"label":"DEVICE","pattern":"basket"}
+{"label":"DEVICE","pattern":"cart"}
+{"label":"DEVICE","pattern":"trolley"}
+{"label":"DEVICE","pattern":"truck"}
+{"label":"DEVICE","pattern":"van"}
+{"label":"DEVICE","pattern":"car"}
+{"label":"DEVICE","pattern":"bus"}
+{"label":"DEVICE","pattern":"train"}
+{"label":"DEVICE","pattern":"tram"}
+{"label":"DEVICE","pattern":"trolleybus"}
+{"label":"DEVICE","pattern":"bike"}
+{"label":"DEVICE","pattern":"motorcycle"}
+{"label":"DEVICE","pattern":"scooter"}
+{"label":"DEVICE","pattern":"skateboard"}
+{"label":"DEVICE","pattern":"rollerblade"}
+{"label":"DEVICE","pattern":"wheelchair"}
+{"label":"DEVICE","pattern":"stroller"}
+{"label":"DEVICE","pattern":"cart"}
+{"label":"DEVICE","pattern":"trolley"}
+{"label":"DEVICE","pattern":"wagon"}
+{"label":"DEVICE","pattern":"carriage"}
+{"label":"DEVICE","pattern":"sled"}
+{"label":"DEVICE","pattern":"sleigh"}
+{"label":"DEVICE","pattern":"kayak"}
+{"label":"DEVICE","pattern":"canoe"}
+{"label":"DEVICE","pattern":"boat"}
+{"label":"DEVICE","pattern":"ship"}
+{"label":"DEVICE","pattern":"submarine"}
+{"label":"DEVICE","pattern":"yacht"}
+{"label":"DEVICE","pattern":"ferry"}
+{"label":"DEVICE","pattern":"cruise"}
+{"label":"DEVICE","pattern":"tanker"}
+{"label":"DEVICE","pattern":"freighter"}
+{"label":"DEVICE","pattern":"carrier"}
+{"label":"DEVICE","pattern":"liner"}
+{"label":"DEVICE","pattern":"barge"}
+{"label":"DEVICE","pattern":"tugboat"}
+{"label":"DEVICE","pattern":"lifeboat"}
+{"label":"DEVICE","pattern":"raft"}
+{"label":"DEVICE","pattern":"float"}
+{"label":"DEVICE","pattern":"buoy"}
+{"label":"DEVICE","pattern":"anchor"}
+{"label":"DEVICE","pattern":"propeller"}
+{"label":"DEVICE","pattern":"rudder"}
+{"label":"DEVICE","pattern":"sail"}
+{"label":"DEVICE","pattern":"mast"}
+{"label":"DEVICE","pattern":"paddle"}
+{"label":"DEVICE","pattern":"oar"}
+{"label":"DEVICE","pattern":"helicopter"}
+{"label":"DEVICE","pattern":"airplane"}
+{"label":"DEVICE","pattern":"jet"}
+{"label":"DEVICE","pattern":"glider"}
+{"label":"DEVICE","pattern":"blimp"}
+{"label":"DEVICE","pattern":"balloon"}
+{"label":"DEVICE","pattern":"parachute"}
+{"label":"DEVICE","pattern":"hangglider"}
+{"label":"DEVICE","pattern":"spaceship"}
+{"label":"DEVICE","pattern":"rocket"}
+{"label":"DEVICE","pattern":"missile"}
+{"label":"DEVICE","pattern":"torpedo"}
+{"label":"DEVICE","pattern":"bomb"}
+{"label":"DEVICE","pattern":"grenade"}
+{"label":"DEVICE","pattern":"mine"}
+{"label":"DEVICE","pattern":"shell"}
+{"label":"DEVICE","pattern":"bullet"}
+{"label":"DEVICE","pattern":"shot"}
+{"label":"DEVICE","pattern":"arrow"}
+{"label":"DEVICE","pattern":"dart"}
+{"label":"DEVICE","pattern":"spear"}
+{"label":"DEVICE","pattern":"javelin"}
+{"label":"DEVICE","pattern":"axe"}
+{"label":"DEVICE","pattern":"mace"}
+{"label":"DEVICE","pattern":"sword"}
+{"label":"DEVICE","pattern":"dagger"}
+{"label":"DEVICE","pattern":"knife"}
+{"label":"DEVICE","pattern":"shield"}
+{"label":"DEVICE","pattern":"helm"}
+{"label":"DEVICE","pattern":"armor"}
+{"label":"DEVICE","pattern":"bow"}
+{"label":"DEVICE","pattern":"crossbow"}
+{"label":"DEVICE","pattern":"slingshot"}
+{"label":"DEVICE","pattern":"catapult"}
+{"label":"DEVICE","pattern":"ballista"}
+{"label":"DEVICE","pattern":"trebuchet"}
+{"label":"DEVICE","pattern":"cannon"}
+{"label":"DEVICE","pattern":"mortar"}
+{"label":"DEVICE","pattern":"howitzer"}
+{"label":"DEVICE","pattern":"tank"}
+{"label":"DEVICE","pattern":"artillery"}
+{"label":"DEVICE","pattern":"rifle"}
+{"label":"DEVICE","pattern":"shotgun"}
+{"label":"DEVICE","pattern":"pistol"}
+{"label":"DEVICE","pattern":"revolver"}
+{"label":"DEVICE","pattern":"machinegun"}
+{"label":"DEVICE","pattern":"submachinegun"}
+{"label":"DEVICE","pattern":"flamethrower"}
+{"label":"DEVICE","pattern":"bazooka"}
+{"label":"DEVICE","pattern":"rocketlauncher"}
+{"label":"DEVICE","pattern":"missilelauncher"}
+{"label":"DEVICE","pattern":"torpedolauncher"}
+{"label":"DEVICE","pattern":"bombardier"}
+{"label":"DEVICE","pattern":"minelayer"}
+{"label":"DEVICE","pattern":"minesweeper"}
+{"label":"DEVICE","pattern":"destroyer"}
+{"label":"DEVICE","pattern":"cruiser"}
+{"label":"DEVICE","pattern":"battleship"}
+{"label":"DEVICE","pattern":"aircraftcarrier"}
+{"label":"DEVICE","pattern":"submarine"}
+{"label":"DEVICE","pattern":"helicopter"}
+{"label":"DEVICE","pattern":"fighter"}
+{"label":"DEVICE","pattern":"bomber"}
+{"label":"DEVICE","pattern":"spyplane"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"satellite"}
+{"label":"DEVICE","pattern":"spaceship"}
+{"label":"DEVICE","pattern":"rocket"}
+{"label":"DEVICE","pattern":"missile"}
+{"label":"DEVICE","pattern":"torpedo"}
+{"label":"DEVICE","pattern":"bomb"}
+{"label":"DEVICE","pattern":"grenade"}
+{"label":"DEVICE","pattern":"mine"}
+{"label":"DEVICE","pattern":"shell"}
+{"label":"DEVICE","pattern":"bullet"}
+{"label":"DEVICE","pattern":"shot"}
+{"label":"DEVICE","pattern":"arrow"}
+{"label":"DEVICE","pattern":"dart"}
+{"label":"DEVICE","pattern":"spear"}
+{"label":"DEVICE","pattern":"javelin"}
+{"label":"DEVICE","pattern":"axe"}
+{"label":"DEVICE","pattern":"mace"}
+{"label":"DEVICE","pattern":"sword"}
+{"label":"DEVICE","pattern":"dagger"}
+{"label":"DEVICE","pattern":"knife"}
+{"label":"DEVICE","pattern":"shield"}
+{"label":"DEVICE","pattern":"helm"}
+{"label":"DEVICE","pattern":"armor"}
+{"label":"DEVICE","pattern":"bow"}
+{"label":"DEVICE","pattern":"crossbow"}
+{"label":"DEVICE","pattern":"slingshot"}
+{"label":"DEVICE","pattern":"catapult"}
+{"label":"DEVICE","pattern":"ballista"}
+{"label":"DEVICE","pattern":"trebuchet"}
+{"label":"DEVICE","pattern":"cannon"}
+{"label":"DEVICE","pattern":"mortar"}
+{"label":"DEVICE","pattern":"howitzer"}
+{"label":"DEVICE","pattern":"tank"}
+{"label":"DEVICE","pattern":"artillery"}
+{"label":"DEVICE","pattern":"rifle"}
+{"label":"DEVICE","pattern":"shotgun"}
+{"label":"DEVICE","pattern":"pistol"}
+{"label":"DEVICE","pattern":"revolver"}
+{"label":"DEVICE","pattern":"machinegun"}
+{"label":"DEVICE","pattern":"submachinegun"}
+{"label":"DEVICE","pattern":"flamethrower"}
+{"label":"DEVICE","pattern":"bazooka"}
+{"label":"DEVICE","pattern":"rocketlauncher"}
+{"label":"DEVICE","pattern":"missilelauncher"}
+{"label":"DEVICE","pattern":"torpedolauncher"}
+{"label":"DEVICE","pattern":"bombardier"}
+{"label":"DEVICE","pattern":"minelayer"}
+{"label":"DEVICE","pattern":"minesweeper"}
+{"label":"DEVICE","pattern":"destroyer"}
+{"label":"DEVICE","pattern":"cruiser"}
+{"label":"DEVICE","pattern":"battleship"}
+{"label":"DEVICE","pattern":"aircraftcarrier"}
+{"label":"DEVICE","pattern":"submarine"}
+{"label":"DEVICE","pattern":"helicopter"}
+{"label":"DEVICE","pattern":"fighter"}
+{"label":"DEVICE","pattern":"bomber"}
+{"label":"DEVICE","pattern":"spyplane"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"satellite"}
+{"label":"DEVICE","pattern":"spaceship"}
+{"label":"DEVICE","pattern":"rocket"}
+{"label":"DEVICE","pattern":"missile"}
+{"label":"DEVICE","pattern":"torpedo"}
+{"label":"DEVICE","pattern":"bomb"}
+{"label":"DEVICE","pattern":"grenade"}
+{"label":"DEVICE","pattern":"mine"}
+{"label":"DEVICE","pattern":"shell"}
+{"label":"DEVICE","pattern":"bullet"}
+{"label":"DEVICE","pattern":"shot"}
+{"label":"DEVICE","pattern":"arrow"}
+{"label":"DEVICE","pattern":"dart"}
+{"label":"DEVICE","pattern":"spear"}
+{"label":"DEVICE","pattern":"javelin"}
+{"label":"DEVICE","pattern":"axe"}
+{"label":"DEVICE","pattern":"mace"}
+{"label":"DEVICE","pattern":"sword"}
+{"label":"DEVICE","pattern":"dagger"}
+{"label":"DEVICE","pattern":"knife"}
+{"label":"DEVICE","pattern":"shield"}
+{"label":"DEVICE","pattern":"helm"}
+{"label":"DEVICE","pattern":"armor"}
+{"label":"DEVICE","pattern":"bow"}
+{"label":"DEVICE","pattern":"crossbow"}
+{"label":"DEVICE","pattern":"slingshot"}
+{"label":"DEVICE","pattern":"catapult"}
+{"label":"DEVICE","pattern":"ballista"}
+{"label":"DEVICE","pattern":"trebuchet"}
+{"label":"DEVICE","pattern":"cannon"}
+{"label":"DEVICE","pattern":"mortar"}
+{"label":"DEVICE","pattern":"howitzer"}
+{"label":"DEVICE","pattern":"tank"}
+{"label":"DEVICE","pattern":"artillery"}
+{"label":"DEVICE","pattern":"rifle"}
+{"label":"DEVICE","pattern":"shotgun"}
+{"label":"DEVICE","pattern":"pistol"}
+{"label":"DEVICE","pattern":"revolver"}
+{"label":"DEVICE","pattern":"machinegun"}
+{"label":"DEVICE","pattern":"submachinegun"}
+{"label":"DEVICE","pattern":"flamethrower"}
+{"label":"DEVICE","pattern":"bazooka"}
+{"label":"DEVICE","pattern":"rocketlauncher"}
+{"label":"DEVICE","pattern":"missilelauncher"}
+{"label":"DEVICE","pattern":"torpedolauncher"}
+{"label":"DEVICE","pattern":"bombardier"}
+{"label":"DEVICE","pattern":"minelayer"}
+{"label":"DEVICE","pattern":"minesweeper"}
+{"label":"DEVICE","pattern":"destroyer"}
+{"label":"DEVICE","pattern":"cruiser"}
+{"label":"DEVICE","pattern":"battleship"}
+{"label":"DEVICE","pattern":"aircraftcarrier"}
+{"label":"DEVICE","pattern":"submarine"}
+{"label":"DEVICE","pattern":"helicopter"}
+{"label":"DEVICE","pattern":"fighter"}
+{"label":"DEVICE","pattern":"bomber"}
+{"label":"DEVICE","pattern":"spyplane"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"satellite"}
+{"label":"DEVICE","pattern":"spaceship"}
+{"label":"DEVICE","pattern":"rocket"}
+{"label":"DEVICE","pattern":"missile"}
+{"label":"DEVICE","pattern":"torpedo"}
+{"label":"DEVICE","pattern":"bomb"}
+{"label":"DEVICE","pattern":"grenade"}
+{"label":"DEVICE","pattern":"mine"}
+{"label":"DEVICE","pattern":"shell"}
+{"label":"DEVICE","pattern":"bullet"}
+{"label":"DEVICE","pattern":"shot"}
+{"label":"DEVICE","pattern":"arrow"}
+{"label":"DEVICE","pattern":"dart"}
+{"label":"DEVICE","pattern":"spear"}
+{"label":"DEVICE","pattern":"javelin"}
+{"label":"DEVICE","pattern":"axe"}
+{"label":"DEVICE","pattern":"mace"}
+{"label":"DEVICE","pattern":"sword"}
+{"label":"DEVICE","pattern":"dagger"}
+{"label":"DEVICE","pattern":"knife"}
+{"label":"DEVICE","pattern":"shield"}
+{"label":"DEVICE","pattern":"helm"}
+{"label":"DEVICE","pattern":"armor"}
+{"label":"DEVICE","pattern":"bow"}
+{"label":"DEVICE","pattern":"crossbow"}
+{"label":"DEVICE","pattern":"slingshot"}
+{"label":"DEVICE","pattern":"catapult"}
+{"label":"DEVICE","pattern":"ballista"}
+{"label":"DEVICE","pattern":"trebuchet"}
+{"label":"DEVICE","pattern":"cannon"}
+{"label":"DEVICE","pattern":"mortar"}
+{"label":"DEVICE","pattern":"howitzer"}
+{"label":"DEVICE","pattern":"tank"}
+{"label":"DEVICE","pattern":"artillery"}
+{"label":"DEVICE","pattern":"rifle"}
+{"label":"DEVICE","pattern":"shotgun"}
+{"label":"DEVICE","pattern":"pistol"}
+{"label":"DEVICE","pattern":"revolver"}
+{"label":"DEVICE","pattern":"machinegun"}
+{"label":"DEVICE","pattern":"submachinegun"}
+{"label":"DEVICE","pattern":"flamethrower"}
+{"label":"DEVICE","pattern":"bazooka"}
+{"label":"DEVICE","pattern":"rocketlauncher"}
+{"label":"DEVICE","pattern":"missilelauncher"}
+{"label":"DEVICE","pattern":"torpedolauncher"}
+{"label":"DEVICE","pattern":"bombardier"}
+{"label":"DEVICE","pattern":"minelayer"}
+{"label":"DEVICE","pattern":"minesweeper"}
+{"label":"DEVICE","pattern":"destroyer"}
+{"label":"DEVICE","pattern":"cruiser"}
+{"label":"DEVICE","pattern":"battleship"}
+{"label":"DEVICE","pattern":"aircraftcarrier"}
+{"label":"DEVICE","pattern":"submarine"}
+{"label":"DEVICE","pattern":"helicopter"}
+{"label":"DEVICE","pattern":"fighter"}
+{"label":"DEVICE","pattern":"bomber"}
+{"label":"DEVICE","pattern":"spyplane"}
+{"label":"DEVICE","pattern":"drone"}
+{"label":"DEVICE","pattern":"satellite"}
+{"label":"DEVICE","pattern":"spaceship"}
+{"label":"DEVICE","pattern":"rocket"}
+{"label":"DEVICE","pattern":"missile"}
+{"label":"DEVICE","pattern":"torpedo"}
+{"label":"DEVICE","pattern":"bomb"}
+{"label":"DEVICE","pattern":"grenade"}
+{"label":"DEVICE","pattern":"mine"}
+{"label":"DEVICE","pattern":"shell"}
+{"label":"DEVICE","pattern":"bullet"}
+{"label":"DEVICE","pattern":"shot"}
+{"label":"DEVICE","pattern":"arrow"}
+{"label":"DEVICE","pattern":"dart"}
+{"label":"DEVICE","pattern":"spear"}
+{"label":"DEVICE","pattern":"javelin"}
+{"label":"DEVICE","pattern":"axe"}
+{"label":"DEVICE","pattern":"mace"}
+{"label":"DEVICE","pattern":"amplifier"}
+{"label":"DEVICE","pattern":"turntable"}
+{"label":"DEVICE","pattern":"record_player"}
+{"label":"DEVICE","pattern":"CD_player"}
+{"label":"DEVICE","pattern":"DVD_player"}
+{"label":"DEVICE","pattern":"Blu-ray_player"}
+{"label":"DEVICE","pattern":"set-top_box"}
+{"label":"DEVICE","pattern":"satellite_dish"}
+{"label":"DEVICE","pattern":"router"}
+{"label":"DEVICE","pattern":"switch"}
+{"label":"DEVICE","pattern":"firewall"}
+{"label":"DEVICE","pattern":"server"}
+{"label":"DEVICE","pattern":"NAS"}
+{"label":"DEVICE","pattern":"external_hard_drive"}
+{"label":"DEVICE","pattern":"printer"}
+{"label":"DEVICE","pattern":"3D_printer"}
+{"label":"DEVICE","pattern":"scanner"}
+{"label":"DEVICE","pattern":"copier"}
+{"label":"DEVICE","pattern":"shredder"}
+{"label":"DEVICE","pattern":"laminator"}
+{"label":"DEVICE","pattern":"label_maker"}
+{"label":"DEVICE","pattern":"calculator"}
+{"label":"DEVICE","pattern":"typewriter"}
+{"label":"DEVICE","pattern":"cash_register"}
+{"label":"DEVICE","pattern":"ATM"}
+{"label":"DEVICE","pattern":"vending_machine"}
+{"label":"DEVICE","pattern":"slot_machine"}
+{"label":"DEVICE","pattern":"arcade_machine"}
+{"label":"DEVICE","pattern":"jukebox"}
+{"label":"DEVICE","pattern":"karaoke_machine"}
+{"label":"DEVICE","pattern":"treadmill"}
+{"label":"DEVICE","pattern":"elliptical"}
+{"label":"DEVICE","pattern":"stationary_bike"}
+{"label":"DEVICE","pattern":"rowing_machine"}
+{"label":"DEVICE","pattern":"stepper"}
+{"label":"DEVICE","pattern":"weight_machine"}
+{"label":"DEVICE","pattern":"electric_fan"}
+{"label":"DEVICE","pattern":"air_purifier"}
+{"label":"DEVICE","pattern":"humidifier"}
+{"label":"DEVICE","pattern":"dehumidifier"}
+{"label":"DEVICE","pattern":"heater"}
+{"label":"DEVICE","pattern":"air_conditioner"}
+{"label":"DEVICE","pattern":"water_cooler"}
+{"label":"DEVICE","pattern":"water_heater"}
+{"label":"DEVICE","pattern":"dishwasher"}
+{"label":"DEVICE","pattern":"washing_machine"}
+{"label":"DEVICE","pattern":"dryer"}
+{"label":"DEVICE","pattern":"vacuum_cleaner"}
+{"label":"DEVICE","pattern":"hair_dryer"}
+{"label":"DEVICE","pattern":"electric_razor"}
+{"label":"DEVICE","pattern":"electric_toothbrush"}
+{"label":"PLACE","pattern":"kitchen"}
+{"label":"PLACE","pattern":"bathroom"}
+{"label":"PLACE","pattern":"classroom"}
+{"label":"PLACE","pattern":"auditorium"}
+{"label":"PLACE","pattern":"library"}
+{"label":"PLACE","pattern":"cafeteria"}
+{"label":"PLACE","pattern":"gymnasium"}
+{"label":"PLACE","pattern":"laboratory"}
+{"label":"PLACE","pattern":"office"}
+{"label":"PLACE","pattern":"conference room"}
+{"label":"PLACE","pattern":"lounge"}
+{"label":"PLACE","pattern":"dormitory"}
+{"label":"PLACE","pattern":"studio"}
+{"label":"PLACE","pattern":"workshop"}
+{"label":"PLACE","pattern":"storage room"}
+{"label":"PLACE","pattern":"warehouse"}
+{"label":"PLACE","pattern":"garage"}
+{"label":"PLACE","pattern":"showroom"}
+{"label":"PLACE","pattern":"lobby"}
+{"label":"PLACE","pattern":"elevator"}
+{"label":"PLACE","pattern":"staircase"}
+{"label":"PLACE","pattern":"roof"}
+{"label":"PLACE","pattern":"basement"}
+{"label":"PLACE","pattern":"balcony"}
+{"label":"PLACE","pattern":"terrace"}
+{"label":"PLACE","pattern":"pantry"}
+{"label":"PLACE","pattern":"laundry room"}
+{"label":"PLACE","pattern":"boiler room"}
+{"label":"PLACE","pattern":"server room"}
+{"label":"PLACE","pattern":"archive"}
+{"label":"PLACE","pattern":"aulan"}
+{"label":"PLACE","pattern":"sal 5"}
+{"label":"PLACE","pattern":"sal 6"}
+{"label":"PLACE","pattern":"sal 2"}
+{"label":"PLACE","pattern":"labb sal"}
+{"label":"PLACE","pattern":"spel sal"}
