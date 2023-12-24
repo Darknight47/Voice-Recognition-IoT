@@ -20,31 +20,135 @@ has to put off her plans to watch her favorite show
 because she needs to catch up on her work. In the evening, 
 she meets up with Emily and they have a great time chatting about their day.
 
-Striding into the bustling school cafeteria, Emily decided to switch on her laptop, eager to finish up the presentation for her science class. She found a quiet corner near the exit, conveniently located next to a plug point for her quickly draining battery. As she started to power up her computer, she noticed that the overhead lights were flickering. Deciding to deal with it, she approached the janitor's closet, intending to find a replacement bulb. She had to rummage through a pile of brooms and mops before she managed to locate the box of spare lightbulbs. Replacing the flickering bulb with a new one, she returned to her laptop, ready to focus on her project again. After all, she had a grand plan to revolutionize the way we understood the solar system, and she couldn't afford to waste any more time.
+Striding into the bustling school cafeteria, Emily decided to switch on her laptop, 
+eager to finish up the presentation for her science class. She found a quiet corner 
+near the exit, conveniently located next to a plug point for her quickly draining battery. 
+As she started to power up her computer, she noticed that the overhead lights were flickering. 
+Deciding to deal with it, she approached the janitor's closet, intending to find a
+replacement bulb. She had to rummage through a pile of brooms and mops before she 
+managed to locate the box of spare lightbulbs. Replacing the flickering bulb with a new one, 
+she returned to her laptop, ready to focus on her project again. After all, she had a grand plan 
+to revolutionize the way we understood the solar system, and she couldn't afford to waste any more time.
 
-Sitting at the desk in the office, Sarah decided to print out the important document she had just finished editing. She reached over to the printer and pressed the power button, but nothing happened. Realizing that the printer was not plugged in, she crawled under the desk to locate the power socket. Once she found it, she plugged in the printer and pressed the power button again. This time, the printer whirred to life, ready to fulfill its duty. Sarah clicked the print button on her computer, instructing the printer to produce multiple copies of the document. As the printer hummed and the pages began to stack up, Sarah felt a sense of relief. With the printed documents in hand, she headed to the conference room, ready to distribute them to her colleagues during the important meeting.
+Sitting at the desk in the office, Sarah decided to print out the important document she 
+had just finished editing. She reached over to the printer and pressed the power button, 
+but nothing happened. Realizing that the printer was not plugged in, she crawled under 
+the desk to locate the power socket. Once she found it, she plugged in the printer and 
+pressed the power button again. This time, the printer whirred to life, ready to fulfill its duty. 
+Sarah clicked the print button on her computer, instructing the printer to produce multiple 
+copies of the document. As the printer hummed and the pages began to stack up, 
+Sarah felt a sense of relief. With the printed documents in hand, she headed to the 
+conference room, ready to distribute them to her colleagues during the important meeting.
 
-Stepping into the bustling aulan, Lisa noticed that the room was dimly lit. She made her way to the control panel at the back of the room, determined to brighten up the space. With a quick glance at the switches, she found the one labeled "lights" and flipped it up, hoping to turn on the main light fixtures. However, to her dismay, nothing happened. Undeterred, Lisa decided to investigate further. She headed towards the server room, suspecting that the issue might be related to the electrical system.
+Stepping into the bustling aulan, Lisa noticed that the room was dimly lit. 
+She made her way to the control panel at the back of the room, determined to 
+brighten up the space. With a quick glance at the switches, she found the one 
+labeled "lights" and flipped it up, hoping to turn on the main light fixtures. 
+However, to her dismay, nothing happened. Undeterred, Lisa decided to investigate further. 
+She headed towards the server room, suspecting that the issue might be related to the electrical system.
 
-Upon entering the server room, Lisa noticed that one of the circuit breakers had tripped, causing a power outage in the aulan. Carefully, she reset the breaker and returned to the aulan, hopeful that this would resolve the lighting issue. As she entered the room, she was met with a bright and inviting atmosphere, as the lights flickered on, illuminating the space.
+Upon entering the server room, Lisa noticed that one of the circuit breakers had tripped, 
+causing a power outage in the aulan. Carefully, she reset the breaker and returned to the aulan, 
+hopeful that this would resolve the lighting issue. As she entered the room, she was met 
+with a bright and inviting atmosphere, as the lights flickered on, illuminating the space.
+Pleased with her success, Lisa set about preparing the room for the upcoming event. 
+She adjusted the thermostat to ensure a comfortable temperature, placed speakers strategically 
+to ensure optimal sound quality, and tested the microphone to ensure clear audio transmission. 
+With everything in place, she eagerly awaited the arrival of the attendees.
 
-Pleased with her success, Lisa set about preparing the room for the upcoming event. She adjusted the thermostat to ensure a comfortable temperature, placed speakers strategically to ensure optimal sound quality, and tested the microphone to ensure clear audio transmission. With everything in place, she eagerly awaited the arrival of the attendees.
+As the event began, Lisa kept a watchful eye on the proceedings. When it was time to conclude, 
+she made her way to the control panel once again. This time, she located the "lights" switch 
+and flipped it down, effectively turning off the lights and signaling the end of the event.
+Satisfied with a job well done, Lisa made her way to the archive room, where she carefully 
+stored the event documentation for future reference. With the aulan now empty and the lights turned off, 
+she exited the room, ready to tackle her next task.
 
-As the event began, Lisa kept a watchful eye on the proceedings. When it was time to conclude, she made her way to the control panel once again. This time, she located the "lights" switch and flipped it down, effectively turning off the lights and signaling the end of the event.
+Entering the bustling classroom of Sal 5, Mark noticed that the room was quite dark. 
+He headed straight to the light switch, determined to illuminate the space for the upcoming lecture. 
+With a quick flick, he turned on the overhead light, instantly brightening the room. 
+Satisfied, he made his way to the front of the classroom, ready to begin the lesson.
+As Mark started his presentation, he realized that the projector was not displaying 
+the slides properly. Determined to resolve the issue, he reached for the remote control 
+and pressed the power button. However, the projector remained unresponsive. 
+Thinking quickly, he checked the cables and discovered that one of them had come loose. 
+Mark promptly reconnected the cable, ensuring a stable connection. With a press of 
+the power button, the projector sprang to life, displaying the presentation on the screen.
+With the classroom now properly illuminated and the projector working flawlessly, Mark continued
+with his lecture. The students attentively listened, taking notes on their individual laptops. 
+However, one student approached Mark during the break, seeking assistance with their 
+laptop's Wi-Fi connection. Mark guided the student to the router in the corner of the classroom, 
+instructing them to turn it off and then on again. Following his advice, the student 
+successfully connected to the Wi-Fi network, relieved to be back online.
 
-Satisfied with a job well done, Lisa made her way to the archive room, where she carefully stored the event documentation for future reference. With the aulan now empty and the lights turned off, she exited the room, ready to tackle her next task.
+As the lesson progressed, Mark noticed that the temperature in the classroom was becoming 
+uncomfortably warm. Realizing that the thermostat needed adjustment, he made his way to 
+the labb sal adjacent to the classroom. Inside, he located the thermostat and lowered the 
+temperature, ensuring a more comfortable learning environment for everyone.
+With the lesson concluded, Mark turned off the projector, dimmed the lights, and bid farewell 
+to the students. As he exited Sal 5, he couldn't help but feel a sense of satisfaction knowing 
+that he had created an optimal learning atmosphere with the help of the light, 
+projector, router, and thermostat.
+In the bustling laboratory, Dr. Johnson was conducting an experiment using a microscope 
+and a Bunsen burner. As he carefully adjusted the focus on the microscope, he noticed 
+that the light source was not bright enough. Determined to rectify the situation, 
+he reached for the light switch and turned on the overhead light, flooding the room 
+with illumination. With the increased light, he was able to clearly observe the 
+microscopic organisms on the slide.
 
-Entering the bustling classroom of Sal 5, Mark noticed that the room was quite dark. He headed straight to the light switch, determined to illuminate the space for the upcoming lecture. With a quick flick, he turned on the overhead light, instantly brightening the room. Satisfied, he made his way to the front of the classroom, ready to begin the lesson.
+As Dr. Johnson continued his experiment, he realized that the Bunsen burner was not 
+producing a consistent flame. To troubleshoot the issue, he turned off the gas valve, 
+disconnected the burner, and carefully inspected it. He noticed that the gas nozzle 
+was partially blocked, preventing the flame from burning properly. Using a small brush, 
+he cleaned the nozzle, ensuring a clear and steady flame. Satisfied with his efforts, 
+he reconnected the Bunsen burner and turned on the gas valve, ready to resume his experiment.
 
-As Mark started his presentation, he realized that the projector was not displaying the slides properly. Determined to resolve the issue, he reached for the remote control and pressed the power button. However, the projector remained unresponsive. Thinking quickly, he checked the cables and discovered that one of them had come loose. Mark promptly reconnected the cable, ensuring a stable connection. With a press of the power button, the projector sprang to life, displaying the presentation on the screen.
+Shortly after, Dr. Johnson received a call on his mobile phone. He excused himself 
+from the laboratory and stepped into the office next door to take the call in private. 
+After the conversation, he realized that his phone battery was critically low. 
+In order to charge it, he plugged the phone into the charger and connected it to 
+an electrical outlet. As the phone began to charge, he returned to the laboratory, 
+confident that he would not miss any important calls.
+Back in the laboratory, Dr. Johnson needed to print out the data from his experiment 
+for further analysis. He walked over to the printer in the corner of the room and 
+pressed the print button on his computer. Unfortunately, the printer was out of paper. 
+Determined to print the documents, he opened the printer tray, loaded it with 
+fresh paper, and closed it. With the printer now ready, he pressed the print 
+button again, initiating the printing process. As the printer whirred to life, 
+the data from the experiment was transferred onto paper, ready for examination.
+With the experiment completed and the data printed, Dr. Johnson made his way to the 
+conference room. He carefully stored the printed documents in the archive, ensuring 
+they would be easily accessible for future reference. Satisfied with a successful 
+day of scientific exploration, Dr. Johnson turned off the lights in the laboratory 
+and headed home, eager to continue his research the following day.
 
-With the classroom now properly illuminated and the projector working flawlessly, Mark continued with his lecture. The students attentively listened, taking notes on their individual laptops. However, one student approached Mark during the break, seeking assistance with their laptop's Wi-Fi connection. Mark guided the student to the router in the corner of the classroom, instructing them to turn it off and then on again. Following his advice, the student successfully connected to the Wi-Fi network, relieved to be back online.
+In the serene library, Emily sat at a table with her laptop, engrossed in her research. 
+Suddenly, her laptop froze, causing her to let out a frustrated sigh. Determined to 
+fix the issue, she held down the power button, initiating a restart. As the laptop 
+powered down, she took a deep breath, hoping that a fresh start would resolve the problem.
 
-As the lesson progressed, Mark noticed that the temperature in the classroom was becoming uncomfortably warm. Realizing that the thermostat needed adjustment, he made his way to the labb sal adjacent to the classroom. Inside, he located the thermostat and lowered the temperature, ensuring a more comfortable learning environment for everyone.
-
-With the lesson concluded, Mark turned off the projector, dimmed the lights, and bid farewell to the students. As he exited Sal 5, he couldn't help but feel a sense of satisfaction knowing that he had created an optimal learning atmosphere with the help of the light, projector, router, and thermostat.
-
-
+While waiting for her laptop to reboot, Emily glanced around the library and noticed 
+that the air conditioner was not running. The room was starting to feel stuffy, 
+so she made her way to the thermostat on the wall. Without hesitation, she turned 
+the dial to a cooler temperature, hoping to bring some relief to the library patrons.
+As the air conditioner hummed to life, a refreshing breeze circulated through the room, 
+creating a more comfortable environment for studying.
+With her laptop finally back up and running, Emily resumed her research. 
+However, she soon realized that the Wi-Fi connection was unstable. Determined to stay 
+connected, she reached for her phone and enabled the mobile hotspot feature. 
+With her laptop now connected to her phone's data, she continued her research without any interruptions.
+As she delved deeper into her studies, Emily noticed that the desk lamp next to her was flickering. 
+Recognizing that the bulb was on its last legs, she unscrewed the faulty bulb and 
+replaced it with a new one she had in her bag. With the new bulb in place, the desk 
+lamp cast a steady beam of light onto her work, allowing her to focus even better.
+Hours passed, and the library started to empty out. Emily decided to take a break 
+and headed to the lounge area. As she sat on the comfortable couch, she noticed that 
+the television in the corner was on but muted. Curious, she picked up the remote control
+and turned up the volume, filling the lounge with soft background music. The soothing 
+melodies provided a pleasant ambiance, allowing her to relax and recharge.
+With her break over, Emily returned to her table in the library, grateful for the 
+functioning laptop, cool air, reliable internet connection, and steady light. 
+She continued her research, knowing that the library provided the perfect environment 
+for focused and productive work.
 
 John woke up early in the morning and decided to go for a run. 
 He put on his running shoes and set out for the park. 
