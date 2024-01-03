@@ -24,7 +24,9 @@ import ch.ethz.ssh2.Session;
 import ch.ethz.ssh2.StreamGobbler;
 
 // Google Cloud NLP API
+import com.google.api.client.util.Lists;
 import com.google.api.gax.core.FixedCredentialsProvider;
+import com.google.auth.oauth2.AccessToken;
 import com.google.cloud.language.v1.Document;
 import com.google.cloud.language.v1.LanguageServiceClient;
 import com.google.cloud.language.v1.LanguageServiceSettings;
@@ -37,6 +39,21 @@ import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.language.v1.LanguageServiceClient;
 import com.google.cloud.language.v1.LanguageServiceSettings;
 
+import java.io.InputStream;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import okhttp3.*;
+import org.json.JSONObject;
+import java.io.IOException;
+import java.util.Collections;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,9 +64,30 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
         // gets its value from the TextView UI.
         textOutput= (TextView) findViewById(R.id.textOutput);
         Log.d("Tag", "onCreateMethod");
+
+        String userCommand = "Turn on the lights in Aulan";
+        sendCommandToModel(userCommand, new ModelResponseCallback() {
+            @Override
+            public void onResponse(String response) {
+                // This will run on the main thread due to runOnUiThread inside sendCommandToModel
+                textOutput.setText(response);
+                Log.d("Model Response", response);
+            }
+
+            @Override
+            public void onFailure(Exception e) {
+                // Handle the error, e.g., show a toast or update the UI
+                Log.e("Model Error", "Failed to send command", e);
+            }
+        });
+
         // Google Cloud NLP API connections
         /*
         LanguageServiceSettings settings = LanguageServiceSettings.newBuilder()
@@ -68,6 +106,12 @@ public class MainActivity extends AppCompatActivity {
             }
         }*/
     }
+
+    public interface ModelResponseCallback {
+        void onResponse(String response);
+        void onFailure(Exception e);
+    }
+
 
     public void onClick(View v)
     {
@@ -161,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
             System.exit(2); }
     }
 
-
+    /*
     private void authenticateGoogleCloud() {
         try {
             // Load the service account key JSON file
@@ -183,5 +227,76 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+     */
+    private GoogleCredentials authenticateGoogleCloud() {
+        try {
+            // Load the service account key JSON file
+            InputStream serviceAccount = getResources().openRawResource(R.raw.authentication_key);
+
+            // Authenticate with the service account
+            GoogleCredentials credentials = ServiceAccountCredentials.fromStream(serviceAccount)
+                    .createScoped(Collections.singletonList("https://www.googleapis.com/auth/cloud-platform"));
+
+            return credentials;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private void sendCommandToModel(String command, ModelResponseCallback callback) {
+        new Thread(() -> {
+            OkHttpClient client = new OkHttpClient();
+            MediaType MEDIA_TYPE = MediaType.parse("application/json");
+            String url = "https://mymodel-service-3rhl5syp2q-lz.a.run.app/ner"; // Note the /ner endpoint
+
+            JSONObject postData = new JSONObject();
+            try {
+                postData.put("text", command); // Make sure the JSON key matches the expected key ("text")
+            } catch (JSONException e) {
+                // Handle JSON exception
+                runOnUiThread(() -> callback.onFailure(e));
+                return;
+            }
+
+            RequestBody body = RequestBody.create(MEDIA_TYPE, postData.toString());
+
+            GoogleCredentials credentials = authenticateGoogleCloud();
+            if (credentials == null) {
+                IOException e = new IOException("Failed to load credentials");
+                runOnUiThread(() -> callback.onFailure(e));
+                return;
+            }
+
+            try {
+                credentials.refreshIfExpired();
+                AccessToken token = credentials.getAccessToken();
+                String authToken = token.getTokenValue();
+
+                Request request = new Request.Builder()
+                        .url(url)
+                        .post(body)
+                        .header("Authorization", "Bearer " + authToken)
+                        .header("Content-Type", "application/json")
+                        .build();
+
+                try (Response response = client.newCall(request).execute()) {
+                    if (!response.isSuccessful()) {
+                        throw new IOException("Unexpected code " + response);
+                    }
+
+                    final String responseData = response.body().string();
+                    runOnUiThread(() -> {
+                        callback.onResponse(responseData);
+                    });
+                }
+            } catch (Exception e) {
+                runOnUiThread(() -> callback.onFailure(e));
+            }
+        }).start();
+    }
+
+
 
 }
