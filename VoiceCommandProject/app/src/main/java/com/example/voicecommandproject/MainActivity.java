@@ -30,12 +30,15 @@ import com.google.auth.oauth2.AccessToken;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
 
+import okhttp3.Call;
+import okhttp3.Callback;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -45,6 +48,11 @@ import java.util.Collections;
 public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE = 100;
+
+    // Initializing all IP addresses we are to work with.
+    private final String aulanIpAddress = "AulanIpAdress"; // Replace with the actual IP address
+    private final String libraryIpAddress = "LibraryIpAddress"; // Replace with the actual IP address
+
     private TextView textOutput;
 
     @Override
@@ -53,19 +61,54 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
         // gets its value from the TextView UI.
         textOutput= (TextView) findViewById(R.id.textOutput);
         Log.d("Tag", "onCreateMethod");
 
-        String userCommand = "Turn on the lights in Aulan";
+        String userCommand = "Turn on the lamp in the Library";
+
         sendCommandToModel(userCommand, new ModelResponseCallback() {
             @Override
             public void onResponse(String response) {
                 // This will run on the main thread due to runOnUiThread inside sendCommandToModel
-                textOutput.setText(response);
+
+                String[] parts;
+
+                // Splitting for VERB
+                parts = response.split("\"VERB\",\"text\":\"");
+                String verbPart = (parts.length > 1) ? parts[1] : "";
+                String verb = verbPart.split("\"")[0];
+
+                // Splitting for DEVICE
+                parts = response.split("\"DEVICE\",\"text\":\"");
+                String devicePart = (parts.length > 1) ? parts[1] : "";
+                String device = devicePart.split("\"")[0];
+
+                // Splitting for PLACE
+                parts = response.split("\"PLACE\",\"text\":\"");
+                String placePart = (parts.length > 1) ? parts[1] : "";
+                String place = placePart.split("\"")[0];
+
+                // Output the results
+                textOutput.setText("Verb: " + verb + "\nDevice: " + device + "\nPlace: " + place);
                 Log.d("Model Response", response);
+
+
+                String ipAddress = "";
+                if (place == "aulan") {
+                    ipAddress = aulanIpAddress;
+                }
+                if (place == "library") {
+                    ipAddress = libraryIpAddress;
+                }
+                if (!ipAddress.equals("")) {
+                    String combinedCommand = "Verb: " + verb + "\nDevice: " + device + "\nPlace: " + place;
+                    sendCommandToRaspberryPi(ipAddress, combinedCommand);
+                }
+                else {
+                    //textOutput.setText("Can't send request, we don't know that place");
+                }
+
             }
 
             @Override
@@ -109,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
                     // Update your TextView or perform other actions with the spoken text
                     textOutput.setText(spokenText);
                     Log.d("The Text IS: ", spokenText);
+
                 }
             }
         }
@@ -140,40 +184,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
-    public void run (String command) {
-        String hostname = "hostname";
-        String username = "username";
-        String password = "password";
-        try
-        {
-            Connection conn = new Connection(hostname); //init connection
-            conn.connect(); //start connection to the hostname
-            boolean isAuthenticated = conn.authenticateWithPassword(username,
-                    password);
-            if (isAuthenticated == false)
-                throw new IOException("Authentication failed.");
-            Session sess = conn.openSession();
-            sess.execCommand(command);
-            InputStream stdout = new StreamGobbler(sess.getStdout());
-            BufferedReader br = new BufferedReader(new InputStreamReader(stdout));
-
-            //reads text
-            while (true){
-                String line = br.readLine(); // read line
-                if (line == null)
-                    break;
-                System.out.println(line);
-            }
-            /* Show exit status, if available (otherwise "null") */
-            System.out.println("ExitCode: " + sess.getExitStatus());
-            sess.close(); // Close this session
-            conn.close();
-        }
-        catch (IOException e)
-        { e.printStackTrace(System.err);
-            System.exit(2); }
-    }
-
     private GoogleCredentials authenticateGoogleCloud() {
         try {
             // Load the service account key JSON file
@@ -192,23 +202,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendCommandToModel(String command, ModelResponseCallback callback) {
+        // New thread to handle the network operation. ensures the UI thread is not blocked.
         new Thread(() -> {
+            // Client object for making HTTP requests
+            // media type for the request as JSON
             OkHttpClient client = new OkHttpClient();
             MediaType MEDIA_TYPE = MediaType.parse("application/json");
+            // Model url
             String url = "https://mymodel-service-3rhl5syp2q-lz.a.run.app/ner"; // Note the /ner endpoint
 
-            JSONObject postData = new JSONObject();
+            // JSON Object fto hold data
+             JSONObject postData = new JSONObject();
             try {
-                postData.put("text", command);
+                // Add command to JSON object
+                postData.put("text", command.toLowerCase()); // Model works either way, but better with lowerCase
             } catch (JSONException e) {
-                // Handle JSON exception
+                // If there's an error with JSON processing, use the callback to handle the exception on the UI thread and exit the function
                 runOnUiThread(() -> callback.onFailure(e));
                 return;
             }
 
+            // Create the request body with the JSON media type and the JSON object as a string
             RequestBody body = RequestBody.create(MEDIA_TYPE, postData.toString());
 
+            // Authenticate with Google Cloud and retrieve credentials
             GoogleCredentials credentials = authenticateGoogleCloud();
+            // If credentials are not successfully loaded, handle the error using the callback
             if (credentials == null) {
                 IOException e = new IOException("Failed to load credentials");
                 runOnUiThread(() -> callback.onFailure(e));
@@ -216,10 +235,12 @@ public class MainActivity extends AppCompatActivity {
             }
 
             try {
+                // Fix credentials and token
                 credentials.refreshIfExpired();
                 AccessToken token = credentials.getAccessToken();
                 String authToken = token.getTokenValue();
 
+                // Build the HTTP request with authToken and content type headers
                 Request request = new Request.Builder()
                         .url(url)
                         .post(body)
@@ -227,22 +248,65 @@ public class MainActivity extends AppCompatActivity {
                         .header("Content-Type", "application/json")
                         .build();
 
+                // Execute the HTTP request and get response
                 try (Response response = client.newCall(request).execute()) {
                     if (!response.isSuccessful()) {
                         throw new IOException("Unexpected code " + response);
                     }
-
+                    // Response body to string
                     final String responseData = response.body().string();
+                    // Use callback to handle successful response on the UI thread
                     runOnUiThread(() -> {
                         callback.onResponse(responseData);
                     });
                 }
             } catch (Exception e) {
+                // If there is any exception during the request execution or processing, the callback shall handle it
                 runOnUiThread(() -> callback.onFailure(e));
             }
         }).start();
     }
 
+    private void sendCommandToRaspberryPi(String ipAddress, String command) {
+        // Client object for making HTTP requests
+        // media type for the request as JSON
+        OkHttpClient client = new OkHttpClient();
+        MediaType MEDIA_TYPE = MediaType.parse("application/json");
+        // Building the URL for the API endpoint, using the provided IP address.
+        String url = "http://" + ipAddress + "/api_endpoint"; /// Note: '/api_endpoint' should be replaced with the actual endpoint if testing.
 
+        // Using JSON data for more complex data to be sent. Maybe not necessary but good practice
+        JSONObject postData = new JSONObject();
+        try {
+            // Send command as API request
+            postData.put("command", command);
+        } catch (JSONException e) {
+            // Handle JSON exception
+            return;
+        }
+
+        RequestBody body = RequestBody.create(MEDIA_TYPE, postData.toString());
+
+        Request request = new Request.Builder()
+                .url(url)
+                .post(body)
+                .header("Content-Type", "application/json")
+                .build();
+
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(@NotNull Call call, @NotNull IOException e) {
+                // Handle failure
+            }
+
+            @Override
+            public void onResponse(@NotNull Call call, @NotNull Response response) throws IOException {
+                if (!response.isSuccessful()) {
+                    // Handle unsuccessful response
+                }
+                // Handle successful response
+            }
+        });
+    }
 
 }
