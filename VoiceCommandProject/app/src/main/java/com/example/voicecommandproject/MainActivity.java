@@ -95,14 +95,14 @@ public class MainActivity extends AppCompatActivity {
 
 
                 String ipAddress = "";
-                if (place == "aulan") {
+                if (place.equals("aulan"))  {
                     ipAddress = aulanIpAddress;
                 }
-                if (place == "library") {
+                if (place.equals("library")) {
                     ipAddress = libraryIpAddress;
                 }
                 if (!ipAddress.equals("")) {
-                    String combinedCommand = "Verb: " + verb + "\nDevice: " + device + "\nPlace: " + place;
+                    String combinedCommand = "Verb: " + verb + ", Device: " + device + ", Place: " + place;
                     sendCommandToRaspberryPi(ipAddress, combinedCommand);
                 }
                 else {
@@ -292,6 +292,11 @@ public class MainActivity extends AppCompatActivity {
                 .post(body)
                 .header("Content-Type", "application/json")
                 .build();
+
+        // Printing out the request details for demonstration purposes
+        System.out.println("Sending API Request to " + url + " with payload " + postData.toString());
+        Log.i("MyAppTag", "Sending API Request to " + url + " with payload " + postData.toString());
+
 
         client.newCall(request).enqueue(new Callback() {
             @Override
