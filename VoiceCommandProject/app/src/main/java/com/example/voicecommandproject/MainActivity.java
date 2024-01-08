@@ -60,13 +60,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         // gets its value from the TextView UI.
         textOutput= (TextView) findViewById(R.id.textOutput);
         Log.d("Tag", "onCreateMethod");
 
+        // Test as initial, app will start with this.
         String userCommand = "Turn on the lamp in the Library";
 
+        // Runs this command
+        processUserCommand(userCommand);
+    }
+
+    private void processUserCommand(String userCommand) {
         sendCommandToModel(userCommand, new ModelResponseCallback() {
             @Override
             public void onResponse(String response) {
@@ -119,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     public interface ModelResponseCallback {
         void onResponse(String response);
         void onFailure(Exception e);
@@ -148,10 +154,12 @@ public class MainActivity extends AppCompatActivity {
                 // Get the first match, which is the most likely thing that was said
                 if (matches != null && !matches.isEmpty()) 
                 {
-                    String spokenText = matches.get(0);
+                    String userCommand = matches.get(0);
+
+                    processUserCommand(userCommand);
                     // Update your TextView or perform other actions with the spoken text
-                    textOutput.setText(spokenText);
-                    Log.d("The Text IS: ", spokenText);
+                    textOutput.setText(userCommand);
+                    Log.d("The Text IS: ", userCommand);
 
                 }
             }
@@ -275,7 +283,7 @@ public class MainActivity extends AppCompatActivity {
         // Building the URL for the API endpoint, using the provided IP address.
         String url = "http://" + ipAddress + "/api_endpoint"; /// Note: '/api_endpoint' should be replaced with the actual endpoint if testing.
 
-        // Using JSON data for more complex data to be sent. Maybe not necessary but good practice
+        // Using JSON data for more complex data to be sent. Not necessary but good practice
         JSONObject postData = new JSONObject();
         try {
             // Send command as API request
